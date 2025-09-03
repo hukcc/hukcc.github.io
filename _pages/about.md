@@ -19,19 +19,19 @@ In Summer 2025, I interned at **Adobe Research**.
 Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
 
 
-
+---
 # News
 
 - **[Aug. 2025]** One paper *D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition* accepted by **EMNLP 2025**.  
 - **[May. 2025]** Started research internship at **Adobe Research** (Summer 2025).  
 
 
-
+---
 # Publications
 
 See my full list on [Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ).  
 
-## Conference Papers
+### Conference Papers
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
   *Empirical Methods in Natural Language Processing (EMNLP)*, 2025  
@@ -45,17 +45,17 @@ See my full list on [Google Scholar](https://scholar.google.com/citations?user=A
   *ACM International Conference on Multimedia (ACMMM)*, 2021  
   [[Paper]](https://dl.acm.org/doi/10.1145/3474085.3475420)
 
-## In Submission
+### In Submission
 - **Addressing Object Hallucinations in LVLMs via Bias and Vulnerability Mitigation**  
   **Yiyang Huang**, Liang Shi, Yun Fu  
 
-
+---
 # Academic Service
 
 - **Journal Reviewer**:  
   [ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/journal/tkdd)  
 
-
+---
 # Honors & Awards
 
 - Outstanding Student, Xidian University, 2022  
@@ -64,12 +64,12 @@ See my full list on [Google Scholar](https://scholar.google.com/citations?user=A
 - RoboMaster National Robotics Competition (2nd Prize), China, 2019  
 - ICRA AI Challenge (3rd Prize), 2019  
 
-
+---
 # Teaching Experience
 
 - **Teaching Assistant (TA)**: DS 5110 *Essentials of Data Science*, Fall 2025  
 
-
+---
 # Contact
 
 Email: yiyang.huang.hukcc (at) gmail (dot) com / huang.yiyan (at) northeastern (dot) edu  
