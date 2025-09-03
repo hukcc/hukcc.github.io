@@ -34,12 +34,12 @@ See my full list on [Google Scholar](https://scholar.google.com/citations?user=A
 ### Conference Papers
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
-  *Empirical Methods in Natural Language Processing (EMNLP)*, 2025
-  [[Paper]]() [[Code]](https://github.com/hukcc/D-CoDe)
+  *Empirical Methods in Natural Language Processing (EMNLP)*, 2025  
+  [[Paper]]() [[Code]](https://github.com/hukcc/D-CoDe)  
 - **LipReading for Low-resource Languages by Language Dynamic LoRA**  
-  Shuai Zou, Xuefeng Liang, **Yiyang Huang**
-  *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025
-  [[Paper]](https://ieeexplore.ieee.org/abstract/document/10889645)
+  Shuai Zou, Xuefeng Liang, **Yiyang Huang**  
+  *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025  
+  [[Paper]](https://ieeexplore.ieee.org/abstract/document/10889645)  
 - **CALLip: Lipreading using Contrastive and Attribute Learning**  
   **Yiyang Huang**, Xuefeng Liang, Chaowei Fang  
   *ACM International Conference on Multimedia (ACMMM)*, 2021  
