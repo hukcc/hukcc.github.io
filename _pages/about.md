@@ -1,3 +1,4 @@
+---
 permalink: /
 title: "Yiyang Huang"
 excerpt: "Brief Bio"
