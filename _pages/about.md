@@ -27,11 +27,7 @@ Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
 
 
 ---
-# Publications
-
-See my full list on [Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ).  
-
-### Conference Papers
+# Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
   *Empirical Methods in Natural Language Processing (EMNLP)*, 2025  
@@ -44,14 +40,12 @@ See my full list on [Google Scholar](https://scholar.google.com/citations?user=A
   **Yiyang Huang**, Xuefeng Liang, Chaowei Fang  
   *ACM International Conference on Multimedia (ACMMM)*, 2021  
   [[Paper]](https://dl.acm.org/doi/10.1145/3474085.3475420)
-
-### In Submission
 - **Addressing Object Hallucinations in LVLMs via Bias and Vulnerability Mitigation**  
   **Yiyang Huang**, Liang Shi, Yun Fu  
+  *In Submission*  
 
 ---
 # Academic Service
-
 - **Journal Reviewer**:  
   [ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/journal/tkdd)  
 
