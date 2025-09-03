@@ -25,7 +25,7 @@ News
 
 ---
 
-Publications (Full list can be found on my [Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
+Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 ======      
 **Conference Papers**  
 * **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**   
