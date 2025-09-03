@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "Yiyang Huang"
-excerpt: "Brief Bio"
+title: "Brief Bio"
 author_profile: true
 redirect_from: 
   - /about/
