@@ -28,10 +28,13 @@ Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
 
 ---
 # Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
+- **SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense**  
+  **Yiyang Huang**, Liang Shi, Yun Fu  
+  *In Submission*  
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
   *Empirical Methods in Natural Language Processing (EMNLP)*, 2025  
-  [[Paper]]() [[Code]](https://github.com/hukcc/D-CoDe)  
+  [[Paper]](https://arxiv.org/abs/2510.08818) [[Code]](https://github.com/hukcc/D-CoDe)  
 - **LipReading for Low-resource Languages by Language Dynamic LoRA**  
   Shuai Zou, Xuefeng Liang, **Yiyang Huang**  
   *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2025  
@@ -40,9 +43,6 @@ Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
   **Yiyang Huang**, Xuefeng Liang, Chaowei Fang  
   *ACM International Conference on Multimedia (ACMMM)*, 2021  
   [[Paper]](https://dl.acm.org/doi/10.1145/3474085.3475420)
-- **Addressing Object Hallucinations in LVLMs via Bias and Vulnerability Mitigation**  
-  **Yiyang Huang**, Liang Shi, Yun Fu  
-  *In Submission*  
 
 ---
 # Academic Service
