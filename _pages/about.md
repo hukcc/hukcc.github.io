@@ -16,7 +16,7 @@ My research interests include **multimodal large language models (LLMs), halluci
 
 In Summer 2025, I interned at **Adobe Research**.
 
-Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
+Full CV: [Curriculum Vitae](../files/CVFall2025-20251021.pdf)
 
 
 ---
