@@ -29,7 +29,8 @@ Full CV: [Curriculum Vitae](../files/CVFall2025.pdf)
 ---
 # Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 - **SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense**  
-  **Yiyang Huang**, Liang Shi, Yitian Zhang, Yi Xu Yun Fu  
+  **Yiyang Huang**, Liang Shi, Yitian Zhang, Yi Xu Yun Fu
+  [[Paper]]([https://arxiv.org/abs/2510.08818](https://arxiv.org/abs/2510.16596))
   *In Submission*  
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
