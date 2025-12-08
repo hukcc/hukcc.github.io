@@ -16,7 +16,7 @@ My research interests include **multimodal large language models (LLMs), halluci
 
 In Summer 2025, I interned at **Adobe Research**.
 
-Full CV: [Curriculum Vitae](../files/CVFall2025-20251021.pdf)
+Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 
 
 ---
@@ -28,9 +28,12 @@ Full CV: [Curriculum Vitae](../files/CVFall2025-20251021.pdf)
 
 ---
 # Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
+- **MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception**  
+  **Yiyang Huang**, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu  
+  *CVPR under-review*  
 - **SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense**  
   **Yiyang Huang**, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu  
-  *In Submission*  
+  *ICLR under-review*  
   [[Paper]](https://arxiv.org/abs/2510.16596)  
 - **D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition**  
   **Yiyang Huang**, Yizhou Wang, Yun Fu  
