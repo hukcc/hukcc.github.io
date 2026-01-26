@@ -18,14 +18,15 @@ redirect_from:
   <p>
     I received my B.S. and M.S. degrees from <span class="kw">Xidian University</span>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    During my master’s studies, I visited <span class="kw">Kyoto University</span>,
+    During my master's studies, I visited <span class="kw">Kyoto University</span>,
     working with <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
   <div class="intro-focus">
-    <div class="focus-title">Research interests: MLLMs and VLMs, with a focus on</div>
+    <div class="focus-title">Research interests: Multimodal LLMs, model efficiency, and model reliability, with a focus on</div>
     <div class="focus-item">
       <span class="focus-category">hallucination detection &amp; mitigation:</span>
       <a class="paper-tag" href="#pub-shield">SHIELD</a>
+      <a class="paper-tag" href="#pub-videollm-hallucination">VideoLLM Hallucination Survey</a>
     </div>
     <div class="focus-item">
       <span class="focus-category">video understanding:</span>
@@ -41,6 +42,22 @@ redirect_from:
   </p>
 </div>
 
+
+---
+# News
+
+<div class="news-container">
+  <div class="news-item">
+    <span class="news-icon">📰</span>
+    <span class="news-date">Jan. 2026</span>
+    <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
+  </div>
+  <div class="news-item">
+    <span class="news-icon">📰</span>
+    <span class="news-date">Aug. 2025</span>
+    <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
+  </div>
+</div>
 
 ---
 # Experience
@@ -79,23 +96,18 @@ redirect_from:
 </div>
 
 ---
-# News
+# Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 
-<div class="news-container">
-  <div class="news-item">
-    <span class="news-icon">📰</span>
-    <span class="news-date">Jan. 2026</span>
-    <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
+<div class="pub-item" id="pub-videollm-hallucination">
+  <div class="pub-thumb">
+    <img src="/images/pub_arr_hallucination.png" alt="ARR Survey" onerror="this.style.display='none'">
   </div>
-  <div class="news-item">
-    <span class="news-icon">📰</span>
-    <span class="news-date">Aug. 2025</span>
-    <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
+  <div class="pub-content">
+    <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
+    <div class="pub-venue"><em>ARR</em> under-review</div>
   </div>
 </div>
-
----
-# Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 
 <div class="pub-item" id="pub-mason">
   <div class="pub-thumb">
@@ -254,14 +266,15 @@ redirect_from:
 
 .paper-tag {
   display: inline-block;
-  padding: 0.15em 0.55em;
+  padding: 0.12em 0.45em;
   margin-left: 0.35em;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.06);
   font-weight: 600;
-  font-size: 0.85em;
+  font-size: 0.78em;
   letter-spacing: 0.2px;
   text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .paper-tag:hover {
@@ -277,12 +290,13 @@ redirect_from:
 
 .btn-cv {
   display: inline-block;
-  padding: 0.45em 0.9em;
-  border-radius: 6px;
+  padding: 0.35em 0.75em;
+  border-radius: 5px;
   background: var(--global-link-color, #007bff);
   color: #fff !important;
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.9em;
 }
 
 .btn-cv:hover {
@@ -349,7 +363,8 @@ redirect_from:
   flex-shrink: 0;
   width: 160px;
   height: 100px;
-  background: rgba(128, 128, 128, 0.1);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   overflow: hidden;
   display: flex;
@@ -358,11 +373,9 @@ redirect_from:
 }
 
 .pub-thumb img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .pub-content {
@@ -393,8 +406,8 @@ redirect_from:
 }
 
 .pub-link {
-  font-size: 0.85em;
-  padding: 0.35em 0.7em;
+  font-size: 0.78em;
+  padding: 0.28em 0.6em;
   background: rgba(0, 123, 255, 0.08);
   color: var(--global-link-color, #007bff) !important;
   border: 1px solid rgba(0, 123, 255, 0.35);
