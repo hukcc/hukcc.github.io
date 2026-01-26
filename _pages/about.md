@@ -206,23 +206,6 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   background: var(--global-link-color-hover, #0056b3);
   text-decoration: none;
 }
-
-/* Dark Mode Styles */
-html[data-theme="dark"] .news-item {
-  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.1) 100%);
-}
-
-html[data-theme="dark"] .pub-item {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-html[data-theme="dark"] .pub-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-html[data-theme="dark"] .pub-thumb {
-  background: rgba(255, 255, 255, 0.1);
-}
 </style>
 
 ---

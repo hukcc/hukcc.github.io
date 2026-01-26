@@ -14,4 +14,15 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Force light mode only -->
+<script>
+  // Force light theme and remove dark mode preference
+  localStorage.removeItem('theme');
+  document.documentElement.removeAttribute('data-theme');
+</script>
+<style>
+  /* Hide theme toggle button */
+  #theme-toggle { display: none !important; }
+</style>
+
 <!-- end custom head snippets -->
