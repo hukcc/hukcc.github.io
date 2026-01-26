@@ -8,15 +8,35 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student in the College of Engineering at Northeastern University, advised by [Prof. Yun Raymond Fu](https://www1.ece.neu.edu/~yunfu/) in the [SMILE Lab](https://fulab.sites.northeastern.edu/).  
-Before joining Northeastern, I received my B.S. and M.S. degrees from Xidian University, China, where I was advised by [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/en/index.html).  
-During my master’s studies, I also spent six months at Kyoto University, working with [Prof. Takatsune Kumada](https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information).
-
-My research interests include **multimodal large language models (MLLMs)** and **vision language models (VLMs)**, with a focus on **hallucination detection & mitigation** [[SHIELD]](#pub-shield), **video understanding** [[D-CoDe]](#pub-dcode), and **Layout Understanding** [[MASON]](#pub-mason).
-
-In Summer 2025, I interned at **Adobe Research**.
-
-Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
+<div class="intro-block">
+  <p>
+    I am a second-year Ph.D. student in the College of Engineering at
+    <span class="kw">Northeastern University</span>, advised by
+    [Prof. Yun Raymond Fu](https://www1.ece.neu.edu/~yunfu/) in the
+    <span class="kw">SMILE Lab</span>.
+  </p>
+  <p>
+    Before joining Northeastern, I received my B.S. and M.S. degrees from
+    <span class="kw">Xidian University</span>, advised by
+    [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/en/index.html).
+    During my master’s studies, I also spent six months at
+    <span class="kw">Kyoto University</span>, working with
+    [Prof. Takatsune Kumada](https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information).
+  </p>
+  <p class="intro-focus">
+    Research interests: <span class="tag">MLLMs</span> and <span class="tag">VLMs</span>,
+    with a focus on
+    <a class="paper-pill" href="#pub-shield">hallucination detection &amp; mitigation (SHIELD)</a>,
+    <a class="paper-pill" href="#pub-dcode">video understanding (D-CoDe)</a>, and
+    <a class="paper-pill" href="#pub-mason">layout understanding (MASON)</a>.
+  </p>
+  <p class="intro-meta">
+    <span class="kw">Adobe Research</span> intern, Summer 2025.
+  </p>
+  <p class="intro-cta">
+    <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
+  </p>
+</div>
 
 
 ---
@@ -24,12 +44,14 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 
 <div class="news-container">
   <div class="news-item">
-    <span class="news-icon">🎉</span>
-    <span class="news-date">[Jan. 2026]</span> One paper <em> SHIELD </em> accepted by <span class="venue-badge venue-iclr"> ICLR 2026</span>
+    <span class="news-icon">📰</span>
+    <span class="news-date">Jan. 2026</span>
+    <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
   </div>
   <div class="news-item">
-    <span class="news-icon">📄</span>
-    <span class="news-date">[Aug. 2025]</span> One paper <em> D-CoDe </em> accepted by <span class="venue-badge venue-emnlp"> EMNLP 2025</span>
+    <span class="news-icon">📰</span>
+    <span class="news-date">Aug. 2025</span>
+    <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
   </div>
 </div>
 
@@ -106,6 +128,69 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 </div>
 
 <style>
+/* Intro Styles */
+.intro-block {
+  margin: 0.5em 0 1.2em;
+  padding: 0.6em 0 0.2em;
+}
+
+.intro-block p {
+  margin: 0 0 0.7em;
+  line-height: 1.7;
+}
+
+.intro-focus {
+  margin-top: 0.2em;
+}
+
+.intro-meta {
+  color: var(--global-text-color-light, #666);
+}
+
+.kw {
+  font-weight: 600;
+  color: var(--global-text-color, #222);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  margin-right: 0.4em;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.paper-pill {
+  display: inline-block;
+  margin: 0 0.15em 0.2em 0;
+  padding: 0.2em 0.55em;
+  border-radius: 999px;
+  background: rgba(0, 123, 255, 0.08);
+  text-decoration: none;
+}
+
+.paper-pill:hover {
+  background: rgba(0, 123, 255, 0.15);
+  text-decoration: none;
+}
+
+.btn-cv {
+  display: inline-block;
+  padding: 0.45em 0.9em;
+  border-radius: 6px;
+  background: var(--global-link-color, #007bff);
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-cv:hover {
+  background: var(--global-link-color-hover, #0056b3);
+  text-decoration: none;
+}
+
 /* News Styles */
 .news-container {
   margin: 1em 0;
@@ -115,32 +200,45 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   display: flex;
   align-items: center;
   padding: 0.8em 1em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.7em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
   line-height: 1.6;
+  gap: 0.6em;
 }
 
 .news-icon {
-  font-size: 1.2em;
-  margin-right: 0.8em;
+  font-size: 1.1em;
 }
 
 .news-date {
-  font-weight: bold;
-  color: var(--global-text-color, #495057);
-  margin-right: 0.5em;
+  font-weight: 700;
+  color: #1f2a44;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 0.1em 0.5em;
+  border-radius: 6px;
+  letter-spacing: 0.2px;
+}
+
+.news-text {
+  flex: 1;
+}
+
+.news-venue {
+  font-weight: 600;
+  color: var(--global-link-color, #007bff);
 }
 
 /* Publication Styles */
 .pub-item {
   display: flex;
-  margin-bottom: 1.5em;
-  padding: 1em;
+  margin-bottom: 1.2em;
+  padding: 1.05em;
   background: rgba(128, 128, 128, 0.05);
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
+  gap: 1.1em;
 }
 
 .pub-item:hover {
@@ -149,9 +247,8 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 
 .pub-thumb {
   flex-shrink: 0;
-  width: 120px;
-  height: 80px;
-  margin-right: 1em;
+  width: 160px;
+  height: 100px;
   background: rgba(128, 128, 128, 0.1);
   border-radius: 4px;
   overflow: hidden;
@@ -189,21 +286,23 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 
 .pub-links {
   display: flex;
-  gap: 0.8em;
+  gap: 0.6em;
+  flex-wrap: wrap;
 }
 
 .pub-link {
   font-size: 0.85em;
-  padding: 0.3em 0.6em;
-  background: var(--global-link-color, #007bff);
-  color: white !important;
-  border-radius: 4px;
+  padding: 0.35em 0.7em;
+  background: rgba(0, 123, 255, 0.08);
+  color: var(--global-link-color, #007bff) !important;
+  border: 1px solid rgba(0, 123, 255, 0.35);
+  border-radius: 999px;
   text-decoration: none;
   transition: background 0.2s;
 }
 
 .pub-link:hover {
-  background: var(--global-link-color-hover, #0056b3);
+  background: rgba(0, 123, 255, 0.16);
   text-decoration: none;
 }
 </style>
