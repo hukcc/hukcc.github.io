@@ -25,11 +25,11 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 <div class="news-container">
   <div class="news-item">
     <span class="news-icon">🎉</span>
-    <span class="news-date">[Jan. 2026]</span> One paper <em>SHIELD</em> accepted by <span class="venue-badge venue-iclr">ICLR 2026</span>
+    <span class="news-date">[Jan. 2026]</span> One paper <em> SHIELD </em> accepted by <span class="venue-badge venue-iclr"> ICLR 2026</span>
   </div>
   <div class="news-item">
     <span class="news-icon">📄</span>
-    <span class="news-date">[Aug. 2025]</span> One paper <em>D-CoDe</em> accepted by <span class="venue-badge venue-emnlp">EMNLP 2025</span>
+    <span class="news-date">[Aug. 2025]</span> One paper <em> D-CoDe </em> accepted by <span class="venue-badge venue-emnlp"> EMNLP 2025</span>
   </div>
 </div>
 
@@ -117,7 +117,7 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   padding: 0.8em 1em;
   margin-bottom: 0.8em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-left: 4px solid #007bff;
+  border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
   line-height: 1.6;
 }
@@ -129,7 +129,7 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 
 .news-date {
   font-weight: bold;
-  color: #495057;
+  color: var(--global-text-color, #495057);
   margin-right: 0.5em;
 }
 
@@ -138,13 +138,13 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   display: flex;
   margin-bottom: 1.5em;
   padding: 1em;
-  background: #fafafa;
+  background: rgba(128, 128, 128, 0.05);
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
 }
 
 .pub-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .pub-thumb {
@@ -152,7 +152,7 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   width: 120px;
   height: 80px;
   margin-right: 1em;
-  background: #e9ecef;
+  background: rgba(128, 128, 128, 0.1);
   border-radius: 4px;
   overflow: hidden;
   display: flex;
@@ -174,12 +174,12 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
   font-weight: bold;
   font-size: 1em;
   margin-bottom: 0.3em;
-  color: #333;
+  color: var(--global-text-color, #333);
 }
 
 .pub-authors {
   font-size: 0.9em;
-  color: #666;
+  color: var(--global-text-color-light, #666);
   margin-bottom: 0.3em;
 }
 
@@ -195,7 +195,7 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 .pub-link {
   font-size: 0.85em;
   padding: 0.3em 0.6em;
-  background: #007bff;
+  background: var(--global-link-color, #007bff);
   color: white !important;
   border-radius: 4px;
   text-decoration: none;
@@ -203,8 +203,25 @@ Full CV: [Curriculum Vitae](../files/cv-yiyang.pdf)
 }
 
 .pub-link:hover {
-  background: #0056b3;
+  background: var(--global-link-color-hover, #0056b3);
   text-decoration: none;
+}
+
+/* Dark Mode Styles */
+html[data-theme="dark"] .news-item {
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.1) 100%);
+}
+
+html[data-theme="dark"] .pub-item {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+html[data-theme="dark"] .pub-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+html[data-theme="dark"] .pub-thumb {
+  background: rgba(255, 255, 255, 0.1);
 }
 </style>
 
