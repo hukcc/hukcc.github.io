@@ -36,15 +36,47 @@ redirect_from:
       <a class="paper-tag" href="#pub-mason">MASON</a>
     </div>
   </div>
-  <div class="intro-meta">
-    <div class="meta-title">Internships</div>
-    <div class="meta-item"><span class="kw">Adobe Research</span> — May 2025 – Nov 2025</div>
-  </div>
   <p class="intro-cta">
     <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
   </p>
 </div>
 
+
+---
+# Experience
+
+<div class="exp-list">
+  <div class="exp-item">
+    <div class="exp-text">
+      <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
+      <div class="exp-role">Graduate Student, Sep. 2024 ~ Now</div>
+      <div class="exp-supervisor">Supervisor: Prof. Yun Raymond Fu</div>
+    </div>
+    <div class="exp-media">
+      <img src="/images/neu.png" alt="Northeastern University">
+    </div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-text">
+      <div class="exp-org">Adobe Research, San Jose</div>
+      <div class="exp-role">Research Intern, May 2025 – Nov 2025</div>
+      <div class="exp-supervisor">Mentor: Zhaowen Wang; Simon Jenni; Jing Shi; </div>
+    </div>
+    <div class="exp-media">
+      <img src="/images/Adobe.png" alt="Adobe Research">
+    </div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-text">
+      <div class="exp-org">Kyoto University, Kyoto</div>
+      <div class="exp-role">Research Student, Sep 2023 – Mar 2024</div>
+      <div class="exp-supervisor">Supervisor: Prof. Takatsune Kumada</div>
+    </div>
+    <div class="exp-media">
+      <img src="/images/Kyoto University Emblem.svg" alt="Kyoto University">
+    </div>
+  </div>
+</div>
 
 ---
 # News
@@ -154,19 +186,62 @@ redirect_from:
   color: var(--global-text-color-light, #666);
 }
 
-.meta-title {
-  font-weight: 600;
-  color: var(--global-text-color, #222);
-  margin-bottom: 0.15em;
-}
-
-.meta-item {
-  margin: 0.1em 0;
-}
-
 .kw {
   font-weight: 600;
   color: var(--global-text-color, #222);
+}
+
+.exp-list {
+  margin: 0.6em 0 1.2em;
+}
+
+.exp-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.7em 0.9em;
+  margin-bottom: 0.6em;
+  background: rgba(0, 0, 0, 0.04);
+  border-left: 3px solid var(--global-link-color, #007bff);
+  border-radius: 6px;
+}
+
+.exp-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-media {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-media img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.exp-org {
+  font-weight: 600;
+  color: var(--global-text-color, #222);
+}
+
+.exp-role {
+  margin-top: 0.15em;
+  color: var(--global-text-color, #333);
+}
+
+.exp-supervisor {
+  margin-top: 0.1em;
+  color: var(--global-text-color-light, #666);
 }
 
 .focus-title {
