@@ -16,31 +16,30 @@ redirect_from:
     <a class="kw" href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
   </p>
   <p>
-    Before joining Northeastern, I received my B.S. and M.S. degrees from
-    <span class="kw">Xidian University</span>, advised by
-    <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    During my master’s studies, I also spent six months at
-    <span class="kw">Kyoto University</span>, working with
-    <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
+    I received my B.S. and M.S. degrees from <span class="kw">Xidian University</span>,
+    advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
+    During my master’s studies, I visited <span class="kw">Kyoto University</span>,
+    working with <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
   <div class="intro-focus">
     <div class="focus-title">Research interests: MLLMs and VLMs, with a focus on</div>
     <div class="focus-item">
-      <span class="paper-pill">hallucination detection &amp; mitigation:</span>
+      <span class="focus-category">hallucination detection &amp; mitigation:</span>
       <a class="paper-tag" href="#pub-shield">SHIELD</a>
     </div>
     <div class="focus-item">
-      <span class="paper-pill">video understanding:</span>
+      <span class="focus-category">video understanding:</span>
       <a class="paper-tag" href="#pub-dcode">D-CoDe</a>
     </div>
     <div class="focus-item">
-      <span class="paper-pill">layout understanding:</span>
+      <span class="focus-category">layout understanding:</span>
       <a class="paper-tag" href="#pub-mason">MASON</a>
     </div>
   </div>
-  <p class="intro-meta">
-    <span class="kw">Adobe Research</span> intern, Summer 2025.
-  </p>
+  <div class="intro-meta">
+    <div class="meta-title">Internships</div>
+    <div class="meta-item"><span class="kw">Adobe Research</span> — May 2025 – Nov 2025</div>
+  </div>
   <p class="intro-cta">
     <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
   </p>
@@ -84,7 +83,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
-    <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
+    <div class="pub-venue"><em>ICLR</em>, 2026</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">💻 Code</a>
@@ -99,7 +98,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
-    <div class="pub-venue"><em>Empirical Methods in Natural Language Processing (EMNLP)</em>, 2025</div>
+    <div class="pub-venue"><em>EMNLP</em>, 2025</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
@@ -114,7 +113,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
-    <div class="pub-venue"><em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2025</div>
+    <div class="pub-venue"><em>ICASSP</em>, 2025</div>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
     </div>
@@ -128,7 +127,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
-    <div class="pub-venue"><em>ACM International Conference on Multimedia (ACMMM)</em>, 2021</div>
+    <div class="pub-venue"><em>ACMMM</em>, 2021</div>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
     </div>
@@ -153,6 +152,16 @@ redirect_from:
 
 .intro-meta {
   color: var(--global-text-color-light, #666);
+}
+
+.meta-title {
+  font-weight: 600;
+  color: var(--global-text-color, #222);
+  margin-bottom: 0.15em;
+}
+
+.meta-item {
+  margin: 0.1em 0;
 }
 
 .kw {
@@ -185,18 +194,10 @@ redirect_from:
   text-decoration: none;
 }
 
-.paper-pill {
-  display: inline-block;
-  margin: 0 0.15em 0.2em 0;
-  padding: 0.2em 0.55em;
-  border-radius: 999px;
-  background: rgba(0, 123, 255, 0.08);
-  text-decoration: none;
-}
-
-.paper-pill:hover {
-  background: rgba(0, 123, 255, 0.15);
-  text-decoration: none;
+.focus-category {
+  color: var(--global-text-color, #222);
+  font-weight: 500;
+  margin-right: 0.2em;
 }
 
 .btn-cv {
@@ -258,14 +259,15 @@ redirect_from:
   display: flex;
   margin-bottom: 1.2em;
   padding: 1.05em;
-  background: rgba(128, 128, 128, 0.05);
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
   gap: 1.1em;
 }
 
 .pub-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
 
 .pub-thumb {
@@ -281,9 +283,11 @@ redirect_from:
 }
 
 .pub-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .pub-content {
