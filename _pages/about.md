@@ -12,24 +12,32 @@ redirect_from:
   <p>
     I am a second-year Ph.D. student in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
-    [Prof. Yun Raymond Fu](https://www1.ece.neu.edu/~yunfu/) in the
-    <span class="kw">SMILE Lab</span>.
+    <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
+    <a class="kw" href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
   </p>
   <p>
     Before joining Northeastern, I received my B.S. and M.S. degrees from
     <span class="kw">Xidian University</span>, advised by
-    [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/en/index.html).
+    <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
     During my master’s studies, I also spent six months at
     <span class="kw">Kyoto University</span>, working with
-    [Prof. Takatsune Kumada](https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information).
+    <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
-  <p class="intro-focus">
-    Research interests: <span class="tag">MLLMs</span> and <span class="tag">VLMs</span>,
-    with a focus on
-    <a class="paper-pill" href="#pub-shield">hallucination detection &amp; mitigation (SHIELD)</a>,
-    <a class="paper-pill" href="#pub-dcode">video understanding (D-CoDe)</a>, and
-    <a class="paper-pill" href="#pub-mason">layout understanding (MASON)</a>.
-  </p>
+  <div class="intro-focus">
+    <div class="focus-title">Research interests: MLLMs and VLMs, with a focus on</div>
+    <div class="focus-item">
+      <span class="paper-pill">hallucination detection &amp; mitigation:</span>
+      <a class="paper-tag" href="#pub-shield">SHIELD</a>
+    </div>
+    <div class="focus-item">
+      <span class="paper-pill">video understanding:</span>
+      <a class="paper-tag" href="#pub-dcode">D-CoDe</a>
+    </div>
+    <div class="focus-item">
+      <span class="paper-pill">layout understanding:</span>
+      <a class="paper-tag" href="#pub-mason">MASON</a>
+    </div>
+  </div>
   <p class="intro-meta">
     <span class="kw">Adobe Research</span> intern, Summer 2025.
   </p>
@@ -152,14 +160,29 @@ redirect_from:
   color: var(--global-text-color, #222);
 }
 
-.tag {
+.focus-title {
+  margin-bottom: 0.4em;
+}
+
+.focus-item {
+  margin: 0.25em 0;
+}
+
+.paper-tag {
   display: inline-block;
-  padding: 0.15em 0.5em;
-  margin-right: 0.4em;
+  padding: 0.15em 0.55em;
+  margin-left: 0.35em;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.06);
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.paper-tag:hover {
+  background: rgba(0, 0, 0, 0.12);
+  text-decoration: none;
 }
 
 .paper-pill {
