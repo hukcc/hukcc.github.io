@@ -57,27 +57,22 @@ redirect_from:
 
 <div class="news-container">
   <div class="news-item">
-    <span class="news-icon">📰</span>
     <span class="news-date">Jan. 2026</span>
     <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
   </div>
   <div class="news-item">
-    <span class="news-icon">📰</span>
     <span class="news-date">Dec. 2025</span>
     <span class="news-text">Passed the Ph.D. Qualifying Exam, thanks to my advisor and committee members.</span>
   </div>
   <div class="news-item">
-    <span class="news-icon">📰</span>
     <span class="news-date">Aug. 2025</span>
     <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
   </div>
   <div class="news-item">
-    <span class="news-icon">📰</span>
     <span class="news-date">May 2025</span>
     <span class="news-text">Started Research Internship at <span class="news-venue">Adobe Research</span>.</span>
   </div>
   <div class="news-item">
-    <span class="news-icon">📰</span>
     <span class="news-date">Sep. 2024</span>
     <span class="news-text">Started my journey at <span class="news-venue">Northeastern University</span>.</span>
   </div>
@@ -368,32 +363,28 @@ redirect_from:
 .news-item {
   display: flex;
   align-items: center;
-  padding: 0.6em 0.8em;
-  margin-bottom: 0.55em;
+  padding: 0.45em 0.65em;
+  margin-bottom: 0.4em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
-  line-height: 1.6;
-  gap: 0.6em;
-}
-
-.news-icon {
-  font-size: 1em;
+  line-height: 1.45;
+  gap: 0.5em;
 }
 
 .news-date {
   font-weight: 700;
   color: #1f2a44;
   background: rgba(0, 0, 0, 0.06);
-  padding: 0.08em 0.45em;
+  padding: 0.06em 0.4em;
   border-radius: 6px;
   letter-spacing: 0.2px;
-  font-size: 0.9em;
+  font-size: 0.82em;
 }
 
 .news-text {
   flex: 1;
-  font-size: 0.95em;
+  font-size: 0.88em;
 }
 
 .news-venue {
