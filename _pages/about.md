@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Ph.D. Student | Northeastern University"
+excerpt: "Ph.D. Candidate | Northeastern University"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a second-year Ph.D. student in the College of Engineering at
+    I am a second-year Ph.D. Candidate in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
     <a class="kw" href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
@@ -37,6 +37,9 @@ redirect_from:
       <a class="paper-tag" href="#pub-mason">MASON</a>
     </div>
   </div>
+  <p class="intro-note">
+    I am currently looking for research internship opportunities.
+  </p>
   <p class="intro-cta">
     <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
   </p>
@@ -54,8 +57,23 @@ redirect_from:
   </div>
   <div class="news-item">
     <span class="news-icon">📰</span>
+    <span class="news-date">Dec. 2025</span>
+    <span class="news-text">Passed the Ph.D. Qualifying Exam, thanks to my advisor and committee members.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-icon">📰</span>
     <span class="news-date">Aug. 2025</span>
     <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
+  </div>
+  <div class="news-item">
+    <span class="news-icon">📰</span>
+    <span class="news-date">May 2025</span>
+    <span class="news-text">Started Research Internship at <span class="news-venue">Adobe Research</span>.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-icon">📰</span>
+    <span class="news-date">Sep. 2024</span>
+    <span class="news-text">Started my journey at <span class="news-venue">Northeastern University</span>.</span>
   </div>
 </div>
 
@@ -66,7 +84,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
-      <div class="exp-role">Graduate Student, Sep. 2024 ~ Now</div>
+      <div class="exp-role">Ph.D. Candidate, Sep. 2024 ~ Now</div>
       <div class="exp-supervisor">Supervisor: Prof. Yun Raymond Fu</div>
     </div>
     <div class="exp-media">
@@ -91,6 +109,16 @@ redirect_from:
     </div>
     <div class="exp-media">
       <img src="/images/Kyoto University Emblem.svg" alt="Kyoto University">
+    </div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-text">
+      <div class="exp-org">Xidian University, Xi'an</div>
+      <div class="exp-role">Master Student, Sep. 2021 ~ Jun. 2024</div>
+      <div class="exp-role">Undergraduate Student, Sep. 2017 ~ Jun. 2021</div>
+    </div>
+    <div class="exp-media">
+      <img src="/images/xdu.png" alt="Xidian University">
     </div>
   </div>
 </div>
@@ -194,6 +222,11 @@ redirect_from:
   margin-top: 0.2em;
 }
 
+.intro-note {
+  color: var(--global-text-color-light, #666);
+  margin-top: 0.6em;
+}
+
 .intro-meta {
   color: var(--global-text-color-light, #666);
 }
@@ -212,8 +245,8 @@ redirect_from:
   align-items: center;
   justify-content: space-between;
   gap: 1em;
-  padding: 0.7em 0.9em;
-  margin-bottom: 0.6em;
+  padding: 0.55em 0.75em;
+  margin-bottom: 0.5em;
   background: rgba(0, 0, 0, 0.04);
   border-left: 3px solid var(--global-link-color, #007bff);
   border-radius: 6px;
@@ -226,8 +259,8 @@ redirect_from:
 
 .exp-media {
   flex-shrink: 0;
-  width: 64px;
-  height: 64px;
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,16 +277,19 @@ redirect_from:
 .exp-org {
   font-weight: 600;
   color: var(--global-text-color, #222);
+  font-size: 0.95em;
 }
 
 .exp-role {
   margin-top: 0.15em;
   color: var(--global-text-color, #333);
+  font-size: 0.9em;
 }
 
 .exp-supervisor {
   margin-top: 0.1em;
   color: var(--global-text-color-light, #666);
+  font-size: 0.85em;
 }
 
 .focus-title {
@@ -307,13 +343,16 @@ redirect_from:
 /* News Styles */
 .news-container {
   margin: 1em 0;
+  max-height: 160px; /* shows about 2-3 items */
+  overflow-y: auto;
+  padding-right: 6px;
 }
 
 .news-item {
   display: flex;
   align-items: center;
-  padding: 0.8em 1em;
-  margin-bottom: 0.7em;
+  padding: 0.6em 0.8em;
+  margin-bottom: 0.55em;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
@@ -322,20 +361,22 @@ redirect_from:
 }
 
 .news-icon {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .news-date {
   font-weight: 700;
   color: #1f2a44;
   background: rgba(0, 0, 0, 0.06);
-  padding: 0.1em 0.5em;
+  padding: 0.08em 0.45em;
   border-radius: 6px;
   letter-spacing: 0.2px;
+  font-size: 0.9em;
 }
 
 .news-text {
   flex: 1;
+  font-size: 0.95em;
 }
 
 .news-venue {
