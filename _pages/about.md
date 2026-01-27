@@ -25,20 +25,26 @@ redirect_from:
     <div class="focus-title">Research interests: Multimodal LLMs, model efficiency, and model reliability, with a focus on</div>
     <div class="focus-item">
       <span class="focus-category">hallucination detection &amp; mitigation:</span>
-      <a class="paper-tag" href="#pub-shield">SHIELD</a>
-      <a class="paper-tag" href="#pub-videollm-hallucination">VideoLLM Hallucination Survey</a>
+      <span class="focus-tags">
+        <a class="paper-tag" href="#pub-shield">SHIELD</a>
+        <a class="paper-tag" href="#pub-videollm-hallucination">VideoLLM Hallucination Survey</a>
+      </span>
     </div>
     <div class="focus-item">
       <span class="focus-category">video understanding:</span>
-      <a class="paper-tag" href="#pub-dcode">D-CoDe</a>
+      <span class="focus-tags">
+        <a class="paper-tag" href="#pub-dcode">D-CoDe</a>
+      </span>
     </div>
     <div class="focus-item">
       <span class="focus-category">layout understanding:</span>
-      <a class="paper-tag" href="#pub-mason">MASON</a>
+      <span class="focus-tags">
+        <a class="paper-tag" href="#pub-mason">MASON</a>
+      </span>
     </div>
   </div>
   <p class="intro-note">
-    I am currently looking for research internship opportunities.
+    Actively seeking internship opportunities.
   </p>
   <p class="intro-cta">
     <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
@@ -116,6 +122,7 @@ redirect_from:
       <div class="exp-org">Xidian University, Xi'an</div>
       <div class="exp-role">Master Student, Sep. 2021 ~ Jun. 2024</div>
       <div class="exp-role">Undergraduate Student, Sep. 2017 ~ Jun. 2021</div>
+      <div class="exp-supervisor">Supervisor: Prof. Xuefeng Liang</div>
     </div>
     <div class="exp-media">
       <img src="/images/xdu.png" alt="Xidian University">
@@ -293,11 +300,15 @@ redirect_from:
 }
 
 .focus-title {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
 }
 
 .focus-item {
-  margin: 0.25em 0;
+  margin: 0.3em 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
 }
 
 .paper-tag {
@@ -321,7 +332,13 @@ redirect_from:
 .focus-category {
   color: var(--global-text-color, #222);
   font-weight: 500;
-  margin-right: 0.2em;
+  min-width: 220px;
+}
+
+.focus-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
 }
 
 .btn-cv {
