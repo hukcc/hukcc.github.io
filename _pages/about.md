@@ -22,7 +22,7 @@ redirect_from:
     working with <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
   <div class="intro-focus">
-    <div class="focus-title">Research interests: Multimodal LLMs, model efficiency, and model reliability, with a focus on</div>
+    <div class="focus-title">Research interests: Multimodal LLMs, efficiency, and reliability, with a focus on</div>
     <div class="focus-item">
       <span class="focus-category">hallucination detection &amp; mitigation:</span>
       <span class="focus-tags">
@@ -303,7 +303,8 @@ redirect_from:
   margin: 0.3em 0;
   display: flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.2em;
+  flex-wrap: wrap;
 }
 
 .paper-tag {
@@ -327,7 +328,6 @@ redirect_from:
 .focus-category {
   color: var(--global-text-color, #222);
   font-weight: 500;
-  min-width: 220px;
 }
 
 .focus-tags {
@@ -473,6 +473,8 @@ redirect_from:
 
 ---
 # Academic Service
+- **Conference Reviewer**:  
+  FG, ARR
 - **Journal Reviewer**:  
   [ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/journal/tkdd)  
 
@@ -488,7 +490,7 @@ redirect_from:
 ---
 # Teaching Experience
 
-- **Teaching Assistant (TA)**: DS 5110 *Essentials of Data Science*, Fall 2025  
+- **Teaching Assistant (TA)**: DS 5110 *Essentials of Data Science*, Fall 2025; DS 5020 *Fundamentals of Linear Algebra and Probability*, Spring 2026  
 
 ---
 # Contact
