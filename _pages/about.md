@@ -612,30 +612,6 @@ redirect_from:
   }
 }
 
-.visit-map {
-  margin-top: 1.2em;
-  padding: 1em;
-  background: #f6f8fc;
-  border: 1px solid #e4e9f2;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.visit-map__widget {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.visit-map__widget a {
-  display: inline-block;
-}
-
-.visit-map__widget img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
 </style>
 
 ---
