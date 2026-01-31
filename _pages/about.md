@@ -471,8 +471,8 @@ redirect_from:
   top: 0;
   width: auto;
   height: auto;
-  max-width: 80vw;
-  max-height: 70vh;
+  max-width: 55vw;
+  max-height: 50vh;
   padding: 0;
   background: transparent;
   border: none;
