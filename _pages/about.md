@@ -166,11 +166,11 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
     </div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
   </div>
 </div>
 
@@ -185,11 +185,11 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
     </div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
   </div>
 </div>
 
@@ -204,10 +204,10 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
     </div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
   </div>
 </div>
 
@@ -222,10 +222,10 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
     </div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
   </div>
 </div>
 
@@ -427,7 +427,7 @@ redirect_from:
 .pub-thumb {
   flex-shrink: 0;
   width: 160px;
-  height: auto;
+  height: 100%;
   background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -498,15 +498,16 @@ redirect_from:
 
 .pub-badge {
   position: absolute;
-  top: 8px;
+  top: 6px;
   left: 8px;
   font-size: 0.75em;
   padding: 0.15em 0.45em;
-  border-radius: 999px;
-  background: rgba(31, 111, 235, 0.15);
+  border-radius: 8px;
+  background: #f7f8fa;
   color: #1f6feb;
-  border: 1px solid rgba(31, 111, 235, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   z-index: 2;
+  pointer-events: none;
 }
 
 .pub-tldr {
