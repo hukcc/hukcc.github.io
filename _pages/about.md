@@ -135,7 +135,8 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-venue"><em>ARR</em> under-review</div>
+    <div class="pub-venue"><em>Submitted to ARR</em></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Provides a systematic taxonomy and analysis of hallucinations in video large language models, covering their types, causes, evaluation, and mitigation strategies.</div>
   </div>
 </div>
 
@@ -146,7 +147,8 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
-    <div class="pub-venue"><em>CVPR under-review</em></div>
+    <div class="pub-venue"><em>Submitted to CVPR</em></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a compositional layout understanding framework that integrates multimodal alignment and structural perception to reason about interacting elements in layered design layouts.</div>
   </div>
 </div>
 
@@ -158,6 +160,7 @@ redirect_from:
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
     <div class="pub-venue"><em>ICLR</em>, 2026</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
@@ -173,6 +176,7 @@ redirect_from:
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
     <div class="pub-venue"><em>EMNLP</em>, 2025</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
@@ -188,6 +192,7 @@ redirect_from:
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
     <div class="pub-venue"><em>ICASSP</em>, 2025</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
     </div>
@@ -202,6 +207,7 @@ redirect_from:
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
     <div class="pub-venue"><em>ACMMM</em>, 2021</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
     </div>
@@ -312,16 +318,16 @@ redirect_from:
   padding: 0.12em 0.45em;
   margin-left: 0.35em;
   border-radius: 999px;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(31, 111, 235, 0.12);
   font-weight: 600;
   font-size: 0.78em;
   letter-spacing: 0.2px;
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(31, 111, 235, 0.35);
 }
 
 .paper-tag:hover {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(31, 111, 235, 0.2);
   text-decoration: none;
 }
 
@@ -340,7 +346,7 @@ redirect_from:
   display: inline-block;
   padding: 0.35em 0.75em;
   border-radius: 5px;
-  background: var(--global-link-color, #007bff);
+  background: #1f6feb;
   color: #fff !important;
   text-decoration: none;
   font-weight: 600;
@@ -348,7 +354,7 @@ redirect_from:
 }
 
 .btn-cv:hover {
-  background: var(--global-link-color-hover, #0056b3);
+  background: #0b5ed7;
   text-decoration: none;
 }
 
@@ -448,6 +454,18 @@ redirect_from:
   margin-bottom: 0.5em;
 }
 
+.pub-tldr {
+  margin-bottom: 0.5em;
+  color: var(--global-text-color-light, #666);
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.tldr-label {
+  font-weight: 600;
+  color: var(--global-text-color, #333);
+}
+
 .pub-links {
   display: flex;
   gap: 0.6em;
@@ -457,16 +475,23 @@ redirect_from:
 .pub-link {
   font-size: 0.78em;
   padding: 0.28em 0.6em;
-  background: rgba(0, 123, 255, 0.08);
-  color: var(--global-link-color, #007bff) !important;
-  border: 1px solid rgba(0, 123, 255, 0.35);
+  background: #1f6feb;
+  color: #fff !important;
+  border: 1px solid #1f6feb;
   border-radius: 999px;
   text-decoration: none;
   transition: background 0.2s;
 }
 
 .pub-link:hover {
-  background: rgba(0, 123, 255, 0.16);
+  background: #0b5ed7;
+  text-decoration: none;
+}
+
+.intro-block a,
+.news-container a,
+.pub-item a,
+.exp-list a {
   text-decoration: none;
 }
 </style>
