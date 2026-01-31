@@ -285,7 +285,7 @@ redirect_from:
 
 .exp-item {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 1em;
   padding: 0.55em 0.75em;
@@ -303,18 +303,16 @@ redirect_from:
 .exp-media {
   flex-shrink: 0;
   width: 52px;
-  height: 52px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .exp-media img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .exp-org {
@@ -477,6 +475,7 @@ redirect_from:
   border-radius: 0;
   box-shadow: none;
   object-fit: contain;
+  object-position: center;
   display: none;
   z-index: 10;
 }
