@@ -614,29 +614,27 @@ redirect_from:
 
 .visit-map {
   margin-top: 1.2em;
-  padding: 0.8em 0.6em;
+  padding: 1em;
   background: #f6f8fc;
   border: 1px solid #e4e9f2;
   border-radius: 8px;
   text-align: center;
 }
 
-.visit-map__title {
-  font-size: 0.95em;
-  font-weight: 600;
-  color: var(--global-text-color, #333);
-  margin-bottom: 0.4em;
-}
-
 .visit-map__widget {
-  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.visit-map__widget img,
-.visit-map__widget iframe,
-.visit-map__widget canvas {
+.visit-map__widget a {
+  display: inline-block;
+}
+
+.visit-map__widget img {
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 </style>
 
@@ -671,13 +669,9 @@ WeChat: hukcc369
 # Visitor Map
 
 <div class="visit-map">
-  <div class="visit-map__title">Visitor Map</div>
   <div class="visit-map__widget">
-    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a"></script>
-    <noscript>
-      <a href="https://clustrmaps.com/site/1c3pn" title="Visit tracker">
-        <img src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff" alt="Visitor Map" />
-      </a>
-    </noscript>
+    <a href="https://clustrmaps.com/site/1c3pn" title="Visit tracker">
+      <img src="https://www.clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=400" alt="Visitor Map" style="max-width:100%;height:auto;" />
+    </a>
   </div>
 </div>
