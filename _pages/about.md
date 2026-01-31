@@ -469,8 +469,10 @@ redirect_from:
   position: absolute;
   left: calc(100% + 10px);
   top: 0;
-  width: 1040px;
-  height: 650px;
+  width: auto;
+  height: auto;
+  max-width: 80vw;
+  max-height: 70vh;
   padding: 0;
   background: transparent;
   border: none;
