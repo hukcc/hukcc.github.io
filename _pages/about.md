@@ -668,4 +668,8 @@ WeChat: hukcc369
 ---
 # Visitor Map
 
-<a href="https://clustrmaps.com/site/1c94f" title="ClustrMaps"><img src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff" /></a>
+<div style="text-align:center; margin-top:20px;">
+<a href="https://clustrmaps.com/site/1c94f" title="ClustrMaps">
+<img src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff" alt="Visitor Map" style="max-width:100%;" />
+</a>
+</div>
