@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a second-year Ph.D. Student in the College of Engineering at
+    I am a second-year Ph.D. student in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
     <a class="kw" href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
@@ -241,14 +241,14 @@ redirect_from:
 
 .intro-note {
   display: inline-block;
-  padding: 0.25em 0.6em;
+  padding: 0.22em 0.55em;
   border-radius: 6px;
   background: rgba(31, 111, 235, 0.12);
   color: #1f6feb;
-  border: 1px solid rgba(31, 111, 235, 0.35);
+  border: none;
   margin-top: 0.6em;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .intro-meta {
@@ -403,13 +403,13 @@ redirect_from:
 .pub-item {
   display: flex;
   align-items: stretch;
-  margin-bottom: 1em;
-  padding: 0.9em;
+  margin-bottom: 0.85em;
+  padding: 0.7em;
   background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
-  gap: 0.9em;
+  gap: 0.7em;
 }
 
 .pub-item:hover {
@@ -433,7 +433,8 @@ redirect_from:
 .pub-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .pub-content {
