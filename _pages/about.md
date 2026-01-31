@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Ph.D. Candidate | Northeastern University"
+excerpt: "Ph.D. Student | Northeastern University"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a second-year Ph.D. Candidate in the College of Engineering at
+    I am a second-year Ph.D. Student in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
     <a class="kw" href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
@@ -45,9 +45,6 @@ redirect_from:
   </div>
   <p class="intro-note">
     Actively seeking internship opportunities.
-  </p>
-  <p class="intro-cta">
-    <a class="btn-cv" href="../files/cv-yiyang.pdf">Curriculum Vitae</a>
   </p>
 </div>
 
@@ -85,7 +82,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
-      <div class="exp-role">Ph.D. Candidate, Sep. 2024 ~ Now</div>
+      <div class="exp-role">Ph.D. Student, Sep. 2024 ~ Now</div>
       <div class="exp-supervisor">Supervisor: Prof. Yun Raymond Fu</div>
     </div>
     <div class="exp-media">
@@ -135,7 +132,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-venue"><em>Submitted to ARR</em></div>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>Submitted to ARR</em></div>
+    </div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Provides a systematic taxonomy and analysis of hallucinations in video large language models, covering their types, causes, evaluation, and mitigation strategies.</div>
   </div>
 </div>
@@ -147,7 +146,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
-    <div class="pub-venue"><em>Submitted to CVPR</em></div>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>Submitted to CVPR</em></div>
+    </div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a compositional layout understanding framework that integrates multimodal alignment and structural perception to reason about interacting elements in layered design layouts.</div>
   </div>
 </div>
@@ -159,12 +160,14 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
-    <div class="pub-venue"><em>ICLR</em>, 2026</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
-      <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>ICLR</em>, 2026</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
+        <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
+      </div>
     </div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
   </div>
 </div>
 
@@ -175,12 +178,14 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
-    <div class="pub-venue"><em>EMNLP</em>, 2025</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
-      <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>EMNLP</em>, 2025</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
+        <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
+      </div>
     </div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
   </div>
 </div>
 
@@ -191,11 +196,13 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
-    <div class="pub-venue"><em>ICASSP</em>, 2025</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
-    <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>ICASSP</em>, 2025</div>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
+      </div>
     </div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
   </div>
 </div>
 
@@ -206,11 +213,13 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
-    <div class="pub-venue"><em>ACMMM</em>, 2021</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
-    <div class="pub-links">
-      <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
+    <div class="pub-meta-row">
+      <div class="pub-venue"><em>ACMMM</em>, 2021</div>
+      <div class="pub-links">
+        <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
+      </div>
     </div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
   </div>
 </div>
 
@@ -342,21 +351,6 @@ redirect_from:
   gap: 0.35em;
 }
 
-.btn-cv {
-  display: inline-block;
-  padding: 0.35em 0.75em;
-  border-radius: 5px;
-  background: #1f6feb;
-  color: #fff !important;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9em;
-}
-
-.btn-cv:hover {
-  background: #0b5ed7;
-  text-decoration: none;
-}
 
 /* News Styles */
 .news-container {
@@ -435,30 +429,45 @@ redirect_from:
 
 .pub-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
 }
 
 .pub-title {
   font-weight: bold;
   font-size: 1em;
-  margin-bottom: 0.3em;
+  line-height: 1.35;
   color: var(--global-text-color, #333);
 }
 
 .pub-authors {
-  font-size: 0.9em;
+  font-size: 0.86em;
   color: var(--global-text-color-light, #666);
-  margin-bottom: 0.3em;
+}
+
+.pub-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  flex-wrap: wrap;
 }
 
 .pub-venue {
-  margin-bottom: 0.5em;
+  font-size: 0.84em;
+  color: var(--global-link-color, #007bff);
 }
 
 .pub-tldr {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.35em;
+  padding: 0.3em 0.55em;
+  background: #f7f8fa;
+  border-left: 3px solid rgba(31, 111, 235, 0.35);
+  border-radius: 4px;
   color: var(--global-text-color-light, #666);
-  font-size: 0.85em;
-  line-height: 1.4;
+  font-size: 0.84em;
+  line-height: 1.45;
 }
 
 .tldr-label {
@@ -470,6 +479,7 @@ redirect_from:
   display: flex;
   gap: 0.6em;
   flex-wrap: wrap;
+  margin-top: 0;
 }
 
 .pub-link {
