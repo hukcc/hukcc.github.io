@@ -160,7 +160,7 @@ redirect_from:
     <div class="pub-venue"><em>ICLR</em>, 2026</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
-      <a href="https://arxiv.org/abs/2510.16596" class="pub-link">💻 Code</a>
+      <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
     </div>
   </div>
 </div>
