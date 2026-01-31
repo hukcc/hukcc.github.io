@@ -611,6 +611,22 @@ redirect_from:
     padding: 0.16em 0.4em;
   }
 }
+
+.visit-map {
+  margin-top: 1.2em;
+  padding: 0.8em 0.6em;
+  background: #f6f8fc;
+  border: 1px solid #e4e9f2;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.visit-map__title {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--global-text-color, #333);
+  margin-bottom: 0.4em;
+}
 </style>
 
 ---
@@ -639,3 +655,11 @@ redirect_from:
 
 Email: yiyang.huang.hukcc (at) gmail (dot) com / huang.yiyan (at) northeastern (dot) edu  
 WeChat: hukcc369  
+
+---
+# Visit Map
+
+<div class="visit-map">
+  <div class="visit-map__title">Visitor Map</div>
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a"></script>
+</div>
