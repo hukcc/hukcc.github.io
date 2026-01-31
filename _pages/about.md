@@ -12,14 +12,14 @@ redirect_from:
   <p>
     I am a second-year Ph.D. Candidate in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
-    <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
-    <a class="kw" href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
+    <a class="kw" href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
+    <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
   </p>
   <p>
     I received my B.S. and M.S. degrees from <span class="kw">Xidian University</span>,
-    advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
+    advised by <a class="kw" href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
     During my master's studies, I visited <span class="kw">Kyoto University</span>,
-    working with <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
+    working with <a class="kw" href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
   <div class="intro-focus">
     <div class="focus-title">Research interests: Multimodal LLMs, efficiency, and reliability, with a focus on</div>
