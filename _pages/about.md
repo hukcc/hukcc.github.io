@@ -249,7 +249,7 @@ redirect_from:
   display: inline-block;
   padding: 0.04em 0.22em;
   border-radius: 6px;
-  background: rgba(31, 111, 235, 0.12);
+  background: #eef4ff;
   color: #1f6feb;
   border: none;
   margin-top: 0.2em;
@@ -278,7 +278,7 @@ redirect_from:
   gap: 1em;
   padding: 0.55em 0.75em;
   margin-bottom: 0.5em;
-  background: rgba(0, 0, 0, 0.04);
+  background: #f6f8fc;
   border-left: 3px solid var(--global-link-color, #007bff);
   border-radius: 6px;
 }
@@ -341,16 +341,16 @@ redirect_from:
   padding: 0.12em 0.45em;
   margin-left: 0.35em;
   border-radius: 999px;
-  background: rgba(31, 111, 235, 0.12);
+  background: #eef4ff;
   font-weight: 600;
   font-size: 0.78em;
   letter-spacing: 0.2px;
   text-decoration: none;
-  border: 1px solid rgba(31, 111, 235, 0.35);
+  border: 1px solid #c9dafd;
 }
 
 .paper-tag:hover {
-  background: rgba(31, 111, 235, 0.2);
+  background: #e1ecff;
   text-decoration: none;
 }
 
@@ -379,7 +379,7 @@ redirect_from:
   align-items: center;
   padding: 0.45em 0.65em;
   margin-bottom: 0.4em;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: linear-gradient(135deg, #f6f8fc 0%, #eef2f8 100%);
   border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
   line-height: 1.45;
@@ -388,8 +388,8 @@ redirect_from:
 
 .news-date {
   font-weight: 700;
-  color: #1f2a44;
-  background: rgba(0, 0, 0, 0.06);
+  color: #1f6feb;
+  background: #eef4ff;
   padding: 0.06em 0.4em;
   border-radius: 6px;
   letter-spacing: 0.2px;
@@ -412,8 +412,8 @@ redirect_from:
   align-items: stretch;
   margin-bottom: 0.85em;
   padding: 0.7em;
-  background: rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #f6f8fc;
+  border: 1px solid #e4e9f2;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
   gap: 0.7em;
@@ -428,8 +428,8 @@ redirect_from:
   flex-shrink: 0;
   width: 160px;
   height: auto;
-  background: rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #f6f8fc;
+  border: 1px solid #e4e9f2;
   border-radius: 4px;
   overflow: visible;
   display: flex;
@@ -500,21 +500,22 @@ redirect_from:
   position: absolute;
   top: 4px;
   left: 4px;
-  font-size: 0.75em;
-  padding: 0.15em 0.45em;
+  font-size: 0.82em;
+  padding: 0.2em 0.6em;
   border-radius: 8px;
-  background: #eaf2ff;
-  color: #1b4db7;
+  background: #eef4ff;
+  color: #1f5bd6;
   border: 1px solid #c9dafd;
   z-index: 2;
   pointer-events: none;
+  font-weight: 600;
 }
 
 .pub-tldr {
   margin-bottom: 0.3em;
   padding: 0.25em 0.5em;
-  background: #f7f8fa;
-  border-left: 3px solid rgba(31, 111, 235, 0.35);
+  background: #f2f6ff;
+  border-left: 3px solid #c9dafd;
   border-radius: 4px;
   color: var(--global-text-color-light, #666);
   font-size: 0.82em;
@@ -583,6 +584,12 @@ redirect_from:
   .exp-media {
     width: 64px;
     height: 64px;
+  }
+
+  .pub-badge {
+    font-size: 0.86em;
+    padding: 0.22em 0.6em;
+    font-weight: 600;
   }
 }
 
