@@ -1,0 +1,39 @@
+name: Update visitor map snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 03:20 UTC
+    - cron: "20 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download ClustrMaps snapshot
+        run: |
+          set -euo pipefail
+          mkdir -p images
+          curl -L --fail --retry 3 --retry-delay 5 \
+            -o images/visitor-map.png \
+            "https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=800"
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- images/visitor-map.png; then
+            echo "No changes."
+            exit 0
+          fi
+          git add images/visitor-map.png
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore: update visitor map snapshot"
+          git push
+
