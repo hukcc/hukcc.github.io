@@ -259,13 +259,14 @@ redirect_from:
 
 .intro-note {
   display: inline-block;
-  padding: 0.08em 0.28em;
+  padding: 0.04em 0.22em;
   border-radius: 6px;
   background: rgba(31, 111, 235, 0.12);
   color: #1f6feb;
   border: none;
-  margin-top: 0.6em;
-  font-weight: 600;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  font-weight: 400;
   font-size: 1em;
 }
 
@@ -468,13 +469,13 @@ redirect_from:
   position: absolute;
   left: calc(100% + 10px);
   top: 0;
-  width: 240px;
-  height: 150px;
-  padding: 6px;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 6px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  width: 360px;
+  height: 225px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
   object-fit: contain;
   display: none;
   z-index: 10;
