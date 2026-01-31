@@ -427,7 +427,7 @@ redirect_from:
 .pub-thumb {
   flex-shrink: 0;
   width: 160px;
-  height: 100%;
+  height: auto;
   background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -498,14 +498,14 @@ redirect_from:
 
 .pub-badge {
   position: absolute;
-  top: 6px;
-  left: 8px;
+  top: 4px;
+  left: 4px;
   font-size: 0.75em;
   padding: 0.15em 0.45em;
   border-radius: 8px;
-  background: #f7f8fa;
-  color: #1f6feb;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #eaf2ff;
+  color: #1b4db7;
+  border: 1px solid #c9dafd;
   z-index: 2;
   pointer-events: none;
 }
