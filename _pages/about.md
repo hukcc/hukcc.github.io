@@ -240,8 +240,15 @@ redirect_from:
 }
 
 .intro-note {
-  color: var(--global-text-color-light, #666);
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  border-radius: 6px;
+  background: rgba(31, 111, 235, 0.12);
+  color: #1f6feb;
+  border: 1px solid rgba(31, 111, 235, 0.35);
   margin-top: 0.6em;
+  font-weight: 600;
+  font-size: 0.9em;
 }
 
 .intro-meta {
@@ -395,13 +402,14 @@ redirect_from:
 /* Publication Styles */
 .pub-item {
   display: flex;
-  margin-bottom: 1.2em;
-  padding: 1.05em;
+  align-items: stretch;
+  margin-bottom: 1em;
+  padding: 0.9em;
   background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
-  gap: 1.1em;
+  gap: 0.9em;
 }
 
 .pub-item:hover {
@@ -411,7 +419,7 @@ redirect_from:
 .pub-thumb {
   flex-shrink: 0;
   width: 160px;
-  height: 100px;
+  height: auto;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
@@ -419,6 +427,7 @@ redirect_from:
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: stretch;
 }
 
 .pub-thumb img {
@@ -431,43 +440,43 @@ redirect_from:
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.3em;
+  gap: 0.2em;
 }
 
 .pub-title {
   font-weight: bold;
-  font-size: 1em;
-  line-height: 1.35;
+  font-size: 0.97em;
+  line-height: 1.3;
   color: var(--global-text-color, #333);
 }
 
 .pub-authors {
-  font-size: 0.86em;
+  font-size: 0.84em;
   color: var(--global-text-color-light, #666);
 }
 
 .pub-meta-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5em;
+  justify-content: flex-start;
+  gap: 0.45em;
   flex-wrap: wrap;
 }
 
 .pub-venue {
-  font-size: 0.84em;
+  font-size: 0.82em;
   color: var(--global-link-color, #007bff);
 }
 
 .pub-tldr {
-  margin-bottom: 0.35em;
-  padding: 0.3em 0.55em;
+  margin-bottom: 0.3em;
+  padding: 0.25em 0.5em;
   background: #f7f8fa;
   border-left: 3px solid rgba(31, 111, 235, 0.35);
   border-radius: 4px;
   color: var(--global-text-color-light, #666);
-  font-size: 0.84em;
-  line-height: 1.45;
+  font-size: 0.82em;
+  line-height: 1.4;
 }
 
 .tldr-label {
@@ -477,14 +486,14 @@ redirect_from:
 
 .pub-links {
   display: flex;
-  gap: 0.6em;
+  gap: 0.5em;
   flex-wrap: wrap;
   margin-top: 0;
 }
 
 .pub-link {
-  font-size: 0.78em;
-  padding: 0.28em 0.6em;
+  font-size: 0.72em;
+  padding: 0.22em 0.5em;
   background: #1f6feb;
   color: #fff !important;
   border: 1px solid #1f6feb;
