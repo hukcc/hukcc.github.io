@@ -127,7 +127,10 @@ redirect_from:
 
 <div class="pub-item" id="pub-videollm-hallucination">
   <div class="pub-thumb">
-    <img src="/images/pub_arr_hallucination.png" alt="ARR Survey" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="ARR Survey" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_arr_hallucination.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
@@ -141,7 +144,10 @@ redirect_from:
 
 <div class="pub-item" id="pub-mason">
   <div class="pub-thumb">
-    <img src="/images/pub_mason.png" alt="MASON" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="MASON" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
@@ -155,7 +161,10 @@ redirect_from:
 
 <div class="pub-item" id="pub-shield">
   <div class="pub-thumb">
-    <img src="/images/pub_shield.png" alt="SHIELD" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_shield.png" alt="SHIELD" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_shield.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
@@ -173,7 +182,10 @@ redirect_from:
 
 <div class="pub-item" id="pub-dcode">
   <div class="pub-thumb">
-    <img src="/images/pub_dcode.png" alt="D-CoDe" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_dcode.png" alt="D-CoDe" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_dcode.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
@@ -191,7 +203,10 @@ redirect_from:
 
 <div class="pub-item">
   <div class="pub-thumb">
-    <img src="/images/pub_lipreading.png" alt="LipReading" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_lipreading.png" alt="LipReading" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_lipreading.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
@@ -208,7 +223,10 @@ redirect_from:
 
 <div class="pub-item">
   <div class="pub-thumb">
-    <img src="/images/pub_callip.png" alt="CALLip" onerror="this.style.display='none'">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_callip.png" alt="CALLip" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_callip.png" alt="" aria-hidden="true">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
@@ -241,7 +259,7 @@ redirect_from:
 
 .intro-note {
   display: inline-block;
-  padding: 0.22em 0.55em;
+  padding: 0.08em 0.28em;
   border-radius: 6px;
   background: rgba(31, 111, 235, 0.12);
   color: #1f6feb;
@@ -423,18 +441,47 @@ redirect_from:
   background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: stretch;
 }
 
-.pub-thumb img {
+.pub-thumb-link {
+  display: flex;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  position: relative;
+}
+
+.pub-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
+  cursor: zoom-in;
+  border-radius: 4px;
+}
+
+.pub-thumb-preview {
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 0;
+  width: 240px;
+  height: 150px;
+  padding: 6px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  object-fit: contain;
+  display: none;
+  z-index: 10;
+}
+
+.pub-thumb-link:hover .pub-thumb-preview {
+  display: block;
 }
 
 .pub-content {
@@ -493,8 +540,8 @@ redirect_from:
 }
 
 .pub-link {
-  font-size: 0.72em;
-  padding: 0.22em 0.5em;
+  font-size: 0.68em;
+  padding: 0.18em 0.45em;
   background: #1f6feb;
   color: #fff !important;
   border: 1px solid #1f6feb;
