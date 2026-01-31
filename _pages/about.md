@@ -627,6 +627,17 @@ redirect_from:
   color: var(--global-text-color, #333);
   margin-bottom: 0.4em;
 }
+
+.visit-map__widget {
+  min-height: 200px;
+}
+
+.visit-map__widget img,
+.visit-map__widget iframe,
+.visit-map__widget canvas {
+  max-width: 100%;
+  height: auto;
+}
 </style>
 
 ---
@@ -657,9 +668,16 @@ Email: yiyang.huang.hukcc (at) gmail (dot) com / huang.yiyan (at) northeastern (
 WeChat: hukcc369  
 
 ---
-# Visit Map
+# Visitor Map
 
 <div class="visit-map">
   <div class="visit-map__title">Visitor Map</div>
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a"></script>
+  <div class="visit-map__widget">
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a"></script>
+    <noscript>
+      <a href="https://clustrmaps.com/site/1c3pn" title="Visit tracker">
+        <img src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff" alt="Visitor Map" />
+      </a>
+    </noscript>
+  </div>
 </div>
