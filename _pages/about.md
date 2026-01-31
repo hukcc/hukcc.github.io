@@ -670,8 +670,11 @@ WeChat: hukcc369
 
 <div class="visit-map">
   <div class="visit-map__widget">
-    <a href="https://clustrmaps.com/site/1c94f" title="ClustrMaps" rel="nofollow noopener">
-      <img src="/images/visitor-map.png" alt="Visitor Map" loading="lazy" />
-    </a>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a"></script>
+    <noscript>
+      <a href="https://clustrmaps.com/site/1c94f" title="ClustrMaps" rel="nofollow noopener">
+        <img src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=800" alt="Visitor Map" loading="lazy" />
+      </a>
+    </noscript>
   </div>
 </div>
