@@ -420,7 +420,7 @@ redirect_from:
   flex-shrink: 0;
   width: 160px;
   height: auto;
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.06);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   overflow: hidden;
@@ -459,7 +459,7 @@ redirect_from:
 .pub-meta-row {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 0.45em;
   flex-wrap: wrap;
 }
