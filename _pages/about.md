@@ -21,7 +21,10 @@ redirect_from:
     During my master's studies, I visited <span class="kw">Kyoto University</span>,
     working with <a class="kw" href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
-  <p class="intro-focus">Research interests: Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</p>
+  <div class="intro-callout">
+    <span class="intro-callout__label">Research interests</span>
+    <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
+  </div>
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
@@ -31,11 +34,11 @@ redirect_from:
 ---
 # News
 
+<div class="news-item news-item--pinned">
+  <span class="news-date">TOP</span>
+  <span class="news-text">We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
+</div>
 <div class="news-container">
-  <div class="news-item news-item--pinned">
-    <span class="news-date">TOP</span>
-    <span class="news-text">We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
-  </div>
   <div class="news-item">
     <span class="news-date">Jan. 2026</span>
     <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
@@ -106,7 +109,7 @@ redirect_from:
 </div>
 
 ---
-# Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
+# Publications [[Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ)]
 
 <div class="pub-filter" role="group" aria-label="Filter publications">
   <label class="pub-filter__label">Role</label>
@@ -251,9 +254,26 @@ redirect_from:
   line-height: 1.7;
 }
 
-.intro-focus {
-  margin-top: 0.2em;
-  margin-bottom: 0;
+.intro-callout {
+  margin-top: 0.5em;
+  padding: 0.5em 0.75em;
+  background: linear-gradient(135deg, #eef4ff 0%, #f0f6ff 100%);
+  border-left: 4px solid #1f6feb;
+  border-radius: 0 6px 6px 0;
+}
+
+.intro-callout__label {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #1f6feb;
+  display: block;
+  margin-bottom: 0.15em;
+}
+
+.intro-callout__text {
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: var(--global-text-color, #333);
 }
 
 .intro-note {
@@ -336,7 +356,7 @@ redirect_from:
 
 /* News Styles */
 .news-container {
-  margin: 1em 0;
+  margin: 0 0 1em;
   max-height: 160px; /* shows about 2-3 items */
   overflow-y: auto;
   padding-right: 6px;
@@ -355,6 +375,7 @@ redirect_from:
 }
 
 .news-item--pinned {
+  margin-bottom: 0.5em;
   border-left-color: #1f6feb;
   background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
 }
