@@ -31,6 +31,7 @@ author:
   uri              : # URL
   email            : "huang.yiyan@northeastern.edu" 
   cv               : "/files/cv-yiyang.pdf"
+  techrxiv_survey  : "#"  # TODO: replace with TechRxiv URL for Awesome-Spatial-VLMs survey
 
   # Academic websites
   academia         : # URL

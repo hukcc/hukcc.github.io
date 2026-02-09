@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <div class="intro-block">
+  <div class="intro-block__main">
   <p>
     I am a second-year Ph.D. student in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
@@ -46,6 +47,7 @@ redirect_from:
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
+  </div>
   {% if site.author.cv %}
   <a href="{{ site.author.cv | prepend: site.baseurl }}" class="intro-cta" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
   {% endif %}
@@ -58,7 +60,7 @@ redirect_from:
 <div class="news-container">
   <div class="news-item news-item--pinned">
     <span class="news-date">Ongoing</span>
-    <span class="news-text">We maintain <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a>, a curated survey on hallucination in Video LLMs (19 benchmarks &amp; 23 mitigation methods). Contributions welcome!</span>
+    <span class="news-text">[Top] We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Spatial-VLMs</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
   </div>
   <div class="news-item">
     <span class="news-date">Jan. 2026</span>
@@ -133,20 +135,26 @@ redirect_from:
 # Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 
 <div class="pub-filter" role="group" aria-label="Filter publications">
-  <span class="pub-filter__label">Role:</span>
-  <button type="button" class="pub-filter__btn active" data-filter-role="all">All</button>
-  <button type="button" class="pub-filter__btn" data-filter-role="first">First Author</button>
-  <button type="button" class="pub-filter__btn" data-filter-role="co">Co-author</button>
-  <span class="pub-filter__label">Status:</span>
-  <button type="button" class="pub-filter__btn active" data-filter-status="all">All</button>
-  <button type="button" class="pub-filter__btn" data-filter-status="published">Published</button>
-  <button type="button" class="pub-filter__btn" data-filter-status="preprint">Preprint</button>
-  <span class="pub-filter__label">Topic:</span>
-  <button type="button" class="pub-filter__btn active" data-filter-topic="all">All</button>
-  <button type="button" class="pub-filter__btn" data-filter-topic="hallucination">Hallucination</button>
-  <button type="button" class="pub-filter__btn" data-filter-topic="video">Video</button>
-  <button type="button" class="pub-filter__btn" data-filter-topic="layout">Layout</button>
-  <button type="button" class="pub-filter__btn" data-filter-topic="other">Other</button>
+  <label class="pub-filter__label">Role</label>
+  <select class="pub-filter__select" id="pub-filter-role" aria-label="Filter by role">
+    <option value="all">All</option>
+    <option value="first">First Author</option>
+    <option value="co">Co-author</option>
+  </select>
+  <label class="pub-filter__label">Status</label>
+  <select class="pub-filter__select" id="pub-filter-status" aria-label="Filter by status">
+    <option value="all">All</option>
+    <option value="published">Published</option>
+    <option value="preprint">Preprint</option>
+  </select>
+  <label class="pub-filter__label">Topic</label>
+  <select class="pub-filter__select" id="pub-filter-topic" aria-label="Filter by topic">
+    <option value="all">All</option>
+    <option value="hallucination">Hallucination</option>
+    <option value="video">Video</option>
+    <option value="layout">Layout</option>
+    <option value="other">Other</option>
+  </select>
 </div>
 
 <div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="preprint" data-topic="hallucination video">
@@ -160,8 +168,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Provides a systematic taxonomy and analysis of hallucinations in video large language models, covering their types, causes, evaluation, and mitigation strategies. We maintain an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">Awesome-Video-Hallucination</a> repo (19 benchmarks &amp; 23 mitigation methods); contributions are welcome!</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Systematic survey on hallucination in Video LLMs: taxonomy, benchmarks, and mitigations. Curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a> (19 benchmarks, 23 methods); contributions welcome.</div>
     <div class="pub-links">
+      <a href="{{ site.author.techrxiv_survey | default: '#' }}" class="pub-link" rel="noopener noreferrer">📄 Paper</a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="pub-link" rel="noopener noreferrer">📚 Repo</a>
     </div>
   </div>
@@ -259,8 +268,18 @@ redirect_from:
 <style>
 /* Intro Styles */
 .intro-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.4em 0.8em;
   margin: 0.5em 0 1.2em;
   padding: 0.6em 0 0.2em;
+}
+
+.intro-block__main {
+  flex: 1;
+  min-width: 0;
 }
 
 .intro-block p {
@@ -287,13 +306,13 @@ redirect_from:
 
 .intro-cta {
   display: inline-block;
-  margin-top: 0.5em;
-  padding: 0.4em 0.9em;
+  flex-shrink: 0;
+  padding: 0.25em 0.55em;
   border-radius: 6px;
   background: #1f6feb;
   color: #fff !important;
   border: 1px solid #1f6feb;
-  font-size: 0.92em;
+  font-size: 0.85em;
   text-decoration: none;
   transition: background 0.2s;
 }
@@ -467,36 +486,24 @@ redirect_from:
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.35em 0.8em;
-  margin-bottom: 0.9em;
+  gap: 0.25em 0.6em;
+  margin-bottom: 0.8em;
 }
 
 .pub-filter__label {
-  font-size: 0.82em;
+  font-size: 0.78em;
   font-weight: 600;
   color: var(--global-text-color-light, #666);
 }
 
-.pub-filter__btn {
+.pub-filter__select {
   font-size: 0.78em;
-  padding: 0.2em 0.5em;
+  padding: 0.25em 0.5em;
   border: 1px solid #c9dafd;
+  border-radius: 6px;
   background: #fff;
   color: var(--global-text-color, #333);
-  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
-}
-
-.pub-filter__btn:hover {
-  background: #eef4ff;
-  border-color: #1f6feb;
-}
-
-.pub-filter__btn.active {
-  background: #1f6feb;
-  color: #fff;
-  border-color: #1f6feb;
 }
 
 /* Publication Styles */
@@ -696,12 +703,12 @@ redirect_from:
   }
 
   .pub-filter {
-    gap: 0.3em 0.5em;
+    gap: 0.2em 0.4em;
   }
 
-  .pub-filter__btn {
-    font-size: 0.72em;
-    padding: 0.18em 0.4em;
+  .pub-filter__select {
+    font-size: 0.74em;
+    padding: 0.2em 0.4em;
   }
 
   .pub-thumb {
@@ -720,18 +727,6 @@ redirect_from:
 (function() {
   var filterRole = 'all', filterStatus = 'all', filterTopic = 'all';
 
-  function updateButtons() {
-    document.querySelectorAll('.pub-filter__btn[data-filter-role]').forEach(function(b) {
-      b.classList.toggle('active', b.getAttribute('data-filter-role') === filterRole);
-    });
-    document.querySelectorAll('.pub-filter__btn[data-filter-status]').forEach(function(b) {
-      b.classList.toggle('active', b.getAttribute('data-filter-status') === filterStatus);
-    });
-    document.querySelectorAll('.pub-filter__btn[data-filter-topic]').forEach(function(b) {
-      b.classList.toggle('active', b.getAttribute('data-filter-topic') === filterTopic);
-    });
-  }
-
   function showHide() {
     document.querySelectorAll('.pub-item').forEach(function(el) {
       var first = el.getAttribute('data-first-author');
@@ -748,17 +743,22 @@ redirect_from:
     });
   }
 
-  document.querySelector('.pub-filter') && document.querySelector('.pub-filter').addEventListener('click', function(e) {
-    var t = e.target;
-    if (!t.classList.contains('pub-filter__btn')) return;
-    if (t.hasAttribute('data-filter-role')) { filterRole = t.getAttribute('data-filter-role'); }
-    if (t.hasAttribute('data-filter-status')) { filterStatus = t.getAttribute('data-filter-status'); }
-    if (t.hasAttribute('data-filter-topic')) { filterTopic = t.getAttribute('data-filter-topic'); }
-    updateButtons();
+  function onChange() {
+    var roleEl = document.getElementById('pub-filter-role');
+    var statusEl = document.getElementById('pub-filter-status');
+    var topicEl = document.getElementById('pub-filter-topic');
+    if (roleEl) filterRole = roleEl.value;
+    if (statusEl) filterStatus = statusEl.value;
+    if (topicEl) filterTopic = topicEl.value;
     showHide();
-  });
+  }
 
-  updateButtons();
+  var roleEl = document.getElementById('pub-filter-role');
+  var statusEl = document.getElementById('pub-filter-status');
+  var topicEl = document.getElementById('pub-filter-topic');
+  if (roleEl) roleEl.addEventListener('change', onChange);
+  if (statusEl) statusEl.addEventListener('change', onChange);
+  if (topicEl) topicEl.addEventListener('change', onChange);
 })();
 </script>
 
