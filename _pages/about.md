@@ -55,7 +55,7 @@ redirect_from:
 <div class="news-container">
   <div class="news-item news-item--pinned">
     <span class="news-date">TOP</span>
-    <span class="news-text">[Top] We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Spatial-VLMs</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
+    <span class="news-text">[Top] We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
   </div>
   <div class="news-item">
     <span class="news-date">Jan. 2026</span>
