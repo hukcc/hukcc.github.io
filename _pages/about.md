@@ -46,6 +46,9 @@ redirect_from:
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
+  {% if site.author.cv %}
+  <a href="{{ site.author.cv | prepend: site.baseurl }}" class="intro-cta" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+  {% endif %}
 </div>
 
 
@@ -53,6 +56,10 @@ redirect_from:
 # News
 
 <div class="news-container">
+  <div class="news-item news-item--pinned">
+    <span class="news-date">Ongoing</span>
+    <span class="news-text">We maintain <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a>, a curated survey on hallucination in Video LLMs (19 benchmarks &amp; 23 mitigation methods). Contributions welcome!</span>
+  </div>
   <div class="news-item">
     <span class="news-date">Jan. 2026</span>
     <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
@@ -125,7 +132,24 @@ redirect_from:
 ---
 # Publications ([Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ))
 
-<div class="pub-item" id="pub-videollm-hallucination">
+<div class="pub-filter" role="group" aria-label="Filter publications">
+  <span class="pub-filter__label">Role:</span>
+  <button type="button" class="pub-filter__btn active" data-filter-role="all">All</button>
+  <button type="button" class="pub-filter__btn" data-filter-role="first">First Author</button>
+  <button type="button" class="pub-filter__btn" data-filter-role="co">Co-author</button>
+  <span class="pub-filter__label">Status:</span>
+  <button type="button" class="pub-filter__btn active" data-filter-status="all">All</button>
+  <button type="button" class="pub-filter__btn" data-filter-status="published">Published</button>
+  <button type="button" class="pub-filter__btn" data-filter-status="preprint">Preprint</button>
+  <span class="pub-filter__label">Topic:</span>
+  <button type="button" class="pub-filter__btn active" data-filter-topic="all">All</button>
+  <button type="button" class="pub-filter__btn" data-filter-topic="hallucination">Hallucination</button>
+  <button type="button" class="pub-filter__btn" data-filter-topic="video">Video</button>
+  <button type="button" class="pub-filter__btn" data-filter-topic="layout">Layout</button>
+  <button type="button" class="pub-filter__btn" data-filter-topic="other">Other</button>
+</div>
+
+<div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="preprint" data-topic="hallucination video">
   <div class="pub-badge">Submitted to ARR</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -136,11 +160,14 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Provides a systematic taxonomy and analysis of hallucinations in video large language models, covering their types, causes, evaluation, and mitigation strategies.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Provides a systematic taxonomy and analysis of hallucinations in video large language models, covering their types, causes, evaluation, and mitigation strategies. We maintain an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">Awesome-Video-Hallucination</a> repo (19 benchmarks &amp; 23 mitigation methods); contributions are welcome!</div>
+    <div class="pub-links">
+      <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="pub-link" rel="noopener noreferrer">📚 Repo</a>
+    </div>
   </div>
 </div>
 
-<div class="pub-item" id="pub-mason">
+<div class="pub-item" id="pub-mason" data-first-author="true" data-status="preprint" data-topic="layout">
   <div class="pub-badge">Submitted to CVPR</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -155,7 +182,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item" id="pub-shield">
+<div class="pub-item" id="pub-shield" data-first-author="true" data-status="published" data-topic="hallucination">
   <div class="pub-badge">ICLR 2026</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -174,7 +201,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item" id="pub-dcode">
+<div class="pub-item" id="pub-dcode" data-first-author="true" data-status="published" data-topic="video">
   <div class="pub-badge">EMNLP 2025</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -193,7 +220,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item">
+<div class="pub-item" data-first-author="false" data-status="published" data-topic="other">
   <div class="pub-badge">ICASSP 2025</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -211,7 +238,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item">
+<div class="pub-item" data-first-author="true" data-status="published" data-topic="other">
   <div class="pub-badge">ACMMM 2021</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -256,6 +283,25 @@ redirect_from:
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
+}
+
+.intro-cta {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.4em 0.9em;
+  border-radius: 6px;
+  background: #1f6feb;
+  color: #fff !important;
+  border: 1px solid #1f6feb;
+  font-size: 0.92em;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.intro-cta:hover {
+  background: #0b5ed7;
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .intro-meta {
@@ -386,6 +432,16 @@ redirect_from:
   gap: 0.5em;
 }
 
+.news-item--pinned {
+  border-left-color: #1f6feb;
+  background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+}
+
+.news-item--pinned .news-date {
+  background: #1f6feb;
+  color: #fff;
+}
+
 .news-date {
   font-weight: 700;
   color: #1f6feb;
@@ -404,6 +460,43 @@ redirect_from:
 .news-venue {
   font-weight: 600;
   color: var(--global-link-color, #007bff);
+}
+
+/* Publication Filter */
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em 0.8em;
+  margin-bottom: 0.9em;
+}
+
+.pub-filter__label {
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--global-text-color-light, #666);
+}
+
+.pub-filter__btn {
+  font-size: 0.78em;
+  padding: 0.2em 0.5em;
+  border: 1px solid #c9dafd;
+  background: #fff;
+  color: var(--global-text-color, #333);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.pub-filter__btn:hover {
+  background: #eef4ff;
+  border-color: #1f6feb;
+}
+
+.pub-filter__btn.active {
+  background: #1f6feb;
+  color: #fff;
+  border-color: #1f6feb;
 }
 
 /* Publication Styles */
@@ -602,6 +695,15 @@ redirect_from:
     padding: 0.4em 0.55em;
   }
 
+  .pub-filter {
+    gap: 0.3em 0.5em;
+  }
+
+  .pub-filter__btn {
+    font-size: 0.72em;
+    padding: 0.18em 0.4em;
+  }
+
   .pub-thumb {
     height: 160px;
   }
@@ -613,6 +715,52 @@ redirect_from:
 }
 
 </style>
+
+<script>
+(function() {
+  var filterRole = 'all', filterStatus = 'all', filterTopic = 'all';
+
+  function updateButtons() {
+    document.querySelectorAll('.pub-filter__btn[data-filter-role]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-filter-role') === filterRole);
+    });
+    document.querySelectorAll('.pub-filter__btn[data-filter-status]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-filter-status') === filterStatus);
+    });
+    document.querySelectorAll('.pub-filter__btn[data-filter-topic]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-filter-topic') === filterTopic);
+    });
+  }
+
+  function showHide() {
+    document.querySelectorAll('.pub-item').forEach(function(el) {
+      var first = el.getAttribute('data-first-author');
+      var status = el.getAttribute('data-status');
+      var topic = (el.getAttribute('data-topic') || '').split(/\s+/);
+
+      var matchRole = filterRole === 'all' ||
+        (filterRole === 'first' && first === 'true') ||
+        (filterRole === 'co' && first === 'false');
+      var matchStatus = filterStatus === 'all' || status === filterStatus;
+      var matchTopic = filterTopic === 'all' || topic.indexOf(filterTopic) !== -1;
+
+      el.style.display = (matchRole && matchStatus && matchTopic) ? '' : 'none';
+    });
+  }
+
+  document.querySelector('.pub-filter') && document.querySelector('.pub-filter').addEventListener('click', function(e) {
+    var t = e.target;
+    if (!t.classList.contains('pub-filter__btn')) return;
+    if (t.hasAttribute('data-filter-role')) { filterRole = t.getAttribute('data-filter-role'); }
+    if (t.hasAttribute('data-filter-status')) { filterStatus = t.getAttribute('data-filter-status'); }
+    if (t.hasAttribute('data-filter-topic')) { filterTopic = t.getAttribute('data-filter-topic'); }
+    updateButtons();
+    showHide();
+  });
+
+  updateButtons();
+})();
+</script>
 
 ---
 # Academic Service
