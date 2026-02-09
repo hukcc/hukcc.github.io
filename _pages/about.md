@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 <div class="intro-block">
-  <div class="intro-block__main">
   <p>
     I am a second-year Ph.D. student in the College of Engineering at
     <span class="kw">Northeastern University</span>, advised by
@@ -47,10 +46,6 @@ redirect_from:
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
-  </div>
-  {% if site.author.cv %}
-  <a href="{{ site.author.cv | prepend: site.baseurl }}" class="intro-cta" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
-  {% endif %}
 </div>
 
 
@@ -59,7 +54,7 @@ redirect_from:
 
 <div class="news-container">
   <div class="news-item news-item--pinned">
-    <span class="news-date">Ongoing</span>
+    <span class="news-date">TOP</span>
     <span class="news-text">[Top] We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Spatial-VLMs</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
   </div>
   <div class="news-item">
@@ -268,18 +263,8 @@ redirect_from:
 <style>
 /* Intro Styles */
 .intro-block {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0.4em 0.8em;
   margin: 0.5em 0 1.2em;
   padding: 0.6em 0 0.2em;
-}
-
-.intro-block__main {
-  flex: 1;
-  min-width: 0;
 }
 
 .intro-block p {
@@ -302,25 +287,6 @@ redirect_from:
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
-}
-
-.intro-cta {
-  display: inline-block;
-  flex-shrink: 0;
-  padding: 0.25em 0.55em;
-  border-radius: 6px;
-  background: #1f6feb;
-  color: #fff !important;
-  border: 1px solid #1f6feb;
-  font-size: 0.85em;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.intro-cta:hover {
-  background: #0b5ed7;
-  color: #fff !important;
-  text-decoration: none;
 }
 
 .intro-meta {
