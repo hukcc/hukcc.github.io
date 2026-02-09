@@ -21,28 +21,7 @@ redirect_from:
     During my master's studies, I visited <span class="kw">Kyoto University</span>,
     working with <a class="kw" href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
-  <div class="intro-focus">
-    <div class="focus-title">Research interests: Multimodal LLMs, efficiency, and reliability, with a focus on</div>
-    <div class="focus-item">
-      <span class="focus-category">hallucination detection &amp; mitigation:</span>
-      <span class="focus-tags">
-        <a class="paper-tag" href="#pub-shield">SHIELD</a>
-        <a class="paper-tag" href="#pub-videollm-hallucination">VideoLLM Hallucination Survey</a>
-      </span>
-    </div>
-    <div class="focus-item">
-      <span class="focus-category">video understanding:</span>
-      <span class="focus-tags">
-        <a class="paper-tag" href="#pub-dcode">D-CoDe</a>
-      </span>
-    </div>
-    <div class="focus-item">
-      <span class="focus-category">layout understanding:</span>
-      <span class="focus-tags">
-        <a class="paper-tag" href="#pub-mason">MASON</a>
-      </span>
-    </div>
-  </div>
+  <p class="intro-focus">Research interests: Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</p>
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
@@ -55,7 +34,7 @@ redirect_from:
 <div class="news-container">
   <div class="news-item news-item--pinned">
     <span class="news-date">TOP</span>
-    <span class="news-text">[Top] We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
+    <span class="news-text">We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
   </div>
   <div class="news-item">
     <span class="news-date">Jan. 2026</span>
@@ -274,6 +253,7 @@ redirect_from:
 
 .intro-focus {
   margin-top: 0.2em;
+  margin-bottom: 0;
 }
 
 .intro-note {
@@ -353,49 +333,6 @@ redirect_from:
   color: var(--global-text-color-light, #666);
   font-size: 0.85em;
 }
-
-.focus-title {
-  margin-bottom: 0.5em;
-  font-weight: 600;
-}
-
-.focus-item {
-  margin: 0.3em 0;
-  display: flex;
-  align-items: center;
-  gap: 0.2em;
-  flex-wrap: wrap;
-}
-
-.paper-tag {
-  display: inline-block;
-  padding: 0.12em 0.45em;
-  margin-left: 0.35em;
-  border-radius: 999px;
-  background: #eef4ff;
-  font-weight: 600;
-  font-size: 0.78em;
-  letter-spacing: 0.2px;
-  text-decoration: none;
-  border: 1px solid #c9dafd;
-}
-
-.paper-tag:hover {
-  background: #e1ecff;
-  text-decoration: none;
-}
-
-.focus-category {
-  color: var(--global-text-color, #222);
-  font-weight: 500;
-}
-
-.focus-tags {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.35em;
-}
-
 
 /* News Styles */
 .news-container {
