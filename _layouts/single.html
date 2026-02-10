@@ -29,7 +29,7 @@ layout: default
           {% if page.title %}
           <h1 class="page__title" itemprop="headline">
             {% if page.url == "/" and site.author.cv %}
-            {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }} [<a href="{{ site.author.cv | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">CV</a>]
+            {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }} [<a class="link-no-underline" href="{{ site.author.cv | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">CV</a>]
             {% else %}
             {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
             {% endif %}
