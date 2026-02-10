@@ -21,10 +21,7 @@ redirect_from:
     During my master's studies, I visited <span class="kw">Kyoto University</span>,
     working with <a class="kw" href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
   </p>
-  <div class="intro-callout">
-    <span class="intro-callout__label">Research interests</span>
-    <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
-  </div>
+  <p class="intro-callout">Research interests: Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</p>
   <p class="intro-note">
     Actively seeking internship opportunities.
   </p>
@@ -36,7 +33,7 @@ redirect_from:
 
 <div class="news-item news-item--pinned">
   <span class="news-date">TOP</span>
-  <span class="news-text">We released an <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><em>Awesome-Video-Hallucination</em></a> survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> with a <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub Repo</a>!</span>
+  <span class="news-text">We released our survey on hallucination in Video LLMs on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a>, with a curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub repo</a>. Contributions welcome!</span>
 </div>
 <div class="news-container">
   <div class="news-item">
@@ -256,22 +253,12 @@ redirect_from:
 
 .intro-callout {
   margin-top: 0.5em;
-  padding: 0.5em 0.75em;
-  background: linear-gradient(135deg, #eef4ff 0%, #f0f6ff 100%);
-  border-left: 4px solid #1f6feb;
-  border-radius: 0 6px 6px 0;
-}
-
-.intro-callout__label {
-  font-weight: 600;
-  font-size: 0.9em;
-  color: #1f6feb;
-  display: block;
-  margin-bottom: 0.15em;
-}
-
-.intro-callout__text {
-  font-size: 0.9em;
+  margin-bottom: 0;
+  padding: 0.4em 0.65em;
+  background: #f6f8fc;
+  border-left: 3px solid #1f6feb;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.92em;
   line-height: 1.5;
   color: var(--global-text-color, #333);
 }
@@ -283,7 +270,7 @@ redirect_from:
   background: #eef4ff;
   color: #1f6feb;
   border: none;
-  margin-top: 0.2em;
+  margin-top: 0.6em;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
