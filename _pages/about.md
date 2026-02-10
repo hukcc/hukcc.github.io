@@ -283,7 +283,7 @@ redirect_from:
   background: #eef4ff;
   color: #1f6feb;
   border: none;
-  margin-top: 0.9em;
+  margin-top: 1.35em;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
@@ -659,7 +659,7 @@ redirect_from:
 
   .intro-note {
     font-size: 0.94em;
-    margin-top: 0.75em;
+    margin-top: 1.1em;
   }
 
   .news-container {
