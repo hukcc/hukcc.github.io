@@ -256,6 +256,7 @@ redirect_from:
 
 .intro-callout {
   margin-top: 0.5em;
+  margin-bottom: 0.6em;
   padding: 0.5em 0.75em;
   background: linear-gradient(135deg, #eef4ff 0%, #f0f6ff 100%);
   border-left: 4px solid #1f6feb;
@@ -283,7 +284,7 @@ redirect_from:
   background: #eef4ff;
   color: #1f6feb;
   border: none;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
@@ -659,7 +660,7 @@ redirect_from:
 
   .intro-note {
     font-size: 0.94em;
-    margin-top: 1.6em;
+    margin-top: 2.2em;
   }
 
   .news-container {
