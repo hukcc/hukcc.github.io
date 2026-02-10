@@ -138,8 +138,8 @@ redirect_from:
   <div class="pub-badge">Submitted to ARR</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="ARR Survey" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_arr_hallucination.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="Thumbnail: Video LLM Hallucination Survey paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_arr_hallucination.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -157,8 +157,8 @@ redirect_from:
   <div class="pub-badge">Submitted to CVPR</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="MASON" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="Thumbnail: MASON layout understanding paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -172,8 +172,8 @@ redirect_from:
   <div class="pub-badge">ICLR 2026</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_shield.png" alt="SHIELD" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_shield.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_shield.png" alt="Thumbnail: SHIELD hallucination mitigation paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_shield.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -191,8 +191,8 @@ redirect_from:
   <div class="pub-badge">EMNLP 2025</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_dcode.png" alt="D-CoDe" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_dcode.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_dcode.png" alt="Thumbnail: D-CoDe video understanding paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_dcode.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -210,8 +210,8 @@ redirect_from:
   <div class="pub-badge">ICASSP 2025</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_lipreading.png" alt="LipReading" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_lipreading.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_lipreading.png" alt="Thumbnail: LipReading low-resource languages paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_lipreading.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -228,8 +228,8 @@ redirect_from:
   <div class="pub-badge">ACMMM 2021</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_callip.png" alt="CALLip" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_callip.png" alt="" aria-hidden="true">
+      <img class="pub-thumb-img" src="/images/pub_callip.png" alt="Thumbnail: CALLip lipreading paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_callip.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
@@ -429,6 +429,10 @@ redirect_from:
   background: #fff;
   color: var(--global-text-color, #333);
   cursor: pointer;
+}
+.pub-filter__select:focus-visible {
+  outline: 2px solid var(--global-link-color, #007bff);
+  outline-offset: 2px;
 }
 
 /* Publication Styles */
@@ -786,6 +790,24 @@ redirect_from:
   .pub-link {
     padding: 0.4em 0.65em;
   }
+
+  /* 筛选器垂直堆叠，便于小屏操作 */
+  .pub-filter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4em;
+  }
+  .pub-filter__select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* 可访问性：键盘焦点样式 */
+.pub-link:focus-visible,
+.exp-item a:focus-visible {
+  outline: 2px solid var(--global-link-color, #007bff);
+  outline-offset: 2px;
 }
 
 </style>

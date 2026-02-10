@@ -141,14 +141,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profileyiyang.jpg"  # Social media default site image
-og_description           : "Yiyang Huang – Ph.D. student at Northeastern University. Research on Multimodal LLMs, Hallucination, and Video Understanding."
+og_image                 : "profileyiyang.jpg"
+og_description           : "Yiyang Huang - Ph.D. student at Northeastern University. Research: Multimodal LLMs, Efficiency, Video Understanding, Hallucination Detection."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Yiyang Huang"
+  links:
+    - "https://github.com/hukcc"
+    - "https://scholar.google.com/citations?user=A0H2ZYQAAAAJ"
+    - "https://www.linkedin.com/in/yiyang-huang-53894a291"
 
 
 # Analytics
