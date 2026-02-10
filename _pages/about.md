@@ -35,31 +35,31 @@ redirect_from:
 <span id="news"></span>
 # News
 
-<div class="news-item news-item--pinned">
+<a href="#pub-videollm-hallucination" class="news-item news-item--pinned news-item--link">
   <span class="news-date">TOP</span>
-  <span class="news-text">Video LLM hallucination survey on <a href="{{ site.author.techrxiv_survey | default: '#' }}" rel="noopener noreferrer">TechRxiv</a> &amp; <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">GitHub</a>. Contributions welcome.</span>
-</div>
+  <span class="news-text">Video LLM hallucination survey (paper &amp; repo in Publications). Contributions welcome.</span>
+</a>
 <div class="news-container">
-  <div class="news-item">
+  <a href="#pub-shield" class="news-item news-item--link">
     <span class="news-date">Jan. 2026</span>
     <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
-  </div>
+  </a>
   <div class="news-item">
     <span class="news-date">Dec. 2025</span>
     <span class="news-text">Passed the Ph.D. Qualifying Exam, thanks to my advisor and committee members.</span>
   </div>
-  <div class="news-item">
+  <a href="#pub-dcode" class="news-item news-item--link">
     <span class="news-date">Aug. 2025</span>
     <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
-  </div>
-  <div class="news-item">
+  </a>
+  <a href="#experience" class="news-item news-item--link">
     <span class="news-date">May 2025</span>
     <span class="news-text">Started Research Internship at <span class="news-venue">Adobe Research</span>.</span>
-  </div>
-  <div class="news-item">
+  </a>
+  <a href="#experience" class="news-item news-item--link">
     <span class="news-date">Sep. 2024</span>
     <span class="news-text">Started my journey at <span class="news-venue">Northeastern University</span>.</span>
-  </div>
+  </a>
 </div>
 
 ---
@@ -118,7 +118,7 @@ redirect_from:
   <label class="pub-filter__label">Role</label>
   <select class="pub-filter__select" id="pub-filter-role" aria-label="Filter by role">
     <option value="all">All</option>
-    <option value="first">First Author</option>
+    <option value="first" selected>First Author</option>
     <option value="co">Co-author</option>
   </select>
   <label class="pub-filter__label">Status</label>
@@ -148,7 +148,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Systematic survey on hallucination in Video LLMs: taxonomy, benchmarks, and mitigations. Curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a> (19 benchmarks, 23 methods); contributions welcome.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Authored a survey on Video-LLM hallucinations (taxonomy, benchmarks, mitigations) and maintain a curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a>.</div>
     <div class="pub-links">
       <a href="{{ site.author.techrxiv_survey | default: '#' }}" class="pub-link" rel="noopener noreferrer">📄 Paper</a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="pub-link" rel="noopener noreferrer">📚 Repo</a>
@@ -167,7 +167,25 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a compositional layout understanding framework that integrates multimodal alignment and structural perception to reason about interacting elements in layered design layouts.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Submitted to CVPR</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_mft_vlm.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Rethinking Fine-Tuning: Unlocking Hidden Capabilities in Vision-Language Models</div>
+    <div class="pub-authors">Mingyuan Zhang, Yue Bai, Yifan Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Applied MFT to VLMs: learnable gating reorganizes subnetworks without weight updates; outperforms LoRA and full fine-tuning.</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2512.23073" class="pub-link" rel="noopener noreferrer">📄 Paper</a>
+    </div>
   </div>
 </div>
 
@@ -182,7 +200,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces a training-free framework that mitigates object hallucinations in LVLMs by addressing bias and vulnerability at the visual encoder level.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Identified encoder-side causes of hallucinations and developed SHIELD, a training-free token-editing module (re-weighting + adversarial decoding) for captioning and VQA.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
@@ -201,7 +219,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposes a training-free framework that combines dynamic visual compression and question decomposition to scale image-pretrained VLMs to long video understanding.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed D-CoDe, a plug-and-play pipeline with dynamic compression and question decomposition for long-video QA under tight context.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
@@ -220,7 +238,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">LipReading for Low-resource Languages by Language Dynamic LoRA</div>
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Introduces dynamic low-rank fine-tuning and multilingual instruction tuning to improve lipreading performance in low-resource languages.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed dynamic LoRA for meta lip shapes and multilingual instruction tuning to improve cross-lingual lipreading in low-resource settings.</div>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link">📄 Paper</a>
     </div>
@@ -238,7 +256,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">CALLip: Lipreading using Contrastive and Attribute Learning</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Combines attribute learning and audio-visual contrastive learning to improve robustness and discriminability in lipreading.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposed CALLip, leveraging attribute learning to normalize cross-speaker variation and audio-visual contrastive learning to mitigate viseme confusion.</div>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link">📄 Paper</a>
     </div>
@@ -382,6 +400,18 @@ redirect_from:
   margin-bottom: 0.5em;
   border-left-color: #1f6feb;
   background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+}
+
+a.news-item--link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a.news-item--link:hover {
+  background: linear-gradient(135deg, #e8ecf4 0%, #e2e8f2 100%);
+}
+a.news-item--link.news-item--pinned:hover {
+  background: linear-gradient(135deg, #e0e8ff 0%, #d8e4ff 100%);
 }
 
 .news-item--pinned .news-date {
@@ -627,8 +657,6 @@ redirect_from:
   }
 
   .exp-item {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0.5em 0.6em;
   }
 
@@ -794,15 +822,19 @@ redirect_from:
     padding: 0.4em 0.65em;
   }
 
-  /* 筛选器垂直堆叠，便于小屏操作 */
+  /* 筛选器保持同一行，缩小间距与字号以适配小屏 */
   .pub-filter {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.4em;
+    flex-wrap: nowrap;
+    gap: 0.2em 0.3em;
+  }
+  .pub-filter__label {
+    font-size: 0.7em;
   }
   .pub-filter__select {
-    min-height: 44px;
-    min-width: 44px;
+    font-size: 0.7em;
+    padding: 0.25em 0.35em;
+    min-height: 38px;
+    min-width: 0;
   }
 }
 
@@ -851,6 +883,7 @@ redirect_from:
   if (roleEl) roleEl.addEventListener('change', onChange);
   if (statusEl) statusEl.addEventListener('change', onChange);
   if (topicEl) topicEl.addEventListener('change', onChange);
+  onChange();
 })();
 </script>
 
