@@ -32,6 +32,7 @@ redirect_from:
 
 
 ---
+<span id="news"></span>
 # News
 
 <div class="news-item news-item--pinned">
@@ -62,6 +63,7 @@ redirect_from:
 </div>
 
 ---
+<span id="experience"></span>
 # Experience
 
 <div class="exp-list">
@@ -109,6 +111,7 @@ redirect_from:
 </div>
 
 ---
+<span id="publications"></span>
 # Publications [[Google Scholar](https://scholar.google.com/citations?user=A0H2ZYQAAAAJ)]
 
 <div class="pub-filter" role="group" aria-label="Filter publications">
@@ -852,6 +855,7 @@ redirect_from:
 </script>
 
 ---
+<span id="academic-service"></span>
 # Academic Service
 - **Conference Reviewer**:  
   FG, ARR
@@ -859,6 +863,7 @@ redirect_from:
   [ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/journal/tkdd)  
 
 ---
+<span id="honors-awards"></span>
 # Honors & Awards
 
 - Outstanding Student, Xidian University, 2022  
@@ -868,11 +873,13 @@ redirect_from:
 - ICRA AI Challenge (3rd Prize), 2019  
 
 ---
+<span id="teaching-experience"></span>
 # Teaching Experience
 
 - **Teaching Assistant (TA)**: DS 5110 *Essentials of Data Science*, Fall 2025; DS 5020 *Fundamentals of Linear Algebra and Probability*, Spring 2026  
 
 ---
+<span id="contact"></span>
 # Contact
 
 Email: yiyang.huang.hukcc (at) gmail (dot) com / huang.yiyan (at) northeastern (dot) edu  
