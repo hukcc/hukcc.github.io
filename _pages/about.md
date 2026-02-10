@@ -283,7 +283,7 @@ redirect_from:
   background: #eef4ff;
   color: #1f6feb;
   border: none;
-  margin-top: 0.6em;
+  margin-top: 0.9em;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
@@ -524,9 +524,9 @@ redirect_from:
   position: absolute;
   top: 4px;
   left: 4px;
-  font-size: 0.75em;
-  padding: 0.15em 0.45em;
-  border-radius: 8px;
+  font-size: 0.7em;
+  padding: 0.12em 0.38em;
+  border-radius: 6px;
   background: #eef4ff;
   color: #1f5bd6;
   border: 1px solid #c9dafd;
@@ -586,8 +586,21 @@ redirect_from:
   text-decoration: none;
 }
 
-/* Responsive tweaks */
+/* Responsive: 平板 / 小屏 */
 @media (max-width: 900px) {
+  .intro-block {
+    margin: 0.4em 0 1em;
+    padding: 0.4em 0 0.15em;
+  }
+
+  .intro-callout {
+    padding: 0.4em 0.6em;
+  }
+
+  .intro-callout__text {
+    font-size: 0.88em;
+  }
+
   .pub-item {
     flex-direction: column;
   }
@@ -608,6 +621,7 @@ redirect_from:
   .exp-item {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0.5em 0.6em;
   }
 
   .exp-media {
@@ -616,37 +630,160 @@ redirect_from:
   }
 
   .pub-badge {
-    font-size: 0.78em;
-    padding: 0.15em 0.45em;
+    font-size: 0.72em;
+    padding: 0.12em 0.38em;
     font-weight: 600;
   }
 }
 
+/* Responsive: 手机 */
 @media (max-width: 600px) {
+  .intro-block p {
+    font-size: 0.98em;
+    line-height: 1.65;
+  }
+
+  .intro-callout {
+    padding: 0.35em 0.5em;
+    margin-top: 0.4em;
+  }
+
+  .intro-callout__label {
+    font-size: 0.86em;
+  }
+
+  .intro-callout__text {
+    font-size: 0.84em;
+    line-height: 1.45;
+  }
+
+  .intro-note {
+    font-size: 0.94em;
+    margin-top: 0.75em;
+  }
+
   .news-container {
     max-height: 140px;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 0.8em;
   }
 
   .news-item {
-    padding: 0.4em 0.55em;
+    padding: 0.4em 0.5em;
+    gap: 0.4em;
+  }
+
+  .news-date {
+    font-size: 0.78em;
+  }
+
+  .news-text {
+    font-size: 0.85em;
+  }
+
+  .exp-list {
+    margin: 0.5em 0 1em;
+  }
+
+  .exp-item {
+    padding: 0.45em 0.5em;
+    margin-bottom: 0.4em;
+    gap: 0.6em;
+  }
+
+  .exp-org {
+    font-size: 0.9em;
+  }
+
+  .exp-role,
+  .exp-supervisor {
+    font-size: 0.86em;
+  }
+
+  .exp-media {
+    width: 56px;
+    height: 56px;
   }
 
   .pub-filter {
     gap: 0.2em 0.4em;
+    margin-bottom: 0.6em;
+  }
+
+  .pub-filter__label {
+    font-size: 0.74em;
   }
 
   .pub-filter__select {
     font-size: 0.74em;
-    padding: 0.2em 0.4em;
+    padding: 0.35em 0.5em;
+    min-height: 2.25em;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .pub-item {
+    padding: 0.4em 0.45em;
+    margin-bottom: 0.5em;
+    gap: 0.4em;
   }
 
   .pub-thumb {
-    height: 160px;
+    height: 130px;
+  }
+
+  .pub-title {
+    font-size: 0.86em;
+    line-height: 1.22;
+    word-break: break-word;
+  }
+
+  .pub-authors {
+    font-size: 0.76em;
+  }
+
+  .pub-tldr {
+    font-size: 0.75em;
+    padding: 0.12em 0.35em;
+    line-height: 1.32;
+  }
+
+  .pub-links {
+    gap: 0.4em;
   }
 
   .pub-link {
-    font-size: 0.66em;
-    padding: 0.16em 0.4em;
+    font-size: 0.7em;
+    padding: 0.35em 0.6em;
+    min-height: 2.5em;
+    min-width: 2.8em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Responsive: 小屏手机 */
+@media (max-width: 480px) {
+  .page__content h1 {
+    font-size: 1.5rem;
+    word-break: break-word;
+  }
+
+  .page__content h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro-block p {
+    font-size: 0.95em;
+  }
+
+  .pub-title {
+    font-size: 0.84em;
+  }
+
+  .pub-link {
+    padding: 0.4em 0.65em;
   }
 }
 

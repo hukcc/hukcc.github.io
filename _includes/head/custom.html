@@ -58,6 +58,17 @@
     display: none !important;
   }
 
+  /* 手机端：安全区域 + 防止横向溢出 */
+  @media (max-width: 480px) {
+    #main {
+      padding-left: max(0.75em, env(safe-area-inset-left, 0));
+      padding-right: max(0.75em, env(safe-area-inset-right, 0));
+    }
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+
 </style>
 
 <!-- end custom head snippets -->
