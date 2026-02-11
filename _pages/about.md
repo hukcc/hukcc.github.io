@@ -266,17 +266,23 @@ redirect_from:
 </div>
 
 <style>
-/* Global HR */
+/* Global HR - hidden */
 .page__content hr {
   border: none;
-  border-top: 1px solid #e8ecf2;
-  margin: 1.5em 0;
+  margin: 0.6em 0;
+  height: 0;
+}
+
+/* Tighter section headings */
+.page__content h1 {
+  margin-top: 0.4em;
+  margin-bottom: 0.25em;
 }
 
 /* Intro Styles */
 .intro-block {
-  margin: 0.5em 0 1.2em;
-  padding: 0.6em 0 0.2em;
+  margin: 0.3em 0 0.6em;
+  padding: 0.4em 0 0.1em;
 }
 
 .intro-block p {
@@ -330,7 +336,7 @@ redirect_from:
 }
 
 .exp-list {
-  margin: 0.6em 0 1.2em;
+  margin: 0.3em 0 0.6em;
 }
 
 .exp-item {
@@ -399,7 +405,7 @@ redirect_from:
   border: 1px solid #e2e8f0;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
@@ -483,7 +489,7 @@ a.news-item--link.news-item--pinned:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.25em 0.6em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
 }
 
 .pub-filter__label {
@@ -674,8 +680,8 @@ a.news-item--link.news-item--pinned:hover {
 /* Responsive: 平板 / 小屏 */
 @media (max-width: 900px) {
   .intro-block {
-    margin: 0.4em 0 1em;
-    padding: 0.4em 0 0.15em;
+    margin: 0.2em 0 0.5em;
+    padding: 0.3em 0 0.1em;
   }
 
   .intro-callout {
@@ -764,7 +770,7 @@ a.news-item--link.news-item--pinned:hover {
   }
 
   .exp-list {
-    margin: 0.5em 0 1em;
+    margin: 0.3em 0 0.5em;
   }
 
   .exp-item {
@@ -895,15 +901,19 @@ a.news-item--link.news-item--pinned:hover {
 
 /* Honors Styles */
 .honors-list {
-  margin: 0.4em 0 1em;
+  margin: 0.3em 0 0.5em;
+  background: #f8f9fb;
+  border: 1px solid #e8ecf2;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .honors-item {
   display: flex;
   align-items: baseline;
-  padding: 0.3em 0.5em;
+  padding: 0.35em 0.65em;
   gap: 0.6em;
-  border-bottom: 1px solid #f0f2f5;
+  border-bottom: 1px solid #eef0f4;
 }
 
 .honors-item:last-child {
@@ -926,15 +936,19 @@ a.news-item--link.news-item--pinned:hover {
 
 /* Service Styles */
 .service-list {
-  margin: 0.4em 0 1em;
+  margin: 0.3em 0 0.5em;
+  background: #f8f9fb;
+  border: 1px solid #e8ecf2;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .service-item {
   display: flex;
   align-items: baseline;
-  padding: 0.3em 0.5em;
+  padding: 0.35em 0.65em;
   gap: 0.6em;
-  border-bottom: 1px solid #f0f2f5;
+  border-bottom: 1px solid #eef0f4;
 }
 
 .service-item:last-child {
