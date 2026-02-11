@@ -397,9 +397,13 @@ redirect_from:
 }
 
 .news-item--pinned {
-  margin-bottom: 0.15em;
+  margin-bottom: 0;
   border-left-color: #1f6feb;
   background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+}
+
+.news-container {
+  margin-top: 0.15em;
 }
 
 a.news-item--link {
