@@ -35,31 +35,33 @@ redirect_from:
 <span id="news"></span>
 # News
 
-<a href="#pub-videollm-hallucination" class="news-item news-item--pinned news-item--link">
-  <span class="news-date">TOP</span>
-  <span class="news-text">Video LLM hallucination survey (paper &amp; repo in Publications). Contributions welcome.</span>
-</a>
-<div class="news-container">
-  <a href="#pub-shield" class="news-item news-item--link">
-    <span class="news-date">Jan. 2026</span>
-    <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
+<div class="news-wrapper">
+  <a href="#pub-videollm-hallucination" class="news-item news-item--pinned news-item--link">
+    <span class="news-date">📌 TOP</span>
+    <span class="news-text">Video LLM hallucination survey (paper &amp; repo in Publications). Contributions welcome.</span>
   </a>
-  <div class="news-item">
-    <span class="news-date">Dec. 2025</span>
-    <span class="news-text">Passed the Ph.D. Qualifying Exam, thanks to my advisor and committee members.</span>
+  <div class="news-scroll">
+    <a href="#pub-shield" class="news-item news-item--link">
+      <span class="news-date">Jan. 2026</span>
+      <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
+    </a>
+    <div class="news-item">
+      <span class="news-date">Dec. 2025</span>
+      <span class="news-text">Passed the Ph.D. Qualifying Exam, thanks to my advisor and committee members.</span>
+    </div>
+    <a href="#pub-dcode" class="news-item news-item--link">
+      <span class="news-date">Aug. 2025</span>
+      <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
+    </a>
+    <a href="#experience" class="news-item news-item--link">
+      <span class="news-date">May 2025</span>
+      <span class="news-text">Started Research Internship at <span class="news-venue">Adobe Research</span>.</span>
+    </a>
+    <a href="#experience" class="news-item news-item--link">
+      <span class="news-date">Sep. 2024</span>
+      <span class="news-text">Started my journey at <span class="news-venue">Northeastern University</span>.</span>
+    </a>
   </div>
-  <a href="#pub-dcode" class="news-item news-item--link">
-    <span class="news-date">Aug. 2025</span>
-    <span class="news-text">One paper <em>D-CoDe</em> accepted by <span class="news-venue">EMNLP 2025</span></span>
-  </a>
-  <a href="#experience" class="news-item news-item--link">
-    <span class="news-date">May 2025</span>
-    <span class="news-text">Started Research Internship at <span class="news-venue">Adobe Research</span>.</span>
-  </a>
-  <a href="#experience" class="news-item news-item--link">
-    <span class="news-date">Sep. 2024</span>
-    <span class="news-text">Started my journey at <span class="news-venue">Northeastern University</span>.</span>
-  </a>
 </div>
 
 ---
@@ -377,38 +379,59 @@ redirect_from:
 }
 
 /* News Styles */
+.news-wrapper {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
 .news-item {
   display: flex;
   align-items: center;
-  padding: 0.45em 0.65em;
-  margin-bottom: 0.4em;
-  background: linear-gradient(135deg, #f6f8fc 0%, #eef2f8 100%);
-  border-left: 4px solid var(--global-link-color, #007bff);
-  border-radius: 0 8px 8px 0;
-  line-height: 1.45;
+  padding: 0.4em 0.7em;
+  background: #fff;
+  border-bottom: 1px solid #f0f2f5;
+  line-height: 1.4;
   gap: 0.5em;
 }
 
-.news-item--pinned {
-  margin-bottom: 0;
-  border-left-color: #1f6feb;
-  background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+.news-item:last-child {
+  border-bottom: none;
 }
 
-.news-container {
-  margin: -0.2em 0 1em;
-  max-height: 160px;
+.news-item--pinned {
+  background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+  border-bottom: 1px solid #d8e2f0;
+}
+
+.news-scroll {
+  max-height: 150px;
   overflow-y: auto;
-  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #c8d0da transparent;
+}
+
+.news-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.news-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background: #c8d0da;
+  border-radius: 4px;
 }
 
 a.news-item--link {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  transition: background 0.15s;
 }
 a.news-item--link:hover {
-  background: linear-gradient(135deg, #e8ecf4 0%, #e2e8f2 100%);
+  background: #f0f4fa;
 }
 a.news-item--link.news-item--pinned:hover {
   background: linear-gradient(135deg, #e0e8ff 0%, #d8e4ff 100%);
@@ -420,13 +443,15 @@ a.news-item--link.news-item--pinned:hover {
 }
 
 .news-date {
+  flex-shrink: 0;
   font-weight: 700;
   color: #1f6feb;
   background: #eef4ff;
-  padding: 0.06em 0.4em;
+  padding: 0.12em 0.45em;
   border-radius: 6px;
   letter-spacing: 0.2px;
-  font-size: 0.82em;
+  font-size: 0.8em;
+  white-space: nowrap;
 }
 
 .news-text {
@@ -613,7 +638,7 @@ a.news-item--link.news-item--pinned:hover {
 }
 
 .intro-block a,
-.news-container a,
+.news-wrapper a,
 .pub-item a,
 .exp-list a {
   text-decoration: none;
@@ -698,23 +723,22 @@ a.news-item--link.news-item--pinned:hover {
     margin-top: 2.2em;
   }
 
-  .news-container {
-    max-height: 140px;
+  .news-scroll {
+    max-height: 130px;
     -webkit-overflow-scrolling: touch;
-    margin-bottom: 0.8em;
   }
 
   .news-item {
-    padding: 0.4em 0.5em;
+    padding: 0.35em 0.5em;
     gap: 0.4em;
   }
 
   .news-date {
-    font-size: 0.78em;
+    font-size: 0.75em;
   }
 
   .news-text {
-    font-size: 0.85em;
+    font-size: 0.84em;
   }
 
   .exp-list {
