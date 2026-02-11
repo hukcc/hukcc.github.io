@@ -16,6 +16,8 @@ main:
     url: /#honors-awards
   - title: "Contact"
     url: /#contact
+  - title: "CV"
+    url: /files/cv-yiyang.pdf
   # - title: "Teaching"
   #   url: /teaching/
   # - title: "Portfolio"

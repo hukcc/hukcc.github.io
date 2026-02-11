@@ -73,7 +73,7 @@ redirect_from:
     <div class="exp-text">
       <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
       <div class="exp-role">Ph.D. Student, Sep. 2024 ~ Now</div>
-      <div class="exp-supervisor">Supervisor: Prof. Yun Raymond Fu</div>
+      <div class="exp-supervisor">Supervisor: <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a></div>
     </div>
     <div class="exp-media">
       <img src="/images/neu.png" alt="Northeastern University">
@@ -83,7 +83,7 @@ redirect_from:
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
       <div class="exp-role">Research Intern, May 2025 – Nov 2025</div>
-      <div class="exp-supervisor">Mentor: Zhaowen Wang; Simon Jenni; Jing Shi; </div>
+      <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://sjenni.github.io/">Simon Jenni</a>; <a href="https://jshi31.github.io/jingshi/">Jing Shi</a></div>
     </div>
     <div class="exp-media">
       <img src="/images/Adobe.png" alt="Adobe Research">
@@ -93,7 +93,7 @@ redirect_from:
     <div class="exp-text">
       <div class="exp-org">Kyoto University, Kyoto</div>
       <div class="exp-role">Research Student, Sep 2023 – Mar 2024</div>
-      <div class="exp-supervisor">Supervisor: Prof. Takatsune Kumada</div>
+      <div class="exp-supervisor">Supervisor: <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a></div>
     </div>
     <div class="exp-media">
       <img src="/images/Kyoto University Emblem.svg" alt="Kyoto University">
@@ -104,7 +104,7 @@ redirect_from:
       <div class="exp-org">Xidian University, Xi'an</div>
       <div class="exp-role">Master Student, Sep. 2021 ~ Jun. 2024</div>
       <div class="exp-role">Undergraduate Student, Sep. 2017 ~ Jun. 2021</div>
-      <div class="exp-supervisor">Supervisor: Prof. Xuefeng Liang</div>
+      <div class="exp-supervisor">Supervisor: <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a></div>
     </div>
     <div class="exp-media">
       <img src="/images/xdu.png" alt="Xidian University">
@@ -266,6 +266,13 @@ redirect_from:
 </div>
 
 <style>
+/* Global HR */
+.page__content hr {
+  border: none;
+  border-top: 1px solid #e8ecf2;
+  margin: 1.5em 0;
+}
+
 /* Intro Styles */
 .intro-block {
   margin: 0.5em 0 1.2em;
@@ -376,6 +383,15 @@ redirect_from:
   margin-top: 0.1em;
   color: var(--global-text-color-light, #666);
   font-size: 0.85em;
+}
+
+.exp-supervisor a {
+  color: var(--global-link-color, #007bff);
+  text-decoration: none;
+}
+
+.exp-supervisor a:hover {
+  text-decoration: underline;
 }
 
 /* News Styles */
@@ -877,6 +893,76 @@ a.news-item--link.news-item--pinned:hover {
   }
 }
 
+/* Honors Styles */
+.honors-list {
+  margin: 0.4em 0 1em;
+}
+
+.honors-item {
+  display: flex;
+  align-items: baseline;
+  padding: 0.3em 0.5em;
+  gap: 0.6em;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.honors-item:last-child {
+  border-bottom: none;
+}
+
+.honors-year {
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #1f6feb;
+  min-width: 3em;
+  text-align: right;
+}
+
+.honors-text {
+  font-size: 0.88em;
+  color: var(--global-text-color, #333);
+}
+
+/* Service Styles */
+.service-list {
+  margin: 0.4em 0 1em;
+}
+
+.service-item {
+  display: flex;
+  align-items: baseline;
+  padding: 0.3em 0.5em;
+  gap: 0.6em;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+.service-role {
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #1f6feb;
+  min-width: 10em;
+}
+
+.service-detail {
+  font-size: 0.88em;
+  color: var(--global-text-color, #333);
+}
+
+.service-detail a {
+  color: var(--global-link-color, #007bff);
+  text-decoration: none;
+}
+
+.service-detail a:hover {
+  text-decoration: underline;
+}
+
 /* 可访问性：键盘焦点样式 */
 .pub-link:focus-visible,
 .exp-item a:focus-visible {
@@ -929,33 +1015,73 @@ a.news-item--link.news-item--pinned:hover {
 ---
 <span id="academic-service"></span>
 # Academic Service
-- **Conference Reviewer**:  
-  FG, ARR
-- **Journal Reviewer**:  
-  [ACM Transactions on Knowledge Discovery from Data (TKDD)](https://dl.acm.org/journal/tkdd)  
+<div class="service-list">
+  <div class="service-item">
+    <span class="service-role">Conference Reviewer</span>
+    <span class="service-detail">FG, ARR</span>
+  </div>
+  <div class="service-item">
+    <span class="service-role">Journal Reviewer</span>
+    <span class="service-detail"><a href="https://dl.acm.org/journal/tkdd" rel="noopener noreferrer">ACM TKDD</a></span>
+  </div>
+</div>
 
 ---
 <span id="honors-awards"></span>
 # Honors & Awards
 
-- Outstanding Student, Xidian University, 2022  
-- National Scholarship, China, 2021  
-- Undergraduate Computer Design Competition (1st Prize), China, 2021  
-- RoboMaster National Robotics Competition (2nd Prize), China, 2019  
-- ICRA AI Challenge (3rd Prize), 2019  
+<div class="honors-list">
+  <div class="honors-item">
+    <span class="honors-year">2022</span>
+    <span class="honors-text">Outstanding Student, Xidian University</span>
+  </div>
+  <div class="honors-item">
+    <span class="honors-year">2021</span>
+    <span class="honors-text">National Scholarship, China</span>
+  </div>
+  <div class="honors-item">
+    <span class="honors-year">2021</span>
+    <span class="honors-text">Undergraduate Computer Design Competition (1st Prize), China</span>
+  </div>
+  <div class="honors-item">
+    <span class="honors-year">2019</span>
+    <span class="honors-text">RoboMaster National Robotics Competition (2nd Prize), China</span>
+  </div>
+  <div class="honors-item">
+    <span class="honors-year">2019</span>
+    <span class="honors-text">ICRA AI Challenge (3rd Prize)</span>
+  </div>
+</div>
 
 ---
 <span id="teaching-experience"></span>
 # Teaching Experience
 
-- **Teaching Assistant (TA)**: DS 5110 *Essentials of Data Science*, Fall 2025; DS 5020 *Fundamentals of Linear Algebra and Probability*, Spring 2026  
+<div class="honors-list">
+  <div class="honors-item">
+    <span class="honors-year">Fall 2025</span>
+    <span class="honors-text"><strong>TA</strong> &mdash; DS 5110 <em>Essentials of Data Science</em></span>
+  </div>
+  <div class="honors-item">
+    <span class="honors-year">Spr. 2026</span>
+    <span class="honors-text"><strong>TA</strong> &mdash; DS 5020 <em>Fundamentals of Linear Algebra and Probability</em></span>
+  </div>
+</div>
 
 ---
 <span id="contact"></span>
 # Contact
 
-Email: yiyang.huang.hukcc (at) gmail (dot) com / huang.yiyan (at) northeastern (dot) edu  
-WeChat: hukcc369  
+<div class="service-list">
+  <div class="service-item">
+    <span class="service-role">Email</span>
+    <span class="service-detail"><a href="mailto:huang.yiyan@northeastern.edu">huang.yiyan@northeastern.edu</a> / <a href="mailto:yiyang.huang.hukcc@gmail.com">yiyang.huang.hukcc@gmail.com</a></span>
+  </div>
+  <div class="service-item">
+    <span class="service-role">WeChat</span>
+    <span class="service-detail">hukcc369</span>
+  </div>
+</div>
 
 ---
 # Visitor Map
