@@ -36,9 +36,9 @@ redirect_from:
 # News
 
 <div class="news-wrapper">
-  <a href="#pub-videollm-hallucination" class="news-item news-item--pinned news-item--link">
-    <span class="news-date">📌 TOP</span>
-    <span class="news-text">Video LLM hallucination survey (paper &amp; repo in Publications). Contributions welcome.</span>
+  <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="news-item news-item--pinned news-item--link" target="_blank" rel="noopener noreferrer">
+    <span class="news-date">TOP</span>
+    <span class="news-text">Paper list of Video LLM hallucination. Welcome to Star and Contribute!</span>
   </a>
   <div class="news-scroll">
     <a href="#pub-shield" class="news-item news-item--link">
@@ -72,7 +72,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
-      <div class="exp-role">Ph.D. Student, Sep. 2024 ~ Now</div>
+      <div class="exp-role">Ph.D. Student, Sep. 2024 – Present</div>
       <div class="exp-supervisor">Supervisor: <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a></div>
     </div>
     <div class="exp-media">
@@ -82,7 +82,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
-      <div class="exp-role">Research Intern, May 2025 – Nov 2025</div>
+      <div class="exp-role">Research Intern, May 2025 – Nov. 2025</div>
       <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://sjenni.github.io/">Simon Jenni</a>; <a href="https://jshi31.github.io/jingshi/">Jing Shi</a></div>
     </div>
     <div class="exp-media">
@@ -92,7 +92,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Kyoto University, Kyoto</div>
-      <div class="exp-role">Research Student, Sep 2023 – Mar 2024</div>
+      <div class="exp-role">Research Student, Sep. 2023 – Mar. 2024</div>
       <div class="exp-supervisor">Supervisor: <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a></div>
     </div>
     <div class="exp-media">
@@ -102,8 +102,8 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Xidian University, Xi'an</div>
-      <div class="exp-role">Master Student, Sep. 2021 ~ Jun. 2024</div>
-      <div class="exp-role">Undergraduate Student, Sep. 2017 ~ Jun. 2021</div>
+      <div class="exp-role">Master Student, Sep. 2021 – Jun. 2024</div>
+      <div class="exp-role">Undergraduate Student, Sep. 2017 – Jun. 2021</div>
       <div class="exp-supervisor">Supervisor: <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a></div>
     </div>
     <div class="exp-media">
@@ -343,9 +343,9 @@ redirect_from:
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1em;
-  padding: 0.55em 0.75em;
-  margin-bottom: 0.5em;
+  gap: 0.7em;
+  padding: 0.3em 0.6em;
+  margin-bottom: 0.3em;
   background: #f6f8fc;
   border-left: 3px solid var(--global-link-color, #007bff);
   border-radius: 6px;
@@ -358,8 +358,8 @@ redirect_from:
 
 .exp-media {
   flex-shrink: 0;
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,17 +376,17 @@ redirect_from:
 .exp-org {
   font-weight: 600;
   color: var(--global-text-color, #222);
-  font-size: 0.95em;
+  font-size: 0.88em;
 }
 
 .exp-role {
-  margin-top: 0.15em;
+  margin-top: 0.05em;
   color: var(--global-text-color, #333);
-  font-size: 0.9em;
+  font-size: 0.82em;
 }
 
 .exp-supervisor {
-  margin-top: 0.1em;
+  margin-top: 0.05em;
   color: var(--global-text-color-light, #666);
   font-size: 0.85em;
 }
@@ -925,8 +925,7 @@ a.news-item--link.news-item--pinned:hover {
   font-weight: 700;
   font-size: 0.85em;
   color: #1f6feb;
-  min-width: 3em;
-  text-align: right;
+  text-align: left;
 }
 
 .honors-text {
@@ -960,7 +959,7 @@ a.news-item--link.news-item--pinned:hover {
   font-weight: 700;
   font-size: 0.85em;
   color: #1f6feb;
-  min-width: 10em;
+  text-align: left;
 }
 
 .service-detail {
