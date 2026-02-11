@@ -391,19 +391,16 @@ redirect_from:
   display: flex;
   align-items: center;
   padding: 0.4em 0.7em;
-  background: #fff;
-  border-bottom: 1px solid #f0f2f5;
+  margin: 0.3em 0.35em;
+  background: #f8f9fb;
+  border-radius: 8px;
   line-height: 1.4;
   gap: 0.5em;
 }
 
-.news-item:last-child {
-  border-bottom: none;
-}
-
 .news-item--pinned {
   background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
-  border-bottom: 1px solid #d8e2f0;
+  margin-bottom: 0.15em;
 }
 
 .news-scroll {
@@ -481,16 +478,21 @@ a.news-item--link.news-item--pinned:hover {
 
 .pub-filter__select {
   font-size: 0.78em;
-  padding: 0.25em 0.5em;
-  border: 1px solid #c9dafd;
-  border-radius: 6px;
-  background: #fff;
+  padding: 0.3em 0.6em;
+  border: 1px solid #d0d8e8;
+  border-radius: 8px;
+  background: #f8f9fb;
   color: var(--global-text-color, #333);
   cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.pub-filter__select:hover {
+  border-color: #a0b4d8;
 }
 .pub-filter__select:focus-visible {
-  outline: 2px solid var(--global-link-color, #007bff);
-  outline-offset: 2px;
+  outline: none;
+  border-color: var(--global-link-color, #007bff);
+  box-shadow: 0 0 0 3px rgba(31,111,235,0.15);
 }
 
 /* Publication Styles */
@@ -585,17 +587,18 @@ a.news-item--link.news-item--pinned:hover {
 
 .pub-badge {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 5px;
+  left: 5px;
   font-size: 0.7em;
-  padding: 0.12em 0.38em;
-  border-radius: 6px;
-  background: #eef4ff;
+  padding: 0.15em 0.45em;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #eef4ff 0%, #e4edff 100%);
   color: #1f5bd6;
   border: 1px solid #c9dafd;
   z-index: 2;
   pointer-events: none;
   font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
 
 .pub-tldr {
@@ -623,17 +626,20 @@ a.news-item--link.news-item--pinned:hover {
 
 .pub-link {
   font-size: 0.68em;
-  padding: 0.18em 0.45em;
+  padding: 0.25em 0.55em;
   background: #1f6feb;
   color: #fff !important;
   border: 1px solid #1f6feb;
-  border-radius: 999px;
+  border-radius: 8px;
   text-decoration: none;
-  transition: background 0.2s;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 1px 3px rgba(31,111,235,0.2);
 }
 
 .pub-link:hover {
   background: #0b5ed7;
+  box-shadow: 0 2px 6px rgba(31,111,235,0.3);
+  transform: translateY(-1px);
   text-decoration: none;
 }
 
