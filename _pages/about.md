@@ -387,17 +387,17 @@ redirect_from:
 .news-item {
   display: flex;
   align-items: center;
-  padding: 0.35em 0.65em;
-  margin-bottom: 0.25em;
+  padding: 0.18em 0.55em;
+  margin-bottom: 0.15em;
   background: linear-gradient(135deg, #f6f8fc 0%, #eef2f8 100%);
   border-left: 4px solid var(--global-link-color, #007bff);
   border-radius: 0 8px 8px 0;
-  line-height: 1.45;
-  gap: 0.5em;
+  line-height: 1.35;
+  gap: 0.45em;
 }
 
 .news-item--pinned {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.15em;
   border-left-color: #1f6feb;
   background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
 }
@@ -705,9 +705,9 @@ a.news-item--link.news-item--pinned:hover {
   }
 
   .news-item {
-    padding: 0.3em 0.5em;
-    margin-bottom: 0.2em;
-    gap: 0.4em;
+    padding: 0.15em 0.45em;
+    margin-bottom: 0.12em;
+    gap: 0.35em;
   }
 
   .news-date {
