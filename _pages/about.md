@@ -396,7 +396,7 @@ redirect_from:
 }
 
 .news-container {
-  margin: 0 0 1em;
+  margin: -0.2em 0 1em;
   max-height: 160px;
   overflow-y: auto;
   padding-right: 6px;
