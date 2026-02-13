@@ -326,10 +326,6 @@ redirect_from:
   font-size: 1em;
 }
 
-.intro-meta {
-  color: var(--global-text-color-light, #666);
-}
-
 .kw {
   font-weight: 600;
   color: var(--global-text-color, #222);
@@ -703,10 +699,6 @@ a.news-item--link.news-item--pinned:hover {
 
   .pub-thumb-preview {
     display: none !important;
-  }
-
-  .pub-meta-row {
-    justify-content: flex-start;
   }
 
   .exp-item {
