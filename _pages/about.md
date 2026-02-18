@@ -152,7 +152,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Authored a survey on Video-LLM hallucinations (taxonomy, benchmarks, mitigations) and maintain a curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a>.</div>
     <div class="pub-links">
-      <a href="{{ site.author.techrxiv_survey | default: '#' }}" class="pub-link" rel="noopener noreferrer">📄 Paper</a>
+      <a href="https://www.techrxiv.org/users/1027166/articles/1387324-distorted-or-fabricated-a-survey-on-hallucination-in-video-llms" class="pub-link" rel="noopener noreferrer">📄 Paper</a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="pub-link" rel="noopener noreferrer">📚 Repo</a>
     </div>
   </div>
