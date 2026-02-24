@@ -159,7 +159,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-mason" data-first-author="true" data-status="preprint" data-topic="layout">
-  <div class="pub-badge">Submitted to CVPR</div>
+  <div class="pub-badge">Submitted to ECCV</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_mason.png" alt="Thumbnail: MASON layout understanding paper" onerror="this.style.display='none'">
@@ -174,7 +174,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Submitted to CVPR</div>
+  <div class="pub-badge">Submitted to ECCV</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
