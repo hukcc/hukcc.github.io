@@ -13,6 +13,19 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#eeeeee"/>
+<script>
+(function() {
+  var meta = document.querySelector('meta[name="theme-color"]');
+  if (!meta) return;
+  function sync() {
+    meta.setAttribute('content', document.documentElement.getAttribute('data-theme') === 'dark' ? '#252a34' : '#eeeeee');
+  }
+  sync();
+  var obs = new MutationObserver(sync);
+  obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  document.addEventListener('DOMContentLoaded', sync);
+})();
+</script>
 
 <style>
   /* Visitor map at page bottom */

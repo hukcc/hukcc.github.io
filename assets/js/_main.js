@@ -37,8 +37,6 @@ let setTheme = (theme) => {
     $("html").removeAttr("data-theme");
     $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
   }
-  const metaTheme = document.querySelector('meta[name="theme-color"]');
-  if (metaTheme) metaTheme.setAttribute("content", use_theme === "dark" ? "#252a34" : "#eeeeee");
 };
 
 // Toggle the theme manually
