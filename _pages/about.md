@@ -975,41 +975,45 @@ a.news-item--link.news-item--pinned:hover {
   outline-offset: 2px;
 }
 
-/* ========== 深色模式：自定义组件颜色转换（深色表面，不用灰白） ========== */
+/* ========== 深色模式：自定义组件颜色转换（层级化深色配色） ========== */
 html[data-theme="dark"] {
-  --page-surface: #2d333d;   /* 比主背景 #252a34 略浅的卡片/ callout 表面 */
+  --page-surface-1: #2b313b;   /* 常规卡片背景 */
+  --page-surface-2: #323a45;   /* hover / pinned 提升层级 */
+  --page-border: #445163;      /* 边框颜色 */
+  --page-muted: #b7c2d1;       /* 次级文本 */
 }
 html[data-theme="dark"] .intro-callout {
-  background: var(--page-surface);
+  background: linear-gradient(135deg, var(--page-surface-1) 0%, #303845 100%);
   border-left-color: var(--global-link-color);
 }
 html[data-theme="dark"] .intro-callout__label {
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .intro-note {
-  background: var(--page-surface);
+  background: var(--page-surface-1);
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .exp-item {
-  background: var(--page-surface);
+  background: var(--page-surface-1);
   border-left-color: var(--global-link-color);
 }
 html[data-theme="dark"] .news-wrapper {
-  border-color: var(--global-dark-border-color);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  border-color: var(--page-border);
+  background: #272d38;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.28);
 }
 html[data-theme="dark"] .news-item {
-  background: var(--page-surface);
+  background: var(--page-surface-1);
 }
 html[data-theme="dark"] .news-item--pinned,
 html[data-theme="dark"] a.news-item--link.news-item--pinned:hover {
-  background: #323840;
+  background: var(--page-surface-2);
 }
 html[data-theme="dark"] .news-scroll {
-  scrollbar-color: var(--global-dark-border-color) transparent;
+  scrollbar-color: var(--page-border) transparent;
 }
 html[data-theme="dark"] .news-scroll::-webkit-scrollbar-thumb {
-  background: var(--global-dark-border-color);
+  background: var(--page-border);
 }
 html[data-theme="dark"] .news-date {
   background: var(--global-link-color);
@@ -1020,39 +1024,41 @@ html[data-theme="dark"] .news-item--pinned .news-date {
   color: var(--global-bg-color);
 }
 html[data-theme="dark"] a.news-item--link:hover {
-  background: #323840;
+  background: var(--page-surface-2);
 }
 html[data-theme="dark"] .pub-filter__select {
-  border-color: var(--global-dark-border-color);
-  background: var(--page-surface);
+  border-color: var(--page-border);
+  background: var(--page-surface-1);
   color: var(--global-text-color);
 }
 html[data-theme="dark"] .pub-filter__select:hover {
   border-color: var(--global-link-color);
+  background: var(--page-surface-2);
 }
 html[data-theme="dark"] .pub-filter__select:focus-visible {
   box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.25);
 }
 html[data-theme="dark"] .pub-item {
-  background: var(--page-surface);
-  border-color: var(--global-dark-border-color);
+  background: var(--page-surface-1);
+  border-color: var(--page-border);
 }
 html[data-theme="dark"] .pub-item:hover {
-  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+  background: var(--page-surface-2);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.34);
 }
 html[data-theme="dark"] .pub-thumb {
-  background: var(--global-bg-color);
-  border-color: var(--global-dark-border-color);
+  background: #242a34;
+  border-color: var(--page-border);
 }
 html[data-theme="dark"] .pub-badge {
-  background: var(--page-surface);
+  background: #26303b;
   color: var(--global-link-color);
-  border-color: var(--global-link-color);
+  border-color: #4f657d;
 }
 html[data-theme="dark"] .pub-tldr {
-  background: var(--global-bg-color);
+  background: #252c37;
   border-left-color: var(--global-link-color);
-  color: var(--global-text-color-light);
+  color: var(--page-muted);
 }
 html[data-theme="dark"] .pub-link {
   background: var(--global-link-color);
@@ -1065,24 +1071,30 @@ html[data-theme="dark"] .pub-link:hover {
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 html[data-theme="dark"] .honors-list {
-  background: var(--page-surface);
-  border-color: var(--global-dark-border-color);
+  background: var(--page-surface-1);
+  border-color: var(--page-border);
 }
 html[data-theme="dark"] .honors-item {
-  border-bottom-color: var(--global-dark-border-color);
+  border-bottom-color: #3d4958;
 }
 html[data-theme="dark"] .honors-year {
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .service-list {
-  background: var(--page-surface);
-  border-color: var(--global-dark-border-color);
+  background: var(--page-surface-1);
+  border-color: var(--page-border);
 }
 html[data-theme="dark"] .service-item {
-  border-bottom-color: var(--global-dark-border-color);
+  border-bottom-color: #3d4958;
 }
 html[data-theme="dark"] .service-role {
   color: var(--global-link-color);
+}
+html[data-theme="dark"] .exp-supervisor,
+html[data-theme="dark"] .pub-authors,
+html[data-theme="dark"] .service-detail,
+html[data-theme="dark"] .honors-text {
+  color: var(--page-muted);
 }
 
 </style>
