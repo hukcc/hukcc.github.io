@@ -975,20 +975,23 @@ a.news-item--link.news-item--pinned:hover {
   outline-offset: 2px;
 }
 
-/* ========== 深色模式：自定义组件颜色转换 ========== */
+/* ========== 深色模式：自定义组件颜色转换（深色表面，不用灰白） ========== */
+html[data-theme="dark"] {
+  --page-surface: #2d333d;   /* 比主背景 #252a34 略浅的卡片/ callout 表面 */
+}
 html[data-theme="dark"] .intro-callout {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   border-left-color: var(--global-link-color);
 }
 html[data-theme="dark"] .intro-callout__label {
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .intro-note {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .exp-item {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   border-left-color: var(--global-link-color);
 }
 html[data-theme="dark"] .news-wrapper {
@@ -996,11 +999,11 @@ html[data-theme="dark"] .news-wrapper {
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 html[data-theme="dark"] .news-item {
-  background: var(--global-bg-color);
+  background: var(--page-surface);
 }
 html[data-theme="dark"] .news-item--pinned,
 html[data-theme="dark"] a.news-item--link.news-item--pinned:hover {
-  background: var(--global-code-background-color);
+  background: #323840;
 }
 html[data-theme="dark"] .news-scroll {
   scrollbar-color: var(--global-dark-border-color) transparent;
@@ -1017,11 +1020,11 @@ html[data-theme="dark"] .news-item--pinned .news-date {
   color: var(--global-bg-color);
 }
 html[data-theme="dark"] a.news-item--link:hover {
-  background: var(--global-code-background-color);
+  background: #323840;
 }
 html[data-theme="dark"] .pub-filter__select {
   border-color: var(--global-dark-border-color);
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   color: var(--global-text-color);
 }
 html[data-theme="dark"] .pub-filter__select:hover {
@@ -1031,7 +1034,7 @@ html[data-theme="dark"] .pub-filter__select:focus-visible {
   box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.25);
 }
 html[data-theme="dark"] .pub-item {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   border-color: var(--global-dark-border-color);
 }
 html[data-theme="dark"] .pub-item:hover {
@@ -1042,7 +1045,7 @@ html[data-theme="dark"] .pub-thumb {
   border-color: var(--global-dark-border-color);
 }
 html[data-theme="dark"] .pub-badge {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   color: var(--global-link-color);
   border-color: var(--global-link-color);
 }
@@ -1062,7 +1065,7 @@ html[data-theme="dark"] .pub-link:hover {
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 html[data-theme="dark"] .honors-list {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   border-color: var(--global-dark-border-color);
 }
 html[data-theme="dark"] .honors-item {
@@ -1072,7 +1075,7 @@ html[data-theme="dark"] .honors-year {
   color: var(--global-link-color);
 }
 html[data-theme="dark"] .service-list {
-  background: var(--global-code-background-color);
+  background: var(--page-surface);
   border-color: var(--global-dark-border-color);
 }
 html[data-theme="dark"] .service-item {
