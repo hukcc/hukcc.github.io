@@ -16,8 +16,8 @@
 
 <!-- Force light mode only -->
 <script>
-  // Force light theme and remove dark mode preference
-  localStorage.removeItem('theme');
+  // Force light theme: set preference so _main.js uses light instead of system (browserPref)
+  localStorage.setItem('theme', 'light');
   document.documentElement.removeAttribute('data-theme');
 </script>
 <style>
