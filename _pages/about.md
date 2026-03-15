@@ -975,6 +975,113 @@ a.news-item--link.news-item--pinned:hover {
   outline-offset: 2px;
 }
 
+/* ========== 深色模式：自定义组件颜色转换 ========== */
+html[data-theme="dark"] .intro-callout {
+  background: var(--global-code-background-color);
+  border-left-color: var(--global-link-color);
+}
+html[data-theme="dark"] .intro-callout__label {
+  color: var(--global-link-color);
+}
+html[data-theme="dark"] .intro-note {
+  background: var(--global-code-background-color);
+  color: var(--global-link-color);
+}
+html[data-theme="dark"] .exp-item {
+  background: var(--global-code-background-color);
+  border-left-color: var(--global-link-color);
+}
+html[data-theme="dark"] .news-wrapper {
+  border-color: var(--global-dark-border-color);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+html[data-theme="dark"] .news-item {
+  background: var(--global-bg-color);
+}
+html[data-theme="dark"] .news-item--pinned,
+html[data-theme="dark"] a.news-item--link.news-item--pinned:hover {
+  background: var(--global-code-background-color);
+}
+html[data-theme="dark"] .news-scroll {
+  scrollbar-color: var(--global-dark-border-color) transparent;
+}
+html[data-theme="dark"] .news-scroll::-webkit-scrollbar-thumb {
+  background: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .news-date {
+  background: var(--global-link-color);
+  color: var(--global-bg-color);
+}
+html[data-theme="dark"] .news-item--pinned .news-date {
+  background: var(--global-link-color);
+  color: var(--global-bg-color);
+}
+html[data-theme="dark"] a.news-item--link:hover {
+  background: var(--global-code-background-color);
+}
+html[data-theme="dark"] .pub-filter__select {
+  border-color: var(--global-dark-border-color);
+  background: var(--global-code-background-color);
+  color: var(--global-text-color);
+}
+html[data-theme="dark"] .pub-filter__select:hover {
+  border-color: var(--global-link-color);
+}
+html[data-theme="dark"] .pub-filter__select:focus-visible {
+  box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.25);
+}
+html[data-theme="dark"] .pub-item {
+  background: var(--global-code-background-color);
+  border-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .pub-item:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+}
+html[data-theme="dark"] .pub-thumb {
+  background: var(--global-bg-color);
+  border-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .pub-badge {
+  background: var(--global-code-background-color);
+  color: var(--global-link-color);
+  border-color: var(--global-link-color);
+}
+html[data-theme="dark"] .pub-tldr {
+  background: var(--global-bg-color);
+  border-left-color: var(--global-link-color);
+  color: var(--global-text-color-light);
+}
+html[data-theme="dark"] .pub-link {
+  background: var(--global-link-color);
+  color: var(--global-bg-color) !important;
+  border-color: var(--global-link-color);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+html[data-theme="dark"] .pub-link:hover {
+  filter: brightness(1.15);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+html[data-theme="dark"] .honors-list {
+  background: var(--global-code-background-color);
+  border-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .honors-item {
+  border-bottom-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .honors-year {
+  color: var(--global-link-color);
+}
+html[data-theme="dark"] .service-list {
+  background: var(--global-code-background-color);
+  border-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .service-item {
+  border-bottom-color: var(--global-dark-border-color);
+}
+html[data-theme="dark"] .service-role {
+  color: var(--global-link-color);
+}
+
 </style>
 
 <script>

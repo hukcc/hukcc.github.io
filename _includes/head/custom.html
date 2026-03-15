@@ -12,18 +12,9 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" content="#eeeeee"/>
 
-<!-- Force light mode only -->
-<script>
-  // Force light theme: set preference so _main.js uses light instead of system (browserPref)
-  localStorage.setItem('theme', 'light');
-  document.documentElement.removeAttribute('data-theme');
-</script>
 <style>
-  /* Hide theme toggle button */
-  #theme-toggle { display: none !important; }
-
   /* Visitor map at page bottom */
   .visit-map--footer {
     margin-top: 0.8em;
