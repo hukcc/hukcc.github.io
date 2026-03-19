@@ -12,12 +12,12 @@ redirect_from:
   <p>
     I am a Ph.D. candidate in the
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
-    Department of ECE, <a href="https://www.northeastern.edu/"><strong>Northeastern University</strong></a>, under the supervision of
+    Department of ECE, <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
     (Member of the Academy of Europe, European Academy of Sciences and Arts; Fellow of ACM, IEEE, AAAI, AAAS, US National Academy of Inventors).
-    I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/"><strong>Xidian University</strong></a>,
+    I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I have interned at <a href="https://research.adobe.com/"><strong>Adobe Research</strong></a> and visited <a href="https://www.kyoto-u.ac.jp/en"><strong>Kyoto University</strong></a>.
+    I have interned at <a href="https://research.adobe.com/">Adobe Research</a> and visited <a href="https://www.kyoto-u.ac.jp/en">Kyoto University</a>.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
@@ -294,15 +294,15 @@ redirect_from:
   margin-top: 0.5em;
   margin-bottom: 0.6em;
   padding: 0.5em 0.75em;
-  background: linear-gradient(135deg, #eef4ff 0%, #f0f6ff 100%);
-  border-left: 4px solid #1f6feb;
+  background: linear-gradient(135deg, #e8f4fa 0%, #eef7fb 100%);
+  border-left: 4px solid #0077a8;
   border-radius: 0 6px 6px 0;
 }
 
 .intro-callout__label {
   font-weight: 600;
   font-size: 0.9em;
-  color: #1f6feb;
+  color: #0077a8;
   display: block;
   margin-bottom: 0.15em;
 }
@@ -317,8 +317,8 @@ redirect_from:
   display: inline-block;
   padding: 0.04em 0.22em;
   border-radius: 6px;
-  background: #eef4ff;
-  color: #1f6feb;
+  background: #e8f4fa;
+  color: #0077a8;
   border: none;
   margin-top: 3em;
   margin-bottom: 0;
@@ -412,7 +412,7 @@ redirect_from:
 }
 
 .news-item--pinned {
-  background: linear-gradient(135deg, #eef4ff 0%, #e8f0ff 100%);
+  background: linear-gradient(135deg, #e8f4fa 0%, #e2eff6 100%);
   margin-bottom: 0.15em;
 }
 
@@ -441,22 +441,22 @@ a.news-item--link {
   transition: background 0.15s;
 }
 a.news-item--link:hover {
-  background: #f0f4fa;
+  background: #e8f2f7;
 }
 a.news-item--link.news-item--pinned:hover {
-  background: linear-gradient(135deg, #e0e8ff 0%, #d8e4ff 100%);
+  background: linear-gradient(135deg, #ddedf4 0%, #d5e8f0 100%);
 }
 
 .news-item--pinned .news-date {
-  background: #1f6feb;
+  background: #0077a8;
   color: #fff;
 }
 
 .news-date {
   flex-shrink: 0;
   font-weight: 700;
-  color: #1f6feb;
-  background: #eef4ff;
+  color: #0077a8;
+  background: #e8f4fa;
   padding: 0.12em 0.45em;
   border-radius: 6px;
   letter-spacing: 0.2px;
@@ -505,7 +505,7 @@ a.news-item--link.news-item--pinned:hover {
 .pub-filter__select:focus-visible {
   outline: none;
   border-color: var(--global-link-color, #007bff);
-  box-shadow: 0 0 0 3px rgba(31,111,235,0.15);
+  box-shadow: 0 0 0 3px rgba(0,119,168,0.18);
 }
 
 /* Publication Styles */
@@ -605,9 +605,9 @@ a.news-item--link.news-item--pinned:hover {
   font-size: 0.7em;
   padding: 0.15em 0.45em;
   border-radius: 8px;
-  background: linear-gradient(135deg, #eef4ff 0%, #e4edff 100%);
-  color: #1f5bd6;
-  border: 1px solid #c9dafd;
+  background: linear-gradient(135deg, #e8f4fa 0%, #dff0f6 100%);
+  color: #006690;
+  border: 1px solid #b3d9e8;
   z-index: 2;
   pointer-events: none;
   font-weight: 600;
@@ -617,8 +617,8 @@ a.news-item--link.news-item--pinned:hover {
 .pub-tldr {
   margin-bottom: 0.2em;
   padding: 0.15em 0.4em;
-  background: #f2f6ff;
-  border-left: 3px solid #c9dafd;
+  background: #eef7fb;
+  border-left: 3px solid #b3d9e8;
   border-radius: 4px;
   color: var(--global-text-color-light, #666);
   font-size: 0.78em;
@@ -896,7 +896,7 @@ a.news-item--link.news-item--pinned:hover {
   flex-shrink: 0;
   font-weight: 700;
   font-size: 0.85em;
-  color: #1f6feb;
+  color: #0077a8;
   text-align: left;
 }
 
@@ -930,7 +930,7 @@ a.news-item--link.news-item--pinned:hover {
   flex-shrink: 0;
   font-weight: 700;
   font-size: 0.85em;
-  color: #1f6feb;
+  color: #0077a8;
   text-align: left;
 }
 
@@ -960,7 +960,7 @@ html[data-theme="dark"] {
   --page-surface-1: #2b313b;   /* 常规卡片背景 */
   --page-surface-2: #323a45;   /* hover / pinned 提升层级 */
   --page-border: #445163;      /* 边框颜色 */
-  --page-muted: #b7c2d1;       /* 次级文本 */
+  --page-muted: #c0cbda;       /* 次级文本 */
 }
 html[data-theme="dark"] .intro-callout {
   background: linear-gradient(135deg, var(--page-surface-1) 0%, #303845 100%);
