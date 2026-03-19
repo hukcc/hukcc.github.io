@@ -204,7 +204,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Identified encoder-side causes of hallucinations and developed SHIELD, a training-free token-editing module (re-weighting + adversarial decoding) for captioning and VQA.</div>
     <div class="pub-links">
-      <a href="https://hukcc.github.io/SHIELD/" class="pub-link">🌐 Project</a>
+      <a href="https://hukcc.github.io/SHIELD/" class="pub-link">🌐 Page</a>
       <a href="https://arxiv.org/abs/2510.16596" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/SHIELD" class="pub-link">💻 Code</a>
     </div>
@@ -224,7 +224,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed D-CoDe, a plug-and-play pipeline with dynamic compression and question decomposition for long-video QA under tight context.</div>
     <div class="pub-links">
-      <a href="https://hukcc.github.io/D-CoDe/" class="pub-link">🌐 Project</a>
+      <a href="https://hukcc.github.io/D-CoDe/" class="pub-link">🌐 Page</a>
       <a href="https://arxiv.org/abs/2510.08818" class="pub-link">📄 Paper</a>
       <a href="https://github.com/hukcc/D-CoDe" class="pub-link">💻 Code</a>
     </div>
