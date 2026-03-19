@@ -10,23 +10,21 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a second-year Ph.D. student in the College of Engineering at
-    <span class="kw">Northeastern University</span>, advised by
-    <a class="kw" href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a> in the
-    <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a>.
-  </p>
-  <p>
+    I am a second-year Ph.D. student in the
+    <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
+    Department of ECE, <span class="kw">Northeastern University</span>, under the supervision of
+    <a class="kw" href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
+    (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
     I received my B.S. and M.S. degrees from <span class="kw">Xidian University</span>,
     advised by <a class="kw" href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    During my master's studies, I visited <span class="kw">Kyoto University</span>,
-    working with <a class="kw" href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a>.
+    I have interned at <span class="kw">Adobe Research</span> and visited <span class="kw">Kyoto University</span>.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Actively seeking internship opportunities.
+    Actively seeking internship opportunities for Fall 2026 and Spring/Summer 2027. Feel free to reach out for research collaborations or any inquiries!
   </p>
 </div>
 
