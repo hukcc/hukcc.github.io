@@ -14,7 +14,7 @@ redirect_from:
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
     Department of ECE, <a href="https://www.northeastern.edu/"><strong>Northeastern University</strong></a>, under the supervision of
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
-    (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
+    (Member of the Academy of Europe, European Academy of Sciences and Arts; Fellow of ACM, IEEE, AAAI, AAAS, US National Academy of Inventors).
     I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/"><strong>Xidian University</strong></a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
     I have interned at <a href="https://research.adobe.com/"><strong>Adobe Research</strong></a> and visited <a href="https://www.kyoto-u.ac.jp/en"><strong>Kyoto University</strong></a>.
@@ -150,8 +150,8 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Authored a survey on Video-LLM hallucinations (taxonomy, benchmarks, mitigations) and maintain a curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a>.</div>
     <div class="pub-links">
-      <a href="https://www.techrxiv.org/users/1027166/articles/1387324-distorted-or-fabricated-a-survey-on-hallucination-in-video-llms" class="pub-link pub-link--paper" rel="noopener noreferrer"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>Paper</a>
-      <a href="https://github.com/hukcc/Awesome-Video-Hallucination" class="pub-link pub-link--github" rel="noopener noreferrer"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.64 7.64 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Repo</a>
+      <a href="https://www.techrxiv.org/users/1027166/articles/1387324-distorted-or-fabricated-a-survey-on-hallucination-in-video-llms" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-TechRxiv-red?style=flat-square&logo=arxiv" alt="Paper"></a>
+      <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Repo-GitHub-black?style=flat-square&logo=github" alt="GitHub Repo"></a>
     </div>
   </div>
 </div>
@@ -184,7 +184,7 @@ redirect_from:
     <div class="pub-authors">Mingyuan Zhang, Yue Bai, Yifan Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Applied MFT to VLMs: learnable gating reorganizes subnetworks without weight updates; outperforms LoRA and full fine-tuning.</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2512.23073" class="pub-link pub-link--arxiv" rel="noopener noreferrer"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>arXiv</a>
+      <a href="https://arxiv.org/abs/2512.23073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2512.23073-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
     </div>
   </div>
 </div>
@@ -202,9 +202,9 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Identified encoder-side causes of hallucinations and developed SHIELD, a training-free token-editing module (re-weighting + adversarial decoding) for captioning and VQA.</div>
     <div class="pub-links">
-      <a href="https://hukcc.github.io/SHIELD/" class="pub-link pub-link--page"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.92V8.5h5.26A6.5 6.5 0 0 0 7.5 1.08zM8.5 1.08A6.5 6.5 0 0 1 13.76 7.5H8.5V1.08zM7.5 9.5H2.24A6.5 6.5 0 0 0 7.5 14.92V9.5zM8.5 9.5v5.42A6.5 6.5 0 0 0 13.76 9.5H8.5z"/></svg>Page</a>
-      <a href="https://arxiv.org/abs/2510.16596" class="pub-link pub-link--arxiv"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>arXiv</a>
-      <a href="https://github.com/hukcc/SHIELD" class="pub-link pub-link--github"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.64 7.64 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+      <a href="https://hukcc.github.io/SHIELD/"><img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square&logo=google-chrome" alt="Project Website"></a>
+      <a href="https://arxiv.org/abs/2510.16596"><img src="https://img.shields.io/badge/ArXiv-2510.16596-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
+      <a href="https://github.com/hukcc/SHIELD"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
     </div>
   </div>
 </div>
@@ -222,9 +222,9 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed D-CoDe, a plug-and-play pipeline with dynamic compression and question decomposition for long-video QA under tight context.</div>
     <div class="pub-links">
-      <a href="https://hukcc.github.io/D-CoDe/" class="pub-link pub-link--page"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.92V8.5h5.26A6.5 6.5 0 0 0 7.5 1.08zM8.5 1.08A6.5 6.5 0 0 1 13.76 7.5H8.5V1.08zM7.5 9.5H2.24A6.5 6.5 0 0 0 7.5 14.92V9.5zM8.5 9.5v5.42A6.5 6.5 0 0 0 13.76 9.5H8.5z"/></svg>Page</a>
-      <a href="https://arxiv.org/abs/2510.08818" class="pub-link pub-link--arxiv"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>arXiv</a>
-      <a href="https://github.com/hukcc/D-CoDe" class="pub-link pub-link--github"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.64 7.64 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+      <a href="https://hukcc.github.io/D-CoDe/"><img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square&logo=google-chrome" alt="Project Website"></a>
+      <a href="https://arxiv.org/abs/2510.08818"><img src="https://img.shields.io/badge/ArXiv-2510.08818-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
+      <a href="https://github.com/hukcc/D-CoDe"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
     </div>
   </div>
 </div>
@@ -242,7 +242,7 @@ redirect_from:
     <div class="pub-authors">Shuai Zou, Xuefeng Liang, <strong>Yiyang Huang</strong></div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed dynamic LoRA for meta lip shapes and multilingual instruction tuning to improve cross-lingual lipreading in low-resource settings.</div>
     <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10889645" class="pub-link pub-link--paper"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>Paper</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10889645"><img src="https://img.shields.io/badge/Paper-IEEE-blue?style=flat-square&logo=ieee" alt="Paper"></a>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposed CALLip, leveraging attribute learning to normalize cross-speaker variation and audio-visual contrastive learning to mitigate viseme confusion.</div>
     <div class="pub-links">
-      <a href="https://dl.acm.org/doi/10.1145/3474085.3475420" class="pub-link pub-link--paper"><svg class="pub-link__icon" viewBox="0 0 16 16"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0H4zm5.5 0v3a1.5 1.5 0 0 0 1.5 1.5h3"/></svg>Paper</a>
+      <a href="https://dl.acm.org/doi/10.1145/3474085.3475420"><img src="https://img.shields.io/badge/Paper-ACM-blue?style=flat-square&logo=acm" alt="Paper"></a>
     </div>
   </div>
 </div>
@@ -637,51 +637,19 @@ a.news-item--link.news-item--pinned:hover {
   margin-top: 0;
 }
 
-.pub-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.68em;
-  padding: 0.3em 0.6em;
-  background: #0f172a;
-  color: #e5e7eb !important;
-  border: 1px solid #1e293b;
-  border-radius: 8px;
+.pub-links a {
   text-decoration: none;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  font-weight: 500;
 }
 
-.pub-link:hover {
-  background: #1e293b;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+.pub-links img {
+  height: 20px;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.pub-links a:hover img {
+  opacity: 0.85;
   transform: translateY(-1px);
-  text-decoration: none;
 }
-
-.pub-link__icon {
-  width: 14px;
-  height: 14px;
-  fill: #93c5fd;
-  flex-shrink: 0;
-}
-
-.pub-link--arxiv { border-color: #b91c1c; }
-.pub-link--arxiv .pub-link__icon { fill: #fca5a5; }
-.pub-link--arxiv:hover { background: #1a0505; }
-
-.pub-link--paper { border-color: #1e40af; }
-.pub-link--paper .pub-link__icon { fill: #93c5fd; }
-.pub-link--paper:hover { background: #0c1a3a; }
-
-.pub-link--github { border-color: #374151; }
-.pub-link--github .pub-link__icon { fill: #d1d5db; }
-.pub-link--github:hover { background: #111827; }
-
-.pub-link--page { border-color: #1d4ed8; }
-.pub-link--page .pub-link__icon { fill: #60a5fa; }
-.pub-link--page:hover { background: #0c1a3a; }
 
 .intro-block a,
 .news-wrapper a,
@@ -862,15 +830,8 @@ a.news-item--link.news-item--pinned:hover {
     gap: 0.4em;
   }
 
-  .pub-link {
-    font-size: 0.7em;
-    padding: 0.35em 0.6em;
-    min-height: 2.5em;
-    min-width: 2.8em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-tap-highlight-color: transparent;
+  .pub-links img {
+    height: 18px;
   }
 }
 
@@ -893,9 +854,6 @@ a.news-item--link.news-item--pinned:hover {
     font-size: 0.84em;
   }
 
-  .pub-link {
-    padding: 0.4em 0.65em;
-  }
 
   /* 筛选器保持同一行，缩小间距与字号以适配小屏 */
   .pub-filter {
@@ -991,7 +949,7 @@ a.news-item--link.news-item--pinned:hover {
 }
 
 /* 可访问性：键盘焦点样式 */
-.pub-link:focus-visible,
+.pub-links a:focus-visible,
 .exp-item a:focus-visible {
   outline: 2px solid var(--global-link-color, #007bff);
   outline-offset: 2px;
@@ -1081,16 +1039,6 @@ html[data-theme="dark"] .pub-tldr {
   background: #252c37;
   border-left-color: var(--global-link-color);
   color: var(--page-muted);
-}
-html[data-theme="dark"] .pub-link {
-  background: #0f172a;
-  color: #e5e7eb !important;
-  border-color: #1e293b;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-}
-html[data-theme="dark"] .pub-link:hover {
-  background: #1e293b;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 html[data-theme="dark"] .honors-list {
   background: var(--page-surface-1);
