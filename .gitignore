@@ -18,3 +18,18 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+.cursor/
+.cursorignore
+.cursorindexingignore
+.cursorrules
+
+# Ignore Claude Code files
+CLAUDE.md
+.claude/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
