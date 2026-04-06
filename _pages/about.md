@@ -145,6 +145,39 @@ redirect_from:
   </select>
 </div>
 
+<div class="pub-item" id="pub-mason" data-first-author="true" data-status="preprint" data-topic="layout">
+  <div class="pub-badge">Submitted to ECCV</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="Thumbnail: MASON layout understanding paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Submitted to ECCV</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_mft_vlm.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Rethinking Fine-Tuning: Unlocking Hidden Capabilities in Vision-Language Models</div>
+    <div class="pub-authors">Mingyuan Zhang, Yue Bai, Yifan Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Applied MFT to VLMs: learnable gating reorganizes subnetworks without weight updates; outperforms LoRA and full fine-tuning.</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2512.23073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2512.23073-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
+    </div>
+  </div>
+</div>
+
 <div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="published" data-topic="hallucination video">
   <div class="pub-badge">ACL 2026</div>
   <div class="pub-thumb">
@@ -176,42 +209,6 @@ redirect_from:
     <div class="pub-title">Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
     <div class="pub-authors">Liang Shi, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Trained a CLIP-style contrastive model with identity and expression modalities to guide text-to-image generation toward more authentic, individual-specific expressions.</div>
-    <div class="pub-links">
-      <a href="https://shiliang26.github.io/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Liang%20Shi-blue?style=flat-square&logo=google-chrome" alt="Project page"></a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-item" id="pub-mason" data-first-author="true" data-status="preprint" data-topic="layout">
-  <div class="pub-badge">Submitted to ECCV</div>
-  <div class="pub-thumb">
-    <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="Thumbnail: MASON layout understanding paper" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true" role="presentation">
-    </span>
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
-    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
-  </div>
-</div>
-
-<div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Submitted to ECCV</div>
-  <div class="pub-thumb">
-    <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_mft_vlm.png" alt="" aria-hidden="true" role="presentation">
-    </span>
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">Rethinking Fine-Tuning: Unlocking Hidden Capabilities in Vision-Language Models</div>
-    <div class="pub-authors">Mingyuan Zhang, Yue Bai, Yifan Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Applied MFT to VLMs: learnable gating reorganizes subnetworks without weight updates; outperforms LoRA and full fine-tuning.</div>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2512.23073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2512.23073-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
-    </div>
   </div>
 </div>
 
