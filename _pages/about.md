@@ -39,6 +39,14 @@ redirect_from:
     <span class="news-text">Paper list of Video LLM hallucination. Welcome to Star and Contribute!</span>
   </a>
   <div class="news-scroll">
+    <a href="#pub-videollm-hallucination" class="news-item news-item--link">
+      <span class="news-date">Apr. 2026</span>
+      <span class="news-text">Survey <em>Distorted or Fabricated?</em> on Video-LLM hallucination accepted by <span class="news-venue">ACL 2026</span></span>
+    </a>
+    <a href="#pub-idea" class="news-item news-item--link">
+      <span class="news-date">Apr. 2026</span>
+      <span class="news-text">Co-authored <em>Capturing Individual Differences of Facial Expression…</em> accepted by <span class="news-venue">IEEE FG 2026</span></span>
+    </a>
     <a href="#pub-shield" class="news-item news-item--link">
       <span class="news-date">Jan. 2026</span>
       <span class="news-text">One paper <em>SHIELD</em> accepted by <span class="news-venue">ICLR 2026</span></span>
@@ -137,8 +145,8 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="preprint" data-topic="hallucination video">
-  <div class="pub-badge">Submitted to ARR</div>
+<div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="published" data-topic="hallucination video">
+  <div class="pub-badge">ACL 2026</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="Thumbnail: Video LLM Hallucination Survey paper" onerror="this.style.display='none'">
@@ -152,6 +160,24 @@ redirect_from:
     <div class="pub-links">
       <a href="https://www.techrxiv.org/users/1027166/articles/1387324-distorted-or-fabricated-a-survey-on-hallucination-in-video-llms" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-TechRxiv-red?style=flat-square&logo=arxiv" alt="Paper"></a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Repo-GitHub-black?style=flat-square&logo=github" alt="GitHub Repo"></a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-idea" data-first-author="false" data-status="published" data-topic="other">
+  <div class="pub-badge">IEEE FG 2026</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_idea.png" alt="Thumbnail: IDEA facial expression generation paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_idea.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
+    <div class="pub-authors">Liang Shi, <strong>Yiyang Huang</strong>, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Trained a CLIP-style contrastive model with identity and expression modalities to guide text-to-image generation toward more authentic, individual-specific expressions.</div>
+    <div class="pub-links">
+      <a href="https://shiliang26.github.io/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Liang%20Shi-blue?style=flat-square&logo=google-chrome" alt="Project page"></a>
     </div>
   </div>
 </div>
