@@ -45,7 +45,7 @@ redirect_from:
     </a>
     <a href="#pub-idea" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">Co-authored <em>Capturing Individual Differences of Facial Expression…</em> accepted by <span class="news-venue">IEEE FG 2026</span></span>
+      <span class="news-text">Co-authored <em>IDEA</em> accepted by <span class="news-venue">IEEE FG 2026</span></span>
     </a>
     <a href="#pub-shield" class="news-item news-item--link">
       <span class="news-date">Jan. 2026</span>
@@ -206,7 +206,7 @@ redirect_from:
     </span>
   </div>
   <div class="pub-content">
-    <div class="pub-title">Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
+    <div class="pub-title">IDEA: Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
     <div class="pub-authors">Liang Shi, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Trained a CLIP-style contrastive model with identity and expression modalities to guide text-to-image generation toward more authentic, individual-specific expressions.</div>
   </div>
