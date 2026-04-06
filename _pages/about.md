@@ -41,7 +41,7 @@ redirect_from:
   <div class="news-scroll">
     <a href="#pub-videollm-hallucination" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">One Video-LLM Hallucination survey paper <em>Distorted or Fabricated?</em> accepted by <span class="news-venue">ACL 2026</span></span>
+      <span class="news-text">One Video-LLM Hallucination survey paper accepted by <span class="news-venue">ACL 2026</span></span>
     </a>
     <a href="#pub-idea" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
