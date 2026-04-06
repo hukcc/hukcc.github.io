@@ -41,11 +41,11 @@ redirect_from:
   <div class="news-scroll">
     <a href="#pub-videollm-hallucination" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">Survey <em>Distorted or Fabricated?</em> on Video-LLM hallucination accepted by <span class="news-venue">ACL 2026</span></span>
+      <span class="news-text">One Video-LLM Hallucination survey paper <em>Distorted or Fabricated?</em> accepted by <span class="news-venue">ACL 2026</span></span>
     </a>
     <a href="#pub-idea" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">Co-authored <em>IDEA</em> accepted by <span class="news-venue">IEEE FG 2026</span></span>
+      <span class="news-text">One co-authored paper <em>IDEA</em> accepted by <span class="news-venue">IEEE FG 2026</span></span>
     </a>
     <a href="#pub-shield" class="news-item news-item--link">
       <span class="news-date">Jan. 2026</span>
