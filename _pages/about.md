@@ -190,9 +190,6 @@ redirect_from:
     <div class="pub-title">StreamVLM: Adapting Offline Vision-Language Models for Streaming Understanding</div>
     <div class="pub-authors"><a href="https://openreview.net/profile?id=~Hailing_Wang5" rel="noopener noreferrer">Hailing Wang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Xu_Ma2" rel="noopener noreferrer">Xu Ma</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Adapts offline VLMs to streaming video understanding with event-based KV-cache memory construction and KNN-based retrieval.</div>
-    <div class="pub-links">
-      <a href="/files/streamvlm.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
-    </div>
   </div>
 </div>
 
@@ -208,9 +205,6 @@ redirect_from:
     <div class="pub-title">From LLM-Based World Knowledge to Physical AI: A Survey and Roadmap</div>
     <div class="pub-authors"><a href="https://openreview.net/profile?id=~Haichao_Zhang7" rel="noopener noreferrer">Haichao Zhang</a>, <a href="https://openreview.net/profile?id=~Mingfei_Chen2" rel="noopener noreferrer">Mingfei Chen</a>, <a href="https://openreview.net/profile?id=~Shwai_He1" rel="noopener noreferrer">Shwai He</a>, <a href="https://openreview.net/profile?id=~Zhengtong_Xu1" rel="noopener noreferrer">Zhengtong Xu</a>, <a href="https://openreview.net/profile?id=~Yifan_Shen5" rel="noopener noreferrer">Yifan Shen</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yijiang_Li1" rel="noopener noreferrer">Yijiang Li</a>, <a href="https://openreview.net/profile?id=~Yu_She1" rel="noopener noreferrer">Yu She</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Surveys Physical AI through LLM-based world knowledge, connecting multimodal grounding, action grounding, world modeling, policy learning, and embodied deployment.</div>
-    <div class="pub-links">
-      <a href="/files/llm-world-knowledge-physical-ai.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
-    </div>
   </div>
 </div>
 
@@ -226,9 +220,6 @@ redirect_from:
     <div class="pub-title">Selective Reduction in Foundation Models: A Survey</div>
     <div class="pub-authors"><a href="https://openreview.net/profile?id=~Mingyuan_Zhang4" rel="noopener noreferrer">Mingyuan Zhang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yitian_Zhang1" rel="noopener noreferrer">Yitian Zhang</a>, <a href="https://openreview.net/profile?id=~Yizhou_Wang3" rel="noopener noreferrer">Yizhou Wang</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Unifies input-side, model-internal, and inference-time selection methods as a performance-oriented principle for foundation models.</div>
-    <div class="pub-links">
-      <a href="/files/selective-reduction-foundation-models.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
-    </div>
   </div>
 </div>
 
