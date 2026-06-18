@@ -163,21 +163,6 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item" id="pub-mason" data-first-author="true" data-status="published" data-topic="layout">
-  <div class="pub-badge">ECCV 2026</div>
-  <div class="pub-thumb">
-    <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/beyondatomiclayout.png" alt="Thumbnail: Beyond Atomic Layouts paper" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/beyondatomiclayout.png" alt="" aria-hidden="true" role="presentation">
-    </span>
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models</div>
-    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
-  </div>
-</div>
-
 <div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
   <div class="pub-badge">Preprint</div>
   <div class="pub-thumb">
@@ -238,6 +223,21 @@ redirect_from:
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2512.23073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2512.23073-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
     </div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-mason" data-first-author="true" data-status="published" data-topic="layout">
+  <div class="pub-badge">ECCV 2026</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/beyondatomiclayout.png" alt="Thumbnail: Beyond Atomic Layouts paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/beyondatomiclayout.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
   </div>
 </div>
 
@@ -1267,27 +1267,5 @@ html[data-theme="dark"] .honors-text {
   <div class="service-item">
     <span class="service-role">WeChat</span>
     <span class="service-detail">hukcc369</span>
-  </div>
-</div>
-
----
-# Visitor Map
-
-<div class="visit-map visit-map--footer" aria-label="Visitor map">
-  <div class="visit-map__widget">
-    <script
-      type="text/javascript"
-      id="clustrmaps"
-      src="https://clustrmaps.com/map_v2.js?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=a&t=n"
-    ></script>
-    <noscript>
-      <a href="https://clustrmaps.com/site/1c94f" title="ClustrMaps" rel="nofollow noopener">
-        <img
-          src="https://clustrmaps.com/map_v2.png?d=MaMamu8PtDHuTFu97IS3PgGn8wtZ7iIpHvv4NF9MTN8&cl=ffffff&w=1200&t=n"
-          alt="Visitor Map"
-          loading="lazy"
-        />
-      </a>
-    </noscript>
   </div>
 </div>
