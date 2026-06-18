@@ -39,6 +39,14 @@ redirect_from:
     <span class="news-text">Paper list of Video LLM hallucination. Welcome to Star and Contribute!</span>
   </a>
   <div class="news-scroll">
+    <a href="#pub-mason" class="news-item news-item--link">
+      <span class="news-date">Jun. 2026</span>
+      <span class="news-text">One paper accepted by <span class="news-venue">ECCV 2026</span> (Adobe internship project). Thanks to my mentors!</span>
+    </a>
+    <a href="#experience" class="news-item news-item--link">
+      <span class="news-date">May 2026</span>
+      <span class="news-text">Started my internship at <span class="news-venue">Adobe Research</span>, excited to work with Zhaowen again.</span>
+    </a>
     <a href="#pub-videollm-hallucination" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
       <span class="news-text">One Video-LLM Hallucination survey paper accepted by <span class="news-venue">ACL 2026</span></span>
@@ -83,6 +91,16 @@ redirect_from:
     </div>
     <div class="exp-media">
       <img src="/images/neu.png" alt="Northeastern University">
+    </div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-text">
+      <div class="exp-org">Adobe Research, San Jose</div>
+      <div class="exp-role">Research Intern (Return), May 2026 – Present</div>
+      <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
+    </div>
+    <div class="exp-media">
+      <img src="/images/Adobe.png" alt="Adobe Research">
     </div>
   </div>
   <div class="exp-item">
@@ -145,23 +163,77 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item" id="pub-mason" data-first-author="true" data-status="preprint" data-topic="layout">
-  <div class="pub-badge">Submitted to ECCV</div>
+<div class="pub-item" id="pub-mason" data-first-author="true" data-status="published" data-topic="layout">
+  <div class="pub-badge">ECCV 2026</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_mason.png" alt="Thumbnail: MASON layout understanding paper" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_mason.png" alt="" aria-hidden="true" role="presentation">
+      <img class="pub-thumb-img" src="/images/beyondatomiclayout.png" alt="Thumbnail: Beyond Atomic Layouts paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/beyondatomiclayout.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
   <div class="pub-content">
-    <div class="pub-title">MASON: Compositional Design Layout Understanding in VLMs through Multimodal Alignment and Structural Perception</div>
-    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yun Fu</div>
+    <div class="pub-title">Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
   </div>
 </div>
 
+<div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
+  <div class="pub-badge">Preprint</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_streamvlm.png" alt="Thumbnail: StreamVLM paper" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_streamvlm.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">StreamVLM: Adapting Offline Vision-Language Models for Streaming Understanding</div>
+    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Hailing_Wang5" rel="noopener noreferrer">Hailing Wang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Xu_Ma2" rel="noopener noreferrer">Xu Ma</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Adapts offline VLMs to streaming video understanding with event-based KV-cache memory construction and KNN-based retrieval.</div>
+    <div class="pub-links">
+      <a href="/files/streamvlm.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-worldknowledge-physical-ai" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Preprint</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_worldknowledge.png" alt="Thumbnail: LLM-based world knowledge to Physical AI survey" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_worldknowledge.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">From LLM-Based World Knowledge to Physical AI: A Survey and Roadmap</div>
+    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Haichao_Zhang7" rel="noopener noreferrer">Haichao Zhang</a>, <a href="https://openreview.net/profile?id=~Mingfei_Chen2" rel="noopener noreferrer">Mingfei Chen</a>, <a href="https://openreview.net/profile?id=~Shwai_He1" rel="noopener noreferrer">Shwai He</a>, <a href="https://openreview.net/profile?id=~Zhengtong_Xu1" rel="noopener noreferrer">Zhengtong Xu</a>, <a href="https://openreview.net/profile?id=~Yifan_Shen5" rel="noopener noreferrer">Yifan Shen</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yijiang_Li1" rel="noopener noreferrer">Yijiang Li</a>, <a href="https://openreview.net/profile?id=~Yu_She1" rel="noopener noreferrer">Yu She</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Surveys Physical AI through LLM-based world knowledge, connecting multimodal grounding, action grounding, world modeling, policy learning, and embodied deployment.</div>
+    <div class="pub-links">
+      <a href="/files/llm-world-knowledge-physical-ai.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-selective-reduction" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Preprint</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_selective_reduction.png" alt="Thumbnail: Selective Reduction survey" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_selective_reduction.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Selective Reduction in Foundation Models: A Survey</div>
+    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Mingyuan_Zhang4" rel="noopener noreferrer">Mingyuan Zhang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yitian_Zhang1" rel="noopener noreferrer">Yitian Zhang</a>, <a href="https://openreview.net/profile?id=~Yizhou_Wang3" rel="noopener noreferrer">Yizhou Wang</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Unifies input-side, model-internal, and inference-time selection methods as a performance-oriented principle for foundation models.</div>
+    <div class="pub-links">
+      <a href="/files/selective-reduction-foundation-models.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobeacrobatreader" alt="Paper PDF"></a>
+    </div>
+  </div>
+</div>
+
 <div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Submitted to ECCV</div>
+  <div class="pub-badge">Preprint</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
@@ -209,6 +281,10 @@ redirect_from:
     <div class="pub-title">IDEA: Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
     <div class="pub-authors">Liang Shi, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Trained a CLIP-style contrastive model with identity and expression modalities to guide text-to-image generation toward more authentic, individual-specific expressions.</div>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/document/11557073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-IEEE-blue?style=flat-square&logo=ieee" alt="Paper"></a>
+      <a href="https://github.com/shiliang26/ID-Expression-Alignment" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
+    </div>
   </div>
 </div>
 
@@ -1138,7 +1214,7 @@ html[data-theme="dark"] .honors-text {
 <div class="service-list">
   <div class="service-item">
     <span class="service-role">Conference Reviewer</span>
-    <span class="service-detail">FG, ARR</span>
+    <span class="service-detail">NeurIPS, FG, ARR</span>
   </div>
   <div class="service-item">
     <span class="service-role">Journal Reviewer</span>
