@@ -24,7 +24,7 @@ redirect_from:
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Actively seeking internship opportunities for Fall 2026 and Spring/Summer 2027. Feel free to reach out for research collaborations or any inquiries!
+    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out for collaborations or any inquiries!
   </p>
 </div>
 
@@ -164,7 +164,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
-  <div class="pub-badge">Preprint</div>
+  <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_streamvlm.png" alt="Thumbnail: StreamVLM paper" onerror="this.style.display='none'">
@@ -173,13 +173,13 @@ redirect_from:
   </div>
   <div class="pub-content">
     <div class="pub-title">StreamVLM: Adapting Offline Vision-Language Models for Streaming Understanding</div>
-    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Hailing_Wang5" rel="noopener noreferrer">Hailing Wang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Xu_Ma2" rel="noopener noreferrer">Xu Ma</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-authors">Hailing Wang, Jianglin Lu, Xu Ma, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Adapts offline VLMs to streaming video understanding with event-based KV-cache memory construction and KNN-based retrieval.</div>
   </div>
 </div>
 
 <div class="pub-item" id="pub-worldknowledge-physical-ai" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Preprint</div>
+  <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_worldknowledge.png" alt="Thumbnail: LLM-based world knowledge to Physical AI survey" onerror="this.style.display='none'">
@@ -188,13 +188,13 @@ redirect_from:
   </div>
   <div class="pub-content">
     <div class="pub-title">From LLM-Based World Knowledge to Physical AI: A Survey and Roadmap</div>
-    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Haichao_Zhang7" rel="noopener noreferrer">Haichao Zhang</a>, <a href="https://openreview.net/profile?id=~Mingfei_Chen2" rel="noopener noreferrer">Mingfei Chen</a>, <a href="https://openreview.net/profile?id=~Shwai_He1" rel="noopener noreferrer">Shwai He</a>, <a href="https://openreview.net/profile?id=~Zhengtong_Xu1" rel="noopener noreferrer">Zhengtong Xu</a>, <a href="https://openreview.net/profile?id=~Yifan_Shen5" rel="noopener noreferrer">Yifan Shen</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yijiang_Li1" rel="noopener noreferrer">Yijiang Li</a>, <a href="https://openreview.net/profile?id=~Yu_She1" rel="noopener noreferrer">Yu She</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-authors">Haichao Zhang, Mingfei Chen, Shwai He, Zhengtong Xu, Yifan Shen, <strong>Yiyang Huang</strong>, Jianglin Lu, Yijiang Li, Yu She, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Surveys Physical AI through LLM-based world knowledge, connecting multimodal grounding, action grounding, world modeling, policy learning, and embodied deployment.</div>
   </div>
 </div>
 
 <div class="pub-item" id="pub-selective-reduction" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Preprint</div>
+  <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_selective_reduction.png" alt="Thumbnail: Selective Reduction survey" onerror="this.style.display='none'">
@@ -203,13 +203,13 @@ redirect_from:
   </div>
   <div class="pub-content">
     <div class="pub-title">Selective Reduction in Foundation Models: A Survey</div>
-    <div class="pub-authors"><a href="https://openreview.net/profile?id=~Mingyuan_Zhang4" rel="noopener noreferrer">Mingyuan Zhang</a>, <a href="https://openreview.net/profile?id=~Jianglin_Lu2" rel="noopener noreferrer">Jianglin Lu</a>, <a href="https://openreview.net/profile?id=~Yiyang_Huang6" rel="noopener noreferrer"><strong>Yiyang Huang</strong></a>, <a href="https://openreview.net/profile?id=~Yitian_Zhang1" rel="noopener noreferrer">Yitian Zhang</a>, <a href="https://openreview.net/profile?id=~Yizhou_Wang3" rel="noopener noreferrer">Yizhou Wang</a>, <a href="https://openreview.net/profile?id=~Yun_Fu1" rel="noopener noreferrer">Yun Fu</a></div>
+    <div class="pub-authors">Mingyuan Zhang, Jianglin Lu, <strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Unifies input-side, model-internal, and inference-time selection methods as a performance-oriented principle for foundation models.</div>
   </div>
 </div>
 
 <div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Preprint</div>
+  <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
