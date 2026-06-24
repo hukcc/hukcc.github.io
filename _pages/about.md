@@ -24,7 +24,7 @@ redirect_from:
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a href="mailto:huang.yiyan@northeastern.edu">reach out</a> for collaborations or any inquiries!
+    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a class="intro-note__link" href="#contact">reach out</a> for collaborations or any inquiries!
   </p>
 </div>
 
@@ -116,7 +116,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Kyoto University, Kyoto</div>
-      <div class="exp-role">Research Student, Sep. 2023 – Mar. 2024</div>
+      <div class="exp-role">Visiting Student, Sep. 2023 – Mar. 2024</div>
       <div class="exp-supervisor">Supervisor: <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/en.a61c204316cdb5fc.html#display-items_basic-information">Prof. Takatsune Kumada</a></div>
     </div>
     <div class="exp-media">
@@ -414,6 +414,21 @@ redirect_from:
   margin-bottom: 0;
   font-weight: 400;
   font-size: 1em;
+}
+
+.intro-note__link {
+  color: #b85f00;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.intro-note__link:hover {
+  color: #8f4800;
+  text-decoration: underline;
+}
+
+#contact {
+  scroll-margin-top: 5rem;
 }
 
 .exp-list {
@@ -1062,6 +1077,12 @@ html[data-theme="dark"] .intro-callout__label {
 html[data-theme="dark"] .intro-note {
   background: var(--page-surface-1);
   color: var(--global-link-color);
+}
+html[data-theme="dark"] .intro-note__link {
+  color: #ffb86c;
+}
+html[data-theme="dark"] .intro-note__link:hover {
+  color: #ffd2a3;
 }
 html[data-theme="dark"] .exp-item {
   background: var(--page-surface-1);
