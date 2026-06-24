@@ -14,7 +14,7 @@ redirect_from:
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
     Department of ECE, <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
-    (Member of the Academy of Europe, European Academy of Sciences and Arts; Fellow of ACM, IEEE, AAAI, AAAS, US National Academy of Inventors).
+    (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
     I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
     I have interned at <a href="https://research.adobe.com/">Adobe Research</a> and visited <a href="https://www.kyoto-u.ac.jp/en">Kyoto University</a>.
@@ -24,7 +24,7 @@ redirect_from:
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out for collaborations or any inquiries!
+    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out for collaborations or any inquiries! Email: huang.yiyan@northeastern.edu; WeChat: hukcc369.
   </p>
 </div>
 
