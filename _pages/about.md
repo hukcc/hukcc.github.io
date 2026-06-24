@@ -17,14 +17,14 @@ redirect_from:
     (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
     I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I have interned at <a href="https://research.adobe.com/">Adobe Research</a> and visited <a href="https://www.kyoto-u.ac.jp/en">Kyoto University</a>.
+    I have interned at <a href="https://research.adobe.com/">Adobe Research</a>.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Open to exciting research collaborations (Email: huang.yiyan@northeastern.edu, WeChat: hukcc369) and actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out!
+    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a href="mailto:huang.yiyan@northeastern.edu">reach out</a> for collaborations or any inquiries!
   </p>
 </div>
 
