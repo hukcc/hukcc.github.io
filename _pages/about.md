@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a second-year Ph.D. student in the
+    I am a Ph.D. student in the
     <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
     Department of ECE, <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
@@ -24,7 +24,7 @@ redirect_from:
     <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
-    Actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out for collaborations or any inquiries! Email: huang.yiyan@northeastern.edu; WeChat: hukcc369.
+    Open to exciting research collaborations (Email: huang.yiyan@northeastern.edu, WeChat: hukcc369) and actively seeking internship opportunities for Spring/Summer 2027. Feel free to reach out!
   </p>
 </div>
 
