@@ -238,6 +238,9 @@ redirect_from:
     <div class="pub-title">Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
+    <div class="pub-links">
+      <a href="https://hukcc.github.io/Beyond-Atomic-Layouts/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=google-chrome" alt="Project Page"></a>
+    </div>
   </div>
 </div>
 
@@ -256,6 +259,7 @@ redirect_from:
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2604.12944" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2604.12944-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Repo-GitHub-black?style=flat-square&logo=github" alt="GitHub Repo"></a>
+      <a href="https://hukcc.github.io/Awesome-Video-Hallucination/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Interactive%20Browser-Page-blue?style=flat-square&logo=google-chrome" alt="Interactive Browser"></a>
     </div>
   </div>
 </div>
