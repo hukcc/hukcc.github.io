@@ -21,7 +21,7 @@ redirect_from:
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
-    <span class="intro-callout__text">Multimodal LLMs | Efficiency | Reliability | Hallucination Detection &amp; Mitigation | Video Understanding | Layout Understanding</span>
+    <span class="intro-callout__text">Multimodal LLMs &amp; Agents | Efficiency | Reliability | Hallucination | Video Understanding | Layout Understanding</span>
   </div>
   <p class="intro-note">
     Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a class="intro-note__link" href="#contact">reach out</a> for collaborations or any inquiries!
@@ -161,6 +161,24 @@ redirect_from:
     <option value="layout">Layout</option>
     <option value="other">Other</option>
   </select>
+</div>
+
+<div class="pub-item pub-item--no-thumb" id="pub-scout" data-first-author="true" data-status="preprint" data-topic="video">
+  <div class="pub-badge">Under Review</div>
+  <div class="pub-content">
+    <div class="pub-title">SCOUT: Selecting Critical Observations via Tiny VLM Planning and Tool-Augmented Retrieval</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Uses a lightweight VLM planner and CLIP retrieval to select critical frames for long-form video understanding.</div>
+  </div>
+</div>
+
+<div class="pub-item pub-item--no-thumb" id="pub-narrative3d" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Under Review</div>
+  <div class="pub-content">
+    <div class="pub-title">Narrative3D: Asset-to-Storyworld Generation</div>
+    <div class="pub-authors">Huimin Zeng, Yue Bai, Qihua Dong, Hailing Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Explores asset-to-storyworld generation for coherent narrative 3D environments.</div>
+  </div>
 </div>
 
 <div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
@@ -633,6 +651,10 @@ a.news-item--link.news-item--pinned:hover {
 
 .pub-item:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+
+.pub-item--no-thumb {
+  padding-top: 1.8em;
 }
 
 .pub-thumb {
@@ -1230,7 +1252,7 @@ html[data-theme="dark"] .honors-text {
 <div class="service-list">
   <div class="service-item">
     <span class="service-role">Conference Reviewer</span>
-    <span class="service-detail">NeurIPS, FG, ARR</span>
+    <span class="service-detail">NeurIPS, ACL, EMNLP, IEEE FG</span>
   </div>
   <div class="service-item">
     <span class="service-role">Journal Reviewer</span>
