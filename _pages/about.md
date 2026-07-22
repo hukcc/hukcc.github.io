@@ -17,11 +17,11 @@ redirect_from:
     (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
     I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I have interned at <a href="https://research.adobe.com/">Adobe Research</a>.
+    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
-    <span class="intro-callout__text">Multimodal LLMs &amp; Agents | Efficiency | Reliability | Hallucination | Video Understanding | Layout Understanding</span>
+    <span class="intro-callout__text">Multimodal LLMs &amp; Agents | Agentic Planning &amp; Reflection | Agentic Reinforcement Learning | Tool-Augmented Reasoning | Hallucination Detection &amp; Mitigation | Long-Form Video Understanding | Layout &amp; Document Understanding</span>
   </div>
   <p class="intro-note">
     Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a class="intro-note__link" href="#contact">reach out</a> for collaborations or any inquiries!
@@ -96,7 +96,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
-      <div class="exp-role">Research Intern (Return), May 2026 – Present</div>
+      <div class="exp-role">Returning Research Intern, May 2026 – Present</div>
       <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
     </div>
     <div class="exp-media">

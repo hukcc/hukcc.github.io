@@ -4,7 +4,7 @@ site_theme               : "air"
 title                    : "Yiyang Huang's Homepage"
 title_separator          : "-"
 name                     : &name "Yiyang Huang"
-description              : &description "Yiyang Huang is a Ph.D. student at Northeastern University working on multimodal LLMs, video understanding, hallucination, and efficient VLMs."
+description              : &description "Yiyang Huang is a Ph.D. student at Northeastern University working on multimodal LLMs and agents, agentic planning and reasoning, hallucination mitigation, long-form video understanding, and layout and document understanding."
 url                      : https://hukcc.github.io
 baseurl                  : ""
 repository               : "hukcc/hukcc.github.io"
@@ -35,7 +35,7 @@ atom_feed:
 
 # Social Sharing
 og_image                 : "profileyiyang.jpg"
-og_description           : "Yiyang Huang is a Ph.D. student at Northeastern University working on multimodal LLMs, video understanding, hallucination, and efficient VLMs."
+og_description           : "Yiyang Huang is a Ph.D. student at Northeastern University working on multimodal LLMs and agents, agentic planning and reasoning, hallucination mitigation, long-form video understanding, and layout and document understanding."
 social:
   type                   : Person
   name                   : "Yiyang Huang"
