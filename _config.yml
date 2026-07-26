@@ -46,7 +46,8 @@ social:
 
 # Analytics
 analytics:
-  provider               : "false"
+  provider               : "custom"
+  goatcounter_code       : "hukcc-stats"
 
 # Reading Files
 include:
