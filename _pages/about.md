@@ -257,7 +257,10 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
     <div class="pub-links">
-      <img src="https://img.shields.io/badge/Adobe%20Research-Internship%20Work-FF0000?style=flat-square&logo=adobe&logoColor=white" alt="Adobe Research Internship Work">
+      <span class="internship-badge" role="img" aria-label="Adobe Research Internship Work">
+        <span class="internship-badge__brand"><img class="internship-badge__logo" src="/images/adobe-logo.svg" alt="" aria-hidden="true"></span>
+        <span class="internship-badge__label">Internship Work</span>
+      </span>
       <a href="https://hukcc.github.io/Beyond-Atomic-Layouts/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=google-chrome" alt="Project Page"></a>
       <a href="https://arxiv.org/abs/2608.26716" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2608.26716-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Beyond-Atomic-Layouts" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
@@ -766,18 +769,52 @@ a.news-item--link.news-item--pinned:hover {
 
 .pub-links {
   display: flex;
+  align-items: center;
   gap: 0.45em;
   flex-wrap: wrap;
   margin-top: 0;
 }
 
 .pub-links a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
   text-decoration: none;
 }
 
 .pub-links img {
+  display: block;
   height: 20px;
   transition: opacity 0.2s, transform 0.15s;
+}
+
+.internship-badge {
+  display: inline-flex;
+  align-items: stretch;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+  font: 600 11px/20px Verdana, Geneva, sans-serif;
+  white-space: nowrap;
+}
+
+.internship-badge__brand {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5px;
+  background: #f4f4f4;
+}
+
+.pub-links .internship-badge__logo {
+  width: 34px;
+  height: auto;
+}
+
+.internship-badge__label {
+  padding: 0 5px;
+  background: #e1251b;
+  color: #fff;
 }
 
 .pub-links a:hover img {
@@ -966,6 +1003,12 @@ a.news-item--link.news-item--pinned:hover {
 
   .pub-links img {
     height: 18px;
+  }
+
+  .internship-badge {
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
   }
 }
 
