@@ -257,6 +257,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
     <div class="pub-links">
+      <img src="https://img.shields.io/badge/Adobe%20Research-Internship%20Work-FF0000?style=flat-square&logo=adobe&logoColor=white" alt="Adobe Research Internship Work">
       <a href="https://hukcc.github.io/Beyond-Atomic-Layouts/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=google-chrome" alt="Project Page"></a>
       <a href="https://arxiv.org/abs/2608.26716" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2608.26716-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Beyond-Atomic-Layouts" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
