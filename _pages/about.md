@@ -1298,7 +1298,7 @@ html[data-theme="dark"] .honors-text {
 <div class="service-list">
   <div class="service-item">
     <span class="service-role">Conference Reviewer</span>
-    <span class="service-detail">NeurIPS, ACL, EMNLP, IEEE FG</span>
+    <span class="service-detail">ICLR, NeurIPS, ACL, EMNLP, IEEE FG</span>
   </div>
   <div class="service-item">
     <span class="service-role">Journal Reviewer</span>
