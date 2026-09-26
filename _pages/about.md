@@ -167,7 +167,7 @@ redirect_from:
   <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
-      <img class="pub-thumb-img pub-thumb-img--contain" src="/images/pub_racer.png" alt="RACER framework: query comprehension, tool-based retrieval, and reflection" onerror="this.style.display='none'">
+      <img class="pub-thumb-img" src="/images/pub_racer.png" alt="RACER framework: query comprehension, tool-based retrieval, and reflection" onerror="this.style.display='none'">
       <img class="pub-thumb-preview" src="/images/pub_racer.png" alt="" aria-hidden="true" role="presentation">
     </span>
   </div>
@@ -697,10 +697,6 @@ a.news-item--link.news-item--pinned:hover {
   object-position: center;
   cursor: zoom-in;
   border-radius: 4px;
-}
-
-.pub-thumb-img--contain {
-  object-fit: contain;
 }
 
 .pub-thumb-preview {
