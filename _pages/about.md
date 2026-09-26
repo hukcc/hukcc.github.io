@@ -163,12 +163,18 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item pub-item--no-thumb" id="pub-scout" data-first-author="true" data-status="preprint" data-topic="video">
+<div class="pub-item" id="pub-scout" data-first-author="true" data-status="preprint" data-topic="video">
   <div class="pub-badge">Under Review</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img pub-thumb-img--contain" src="/images/pub_racer.png" alt="RACER framework: query comprehension, tool-based retrieval, and reflection" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_racer.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
   <div class="pub-content">
-    <div class="pub-title">SCOUT: Selecting Critical Observations via Tiny VLM Planning and Tool-Augmented Retrieval</div>
+    <div class="pub-title">RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Uses a lightweight VLM planner and CLIP retrieval to select critical frames for long-form video understanding.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Couples lightweight video-LLM query interpretation with embedding-based retrieval and iterative reflection for training-free frame selection in long videos.</div>
   </div>
 </div>
 
@@ -691,6 +697,10 @@ a.news-item--link.news-item--pinned:hover {
   object-position: center;
   cursor: zoom-in;
   border-radius: 4px;
+}
+
+.pub-thumb-img--contain {
+  object-fit: contain;
 }
 
 .pub-thumb-preview {
