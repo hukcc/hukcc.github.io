@@ -175,6 +175,9 @@ redirect_from:
     <div class="pub-title">RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Couples lightweight video-LLM query interpretation with embedding-based retrieval and iterative reflection for training-free frame selection in long videos.</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2610.08954" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2610.08954-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
+    </div>
   </div>
 </div>
 
