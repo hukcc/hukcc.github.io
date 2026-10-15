@@ -15,13 +15,13 @@ redirect_from:
     Department of ECE, <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
     (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
-    I received my B.S. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
+    I received my B.Eng. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>.
+    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>, working on multimodal agents for visual evaluation and self-improvement.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
-    <span class="intro-callout__text">Multimodal LLMs &amp; Agents | Agentic Planning &amp; Reflection | Agentic Reinforcement Learning | Tool-Augmented Reasoning | Hallucination Detection &amp; Mitigation | Long-Form Video Understanding | Layout &amp; Document Understanding</span>
+    <span class="intro-callout__text">Multimodal LLMs &amp; Agents | Long-Video Understanding | Hallucination Detection &amp; Mitigation | Agent Reasoning, Reflection, Tool Use &amp; Self-Improvement</span>
   </div>
   <p class="intro-note">
     Actively seeking internship opportunities for Spring/Summer 2027. Feel free to <a class="intro-note__link" href="#contact">reach out</a> for collaborations or any inquiries!
@@ -96,7 +96,7 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
-      <div class="exp-role">Returning Research Intern, May 2026 – Present</div>
+      <div class="exp-role">Returning Research Intern, May 2026 – Nov. 2026 (Expected)</div>
       <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
     </div>
     <div class="exp-media">
@@ -164,7 +164,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-scout" data-first-author="true" data-status="preprint" data-topic="video">
-  <div class="pub-badge">Under Review</div>
+  <div class="pub-badge">Preprint</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_racer.png" alt="RACER framework: query comprehension, tool-based retrieval, and reflection" onerror="this.style.display='none'">
@@ -173,7 +173,7 @@ redirect_from:
   </div>
   <div class="pub-content">
     <div class="pub-title">RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding</div>
-    <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Yun Fu</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Mingyuan Zhang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Couples lightweight video-LLM query interpretation with embedding-based retrieval and iterative reflection for training-free frame selection in long videos.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2610.08954" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2610.08954-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
@@ -253,7 +253,7 @@ redirect_from:
     </span>
   </div>
   <div class="pub-content">
-    <div class="pub-title">SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense</div>
+    <div class="pub-title">SHIELD: Suppressing Hallucinations in LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Identified encoder-side causes of hallucinations and developed SHIELD, a training-free token-editing module (re-weighting + adversarial decoding) for captioning and VQA.</div>
     <div class="pub-links">
@@ -265,7 +265,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-dcode" data-first-author="true" data-status="published" data-topic="video">
-  <div class="pub-badge">EMNLP 2025</div>
+  <div class="pub-badge">EMNLP 2025 (Main)</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_dcode.png" alt="Thumbnail: D-CoDe video understanding paper" onerror="this.style.display='none'">
@@ -303,7 +303,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" data-first-author="true" data-status="published" data-topic="other">
-  <div class="pub-badge">ACMMM 2021</div>
+  <div class="pub-badge">ACM MM 2021</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_callip.png" alt="Thumbnail: CALLip lipreading paper" onerror="this.style.display='none'">
@@ -375,7 +375,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-mft-vlm" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Under Review</div>
+  <div class="pub-badge">Preprint</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_mft_vlm.png" alt="Thumbnail: Rethinking Fine-Tuning for VLMs paper" onerror="this.style.display='none'">
@@ -1307,7 +1307,7 @@ html[data-theme="dark"] .honors-text {
 <div class="service-list">
   <div class="service-item">
     <span class="service-role">Conference Reviewer</span>
-    <span class="service-detail">ICLR, NeurIPS, ACL, EMNLP, IEEE FG</span>
+    <span class="service-detail">ICLR, NeurIPS, ACL, EMNLP, WWW, IEEE FG</span>
   </div>
   <div class="service-item">
     <span class="service-role">Journal Reviewer</span>
@@ -1352,7 +1352,7 @@ html[data-theme="dark"] .honors-text {
     <span class="honors-text"><strong>TA</strong> &mdash; DS 5110 <em>Essentials of Data Science</em></span>
   </div>
   <div class="honors-item">
-    <span class="honors-year">Spr. 2026</span>
+    <span class="honors-year">Spr. &amp; Fall 2026</span>
     <span class="honors-text"><strong>TA</strong> &mdash; DS 5020 <em>Fundamentals of Linear Algebra and Probability</em></span>
   </div>
 </div>
