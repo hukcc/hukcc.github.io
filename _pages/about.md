@@ -353,6 +353,24 @@ redirect_from:
   </div>
 </div>
 
+<div class="pub-item" id="pub-maskerade" data-first-author="false" data-status="preprint" data-topic="other">
+  <div class="pub-badge">Preprint</div>
+  <div class="pub-thumb">
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_maskerade.png" alt="MASKerade framework compared with conventional mixture-of-experts" onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_maskerade.png" alt="" aria-hidden="true" role="presentation">
+    </span>
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">MASKerade: Token-Routed Mask Experts for Dense-to-MoE Upcycling</div>
+    <div class="pub-authors">Mingyuan Zhang, Yue Bai, Zhongruo Wang, Yupin Huang, <strong>Yiyang Huang</strong>, Hailing Wang, Huimin Zeng, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Converts dense models into mixture-of-experts by jointly learning sparse expert masks and token-level routing over frozen feed-forward weights.</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2610.07809" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2610.07809-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
+    </div>
+  </div>
+</div>
+
 <style>
 /* Global HR - hidden */
 .page__content hr {
