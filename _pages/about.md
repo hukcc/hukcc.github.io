@@ -265,7 +265,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-dcode" data-first-author="true" data-status="published" data-topic="video">
-  <div class="pub-badge">EMNLP 2025 (Main)</div>
+  <div class="pub-badge">EMNLP 2025</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_dcode.png" alt="Thumbnail: D-CoDe video understanding paper" onerror="this.style.display='none'">
@@ -320,15 +320,6 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item pub-item--no-thumb" id="pub-narrative3d" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Under Review</div>
-  <div class="pub-content">
-    <div class="pub-title">Narrative3D: Asset-to-Storyworld Generation</div>
-    <div class="pub-authors">Huimin Zeng, Yue Bai, Qihua Dong, Hailing Wang, <strong>Yiyang Huang</strong>, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Explores asset-to-storyworld generation for coherent narrative 3D environments.</div>
-  </div>
-</div>
-
 <div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
   <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
@@ -341,36 +332,6 @@ redirect_from:
     <div class="pub-title">StreamVLM: Adapting Offline Vision-Language Models for Streaming Understanding</div>
     <div class="pub-authors">Hailing Wang, Jianglin Lu, Xu Ma, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Adapts offline VLMs to streaming video understanding with event-based KV-cache memory construction and KNN-based retrieval.</div>
-  </div>
-</div>
-
-<div class="pub-item" id="pub-worldknowledge-physical-ai" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Under Review</div>
-  <div class="pub-thumb">
-    <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_worldknowledge.png" alt="Thumbnail: LLM-based world knowledge to Physical AI survey" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_worldknowledge.png" alt="" aria-hidden="true" role="presentation">
-    </span>
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">From LLM-Based World Knowledge to Physical AI: A Survey and Roadmap</div>
-    <div class="pub-authors">Haichao Zhang, Mingfei Chen, Shwai He, Zhengtong Xu, Yifan Shen, <strong>Yiyang Huang</strong>, Jianglin Lu, Yijiang Li, Yu She, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Surveys Physical AI through LLM-based world knowledge, connecting multimodal grounding, action grounding, world modeling, policy learning, and embodied deployment.</div>
-  </div>
-</div>
-
-<div class="pub-item" id="pub-selective-reduction" data-first-author="false" data-status="preprint" data-topic="other">
-  <div class="pub-badge">Under Review</div>
-  <div class="pub-thumb">
-    <span class="pub-thumb-link">
-      <img class="pub-thumb-img" src="/images/pub_selective_reduction.png" alt="Thumbnail: Selective Reduction survey" onerror="this.style.display='none'">
-      <img class="pub-thumb-preview" src="/images/pub_selective_reduction.png" alt="" aria-hidden="true" role="presentation">
-    </span>
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">Selective Reduction in Foundation Models: A Survey</div>
-    <div class="pub-authors">Mingyuan Zhang, Jianglin Lu, <strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Unifies input-side, model-internal, and inference-time selection methods as a performance-oriented principle for foundation models.</div>
   </div>
 </div>
 
