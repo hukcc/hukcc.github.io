@@ -17,7 +17,7 @@ redirect_from:
     (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
     I received my B.Eng. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
     advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>, working on multimodal agents for visual evaluation and self-improvement.
+    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>, working on self-improving multimodal agents for visual critique and refinement.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
