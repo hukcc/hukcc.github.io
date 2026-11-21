@@ -13,6 +13,15 @@
       width: 70%;
     }
   }
+
+  @media (max-width: 40em) {
+    .archive { width: 100%; }
+    .cv-skills { grid-template-columns: 1fr; }
+    .cv-item-header { display: block; }
+    .cv-list { padding-inline-start: 0; }
+    .cv-profiles { flex-wrap: wrap; }
+    .cv-contact-item a { overflow-wrap: anywhere; }
+  }
 </style>
 
 <div class="cv-container">
@@ -26,7 +35,7 @@
     <div class="cv-contact">
       {% if cv.basics.email %}
       <div class="cv-contact-item">
-        <i class="fas fa-envelope"></i> {{ cv.basics.email }}
+        <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ cv.basics.email }}">{{ cv.basics.email }}</a>
       </div>
       {% endif %}
       
@@ -53,7 +62,7 @@
     <div class="cv-profiles">
       {% for profile in cv.basics.profiles %}
       <a href="{{ profile.url }}" target="_blank" class="cv-profile-link">
-        <i class="fab fa-{{ profile.network | downcase }}"></i> {{ profile.network }}
+        {{ profile.network }}
       </a>
       {% endfor %}
     </div>
@@ -77,10 +86,11 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-date">{% if education.startDate != empty and education.startDate %}{{ education.startDate }} – {% endif %}{{ education.endDate }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
+          {% if education.advisor %}<div class="cv-item-detail">Advised by {{ education.advisor }}.</div>{% endif %}
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
@@ -99,13 +109,13 @@
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">
-    <h2>Work Experience</h2>
+    <h2>Research and Industry Experience</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} – {{ work.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ work.company }}</div>
@@ -148,7 +158,7 @@
   {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">
-    <h2>Publications</h2>
+    <h2>Selected First-Author Papers</h2>
     <ul class="cv-list">
       {% for publication in cv.publications %}
       <li class="cv-item">
@@ -157,6 +167,7 @@
           <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
+          {% if publication.authors %}<div class="cv-item-detail">{{ publication.authors }}</div>{% endif %}
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
@@ -173,6 +184,28 @@
   </div>
   {% endif %}
   
+  {% if cv.service.size > 0 %}
+  <div class="cv-section">
+    <h2>Academic Service</h2>
+    <ul class="cv-list">
+      {% for item in cv.service %}
+      <li><strong>{{ item.role }}</strong> · {{ item.venues | join: ", " | escape }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.awards.size > 0 %}
+  <div class="cv-section">
+    <h2>Awards</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li><strong>{{ award.year }}</strong> · {{ award.title }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
   <div class="cv-section">

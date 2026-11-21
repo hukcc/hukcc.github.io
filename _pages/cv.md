@@ -8,18 +8,16 @@ redirect_from:
 excerpt: "Academic Curriculum Vitae"
 ---
 
-{% include base_path %}
-
 <div class="cv-download-block">
-  <p>For a detailed academic CV including education, research experience, publications, and more, please download the PDF below.</p>
-  <p><a href="{{ site.author.cv | prepend: site.baseurl }}" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a></p>
+  <p>{{ site.data.cv.basics.summary }}</p>
+  <p><a href="{{ site.author.cv | relative_url }}" class="btn btn--primary btn--large"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a> <a href="{{ '/cv-json/' | relative_url }}" class="btn btn--inverse">Read CV online</a></p>
 </div>
 
 <style>
 .cv-download-block {
   margin: 2em 0;
   padding: 1.5em;
-  background: var(--global-bg-color-2, #f6f8fc);
+  background: var(--global-code-background-color, var(--global-bg-color));
   border-radius: 8px;
   max-width: 36em;
 }

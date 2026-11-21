@@ -7,11 +7,8 @@ redirect_from:
   - /resume-json
 ---
 
-{% include base_path %}
+<div class="cv-download-links">
+  <a href="{{ site.author.cv | relative_url }}" class="btn btn--primary">Download CV (PDF)</a>
+</div>
 
 {% include cv-template.html %}
-
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
-</div>

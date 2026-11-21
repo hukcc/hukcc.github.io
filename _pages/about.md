@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Ph.D. Student | Northeastern University"
+excerpt: "Ph.D. candidate in Computer Engineering at Northeastern University studying multimodal agents, video understanding, and visual hallucinations."
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,14 +10,14 @@ redirect_from:
 
 <div class="intro-block">
   <p>
-    I am a Ph.D. student in the
-    <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> of the
-    Department of ECE, <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
+    I am a Ph.D. candidate in Computer Engineering at <a href="https://www.northeastern.edu/">Northeastern University</a>,
+    where I work in the <a href="https://fulab.sites.northeastern.edu/">SMILE Lab</a> with
     <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a>
     (Member of Academia Europaea, Fellow of ACM, AAAS, AAAI, IEEE, IAPR).
-    I received my B.Eng. and M.S. degrees from <a href="https://en.xidian.edu.cn/">Xidian University</a>,
-    advised by <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a>.
-    I am currently a returning research intern at <a href="https://research.adobe.com/">Adobe Research</a>, working on self-improving multimodal agents for visual critique and refinement.
+    I earned my B.Eng. and M.S. at <a href="https://en.xidian.edu.cn/">Xidian University</a>,
+    where <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a> advised my master's research.
+    During two internships at <a href="https://research.adobe.com/">Adobe Research</a>, I studied how vision-language models
+    understand the structure of graphic designs and how their critiques can guide an agent's layout edits.
   </p>
   <div class="intro-callout">
     <span class="intro-callout__label">Research interests</span>
@@ -30,7 +30,6 @@ redirect_from:
 
 
 ---
-<span id="news"></span>
 # News
 
 <div class="news-wrapper">
@@ -39,6 +38,14 @@ redirect_from:
     <span class="news-text">Paper list of Video LLM hallucination. Welcome to Star and Contribute!</span>
   </a>
   <div class="news-scroll">
+    <a href="#pub-grace" class="news-item news-item--link">
+      <span class="news-date">Nov. 2026</span>
+      <span class="news-text">I completed my second <span class="news-venue">Adobe Research</span> internship, where I developed GRACE to evaluate layouts and guide edits.</span>
+    </a>
+    <a href="#pub-racer" class="news-item news-item--link">
+      <span class="news-date">Oct. 2026</span>
+      <span class="news-text">Our <em>RACER</em> preprint is available. It uses visual feedback to refine which frames an agent retrieves from a long video.</span>
+    </a>
     <a href="#pub-mason" class="news-item news-item--link">
       <span class="news-date">Jun. 2026</span>
       <span class="news-text">One paper accepted by <span class="news-venue">ECCV 2026</span> (Adobe internship project). Thanks to my mentors!</span>
@@ -49,7 +56,7 @@ redirect_from:
     </a>
     <a href="#pub-videollm-hallucination" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">One Video-LLM Hallucination survey paper accepted by <span class="news-venue">ACL 2026</span></span>
+      <span class="news-text">Our survey on hallucinations in video LLMs was accepted to <span class="news-venue">Findings of ACL 2026</span>.</span>
     </a>
     <a href="#pub-idea" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
@@ -79,14 +86,13 @@ redirect_from:
 </div>
 
 ---
-<span id="experience"></span>
 # Experience
 
 <div class="exp-list">
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">SMILE Lab, Northeastern University, Boston</div>
-      <div class="exp-role">Ph.D. Student, Sep. 2024 – Present</div>
+      <div class="exp-role">Ph.D. candidate in Computer Engineering, Sep. 2024 – Present (expected graduation May 2029)</div>
       <div class="exp-supervisor">Supervisor: <a href="https://www1.ece.neu.edu/~yunfu/">Prof. Yun Raymond Fu</a></div>
     </div>
     <div class="exp-media">
@@ -96,8 +102,9 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
-      <div class="exp-role">Returning Research Intern, May 2026 – Nov. 2026 (Expected)</div>
-      <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
+      <div class="exp-role">Research Intern, May 2026 – Nov. 2026</div>
+      <div class="exp-supervisor">Mentors: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a> and <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
+      <div class="exp-detail">Built DesignJudge, a dataset of 7,475 layout preference pairs, and developed <a href="#pub-grace">GRACE</a>, a self-improving evaluator that critiques layouts and scores an agent's edits.</div>
     </div>
     <div class="exp-media">
       <img src="/images/Adobe.png" alt="Adobe Research">
@@ -107,7 +114,8 @@ redirect_from:
     <div class="exp-text">
       <div class="exp-org">Adobe Research, San Jose</div>
       <div class="exp-role">Research Intern, May 2025 – Nov. 2025</div>
-      <div class="exp-supervisor">Mentor: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>; <a href="https://sjenni.github.io/">Simon Jenni</a>; <a href="https://jshi31.github.io/jingshi/">Jing Shi</a></div>
+      <div class="exp-supervisor">Mentors: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>, <a href="https://sjenni.github.io/">Simon Jenni</a>, and <a href="https://jshi31.github.io/jingshi/">Jing Shi</a></div>
+      <div class="exp-detail">Developed <a href="#pub-mason">MASON</a> and built CoDeLayout, a benchmark of about 20,000 examples for testing how vision-language models interpret layered designs.</div>
     </div>
     <div class="exp-media">
       <img src="/images/Adobe.png" alt="Adobe Research">
@@ -126,8 +134,8 @@ redirect_from:
   <div class="exp-item">
     <div class="exp-text">
       <div class="exp-org">Xidian University, Xi'an</div>
-      <div class="exp-role">Master Student, Sep. 2021 – Jun. 2024</div>
-      <div class="exp-role">Undergraduate Student, Sep. 2017 – Jun. 2021</div>
+      <div class="exp-role">M.S. in Computer Science, Sep. 2021 – Jun. 2024</div>
+      <div class="exp-role">B.Eng. in Intelligence Science and Technology, Sep. 2017 – Jun. 2021</div>
       <div class="exp-supervisor">Supervisor: <a href="https://web.xidian.edu.cn/xliang/en/index.html">Prof. Xuefeng Liang</a></div>
     </div>
     <div class="exp-media">
@@ -152,6 +160,7 @@ redirect_from:
     <option value="all">All</option>
     <option value="published">Published</option>
     <option value="preprint">Preprint</option>
+    <option value="under-review">Under review</option>
   </select>
   <label class="pub-filter__label">Topic</label>
   <select class="pub-filter__select" id="pub-filter-topic" aria-label="Filter by topic">
@@ -163,8 +172,23 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item" id="pub-scout" data-first-author="true" data-status="preprint" data-topic="video">
-  <div class="pub-badge">Preprint</div>
+<div class="pub-item pub-item--no-thumb" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
+  <div class="pub-badge">Under review</div>
+  <div class="pub-content">
+    <div class="pub-title">When Plausibility Fails: Learning Human-Aligned Layout Evaluation with VLMs</div>
+    <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Shraman Pramanick, Yun Fu</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> GRACE critiques layout designs and scores an editing agent’s revisions. GRACE-27B reached 83.7% accuracy on DesignJudge, a dataset of 7,475 layout preference pairs.</div>
+    <div class="pub-links">
+      <span class="internship-badge" role="img" aria-label="Adobe Research Internship Work">
+        <span class="internship-badge__brand"><img class="internship-badge__logo" src="/images/adobe-logo.svg" alt="" aria-hidden="true"></span>
+        <span class="internship-badge__label">Internship Work</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item" id="pub-racer" data-first-author="true" data-status="preprint" data-topic="video">
+  <div class="pub-badge" id="pub-scout">Preprint</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_racer.png" alt="RACER framework: query comprehension, tool-based retrieval, and reflection" onerror="this.style.display='none'">
@@ -174,7 +198,7 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Mingyuan Zhang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Couples lightweight video-LLM query interpretation with embedding-based retrieval and iterative reflection for training-free frame selection in long videos.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> RACER breaks a question into retrieval queries, selects video frames, and refines its queries using visual feedback. It improved accuracy by 4.3–6.6 percentage points over uniform sampling across three long-video benchmarks.</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2610.08954" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2610.08954-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
     </div>
@@ -192,13 +216,14 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Diagnosed failure modes in layered designs (semantic drift, structural ambiguity) and built MASON, a plug-and-play framework with metadata-aware alignment and structural cue injection.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> MASON uses design metadata and 3D structural cues to help vision-language models interpret layered layouts. CoDeLayout benchmarks this task with about 20,000 examples.</div>
     <div class="pub-links">
       <span class="internship-badge" role="img" aria-label="Adobe Research Internship Work">
         <span class="internship-badge__brand"><img class="internship-badge__logo" src="/images/adobe-logo.svg" alt="" aria-hidden="true"></span>
         <span class="internship-badge__label">Internship Work</span>
       </span>
       <a href="https://hukcc.github.io/Beyond-Atomic-Layouts/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=google-chrome" alt="Project Page"></a>
+      <a href="https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/4403.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-ECCV-blue?style=flat-square" alt="ECCV paper (PDF)"></a>
       <a href="https://arxiv.org/abs/2608.26716" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2608.26716-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Beyond-Atomic-Layouts" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
     </div>
@@ -206,7 +231,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="published" data-topic="hallucination video">
-  <div class="pub-badge">ACL 2026</div>
+  <div class="pub-badge">ACL 2026 (Findings)</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="Thumbnail: Video LLM Hallucination Survey paper" onerror="this.style.display='none'">
@@ -216,8 +241,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">Distorted or Fabricated? A Survey on Hallucination in Video LLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Authored a survey on Video-LLM hallucinations (taxonomy, benchmarks, mitigations) and maintain a curated <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer">repo</a>.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> This survey organizes hallucinations in video LLMs by type and reviews the benchmarks and methods used to detect and reduce them.</div>
     <div class="pub-links">
+      <a href="https://aclanthology.org/2026.findings-acl.1325.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-ACL%20Findings-blue?style=flat-square" alt="ACL Findings paper (PDF)"></a>
       <a href="https://arxiv.org/abs/2604.12944" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2604.12944-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Repo-GitHub-black?style=flat-square&logo=github" alt="GitHub Repo"></a>
       <a href="https://hukcc.github.io/Awesome-Video-Hallucination/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Interactive%20Browser-Page-blue?style=flat-square&logo=google-chrome" alt="Interactive Browser"></a>
@@ -255,8 +281,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">SHIELD: Suppressing Hallucinations in LVLM Encoders via Bias and Vulnerability Defense</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Identified encoder-side causes of hallucinations and developed SHIELD, a training-free token-editing module (re-weighting + adversarial decoding) for captioning and VQA.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> SHIELD combines inference-time token edits with adversarial contrastive decoding. It reduced captioning hallucinations by 27% relative to baseline across multiple vision-language model families.</div>
     <div class="pub-links">
+      <a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/cae31fa913f140b3126036cc474fd461-Paper-Conference.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-ICLR-blue?style=flat-square" alt="ICLR paper (PDF)"></a>
       <a href="https://hukcc.github.io/SHIELD/"><img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square&logo=google-chrome" alt="Project Website"></a>
       <a href="https://arxiv.org/abs/2510.16596"><img src="https://img.shields.io/badge/ArXiv-2510.16596-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/SHIELD"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
@@ -275,8 +302,9 @@ redirect_from:
   <div class="pub-content">
     <div class="pub-title">D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
-    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Developed D-CoDe, a plug-and-play pipeline with dynamic compression and question decomposition for long-video QA under tight context.</div>
+    <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> D-CoDe breaks questions into parts and compresses video frames and tokens. With LLaVA-NeXT-7B, it improved question-answering accuracy on first-person videos by 29% relative to baseline.</div>
     <div class="pub-links">
+      <a href="https://aclanthology.org/2025.emnlp-main.597.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-EMNLP%20Main-blue?style=flat-square" alt="EMNLP main conference paper (PDF)"></a>
       <a href="https://hukcc.github.io/D-CoDe/"><img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square&logo=google-chrome" alt="Project Website"></a>
       <a href="https://arxiv.org/abs/2510.08818"><img src="https://img.shields.io/badge/ArXiv-2510.08818-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/D-CoDe"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
@@ -320,7 +348,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="preprint" data-topic="video">
+<div class="pub-item" id="pub-streamvlm" data-first-author="false" data-status="under-review" data-topic="video">
   <div class="pub-badge">Under Review</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
@@ -497,6 +525,11 @@ redirect_from:
   font-size: 0.82em;
 }
 
+.exp-detail {
+  margin-top: 0.3em;
+  font-size: 0.85em;
+}
+
 .exp-supervisor {
   margin-top: 0.05em;
   color: var(--global-text-color-light, #666);
@@ -648,7 +681,12 @@ a.news-item--link.news-item--pinned:hover {
 }
 
 .pub-item--no-thumb {
-  padding-top: 1.8em;
+  flex-direction: column;
+}
+
+.pub-item--no-thumb .pub-badge {
+  position: static;
+  align-self: flex-start;
 }
 
 .pub-thumb {
@@ -1277,11 +1315,26 @@ html[data-theme="dark"] .honors-text {
   if (statusEl) statusEl.addEventListener('change', onChange);
   if (topicEl) topicEl.addEventListener('change', onChange);
   onChange();
+
+  /* News and experience links should also reach papers hidden by a filter. */
+  function revealLinkedPaper(hash) {
+    var target = document.getElementById(hash.slice(1));
+    var paper = target && target.closest('.pub-item');
+    if (!paper || paper.style.display !== 'none') return;
+    roleEl.value = statusEl.value = topicEl.value = 'all';
+    onChange();
+    target.scrollIntoView();
+  }
+
+  document.querySelectorAll('a[href^="#pub-"]').forEach(function(link) {
+    link.addEventListener('click', function() { revealLinkedPaper(link.hash); });
+  });
+  window.addEventListener('hashchange', function() { revealLinkedPaper(window.location.hash); });
+  revealLinkedPaper(window.location.hash);
 })();
 </script>
 
 ---
-<span id="academic-service"></span>
 # Academic Service
 <div class="service-list">
   <div class="service-item">
@@ -1309,7 +1362,7 @@ html[data-theme="dark"] .honors-text {
   </div>
   <div class="honors-item">
     <span class="honors-year">2021</span>
-    <span class="honors-text">Undergraduate Computer Design Competition (1st Prize), China</span>
+    <span class="honors-text">Undergraduate Computer Design Competition (1st Prize, National Level), China</span>
   </div>
   <div class="honors-item">
     <span class="honors-year">2019</span>
@@ -1322,7 +1375,6 @@ html[data-theme="dark"] .honors-text {
 </div>
 
 ---
-<span id="teaching-experience"></span>
 # Teaching Experience
 
 <div class="honors-list">
@@ -1337,7 +1389,6 @@ html[data-theme="dark"] .honors-text {
 </div>
 
 ---
-<span id="contact"></span>
 # Contact
 
 <div class="service-list">
