@@ -104,7 +104,6 @@ redirect_from:
       <div class="exp-org">Adobe Research, San Jose</div>
       <div class="exp-role">Research Intern, May 2026 – Nov. 2026</div>
       <div class="exp-supervisor">Mentors: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a> and <a href="https://shramanpramanick.github.io/">Shraman Pramanick</a></div>
-      <div class="exp-detail">Built DesignJudge, a dataset of 7,475 layout preference pairs, and developed <a href="#pub-grace">GRACE</a>, a self-improving evaluator that critiques layouts and scores an agent's edits.</div>
     </div>
     <div class="exp-media">
       <img src="/images/Adobe.png" alt="Adobe Research">
@@ -115,7 +114,6 @@ redirect_from:
       <div class="exp-org">Adobe Research, San Jose</div>
       <div class="exp-role">Research Intern, May 2025 – Nov. 2025</div>
       <div class="exp-supervisor">Mentors: <a href="https://scholar.google.com/citations?user=lwlYARMAAAAJ&hl">Zhaowen Wang</a>, <a href="https://sjenni.github.io/">Simon Jenni</a>, and <a href="https://jshi31.github.io/jingshi/">Jing Shi</a></div>
-      <div class="exp-detail">Developed <a href="#pub-mason">MASON</a> and built CoDeLayout, a benchmark of about 20,000 examples for testing how vision-language models interpret layered designs.</div>
     </div>
     <div class="exp-media">
       <img src="/images/Adobe.png" alt="Adobe Research">
@@ -172,8 +170,14 @@ redirect_from:
   </select>
 </div>
 
-<div class="pub-item pub-item--no-thumb" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
+<div class="pub-item" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
   <div class="pub-badge">Under review</div>
+  <div class="pub-thumb">
+    <a class="pub-thumb-link" href="/images/pub_grace.jpg">
+      <img class="pub-thumb-img" src="/images/pub_grace.jpg" alt="Two layouts for the same Beauty Gift poster, with a plausible alternative on the left and the human design on the right.">
+      <img class="pub-thumb-preview" src="/images/pub_grace.jpg" alt="" aria-hidden="true">
+    </a>
+  </div>
   <div class="pub-content">
     <div class="pub-title">When Plausibility Fails: Learning Human-Aligned Layout Evaluation with VLMs</div>
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Zhaowen Wang, Shraman Pramanick, Yun Fu</div>
@@ -525,11 +529,6 @@ redirect_from:
   font-size: 0.82em;
 }
 
-.exp-detail {
-  margin-top: 0.3em;
-  font-size: 0.85em;
-}
-
 .exp-supervisor {
   margin-top: 0.05em;
   color: var(--global-text-color-light, #666);
@@ -680,15 +679,6 @@ a.news-item--link.news-item--pinned:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
 
-.pub-item--no-thumb {
-  flex-direction: column;
-}
-
-.pub-item--no-thumb .pub-badge {
-  position: static;
-  align-self: flex-start;
-}
-
 .pub-thumb {
   flex-shrink: 0;
   width: 120px;
@@ -717,6 +707,10 @@ a.news-item--link.news-item--pinned:hover {
   object-position: center;
   cursor: zoom-in;
   border-radius: 4px;
+}
+
+#pub-grace .pub-thumb-img {
+  object-fit: contain;
 }
 
 .pub-thumb-preview {
