@@ -264,11 +264,11 @@ redirect_from:
     </span>
   </div>
   <div class="pub-content">
-    <div class="pub-title">IDEA: Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
+    <div class="pub-title">Capturing Individual Differences of Facial Expression for Authentic Expression Generation</div>
     <div class="pub-authors">Liang Shi, <strong>Yiyang Huang</strong>, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Trained a CLIP-style contrastive model with identity and expression modalities to guide text-to-image generation toward more authentic, individual-specific expressions.</div>
     <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/document/11557073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-IEEE-blue?style=flat-square&logo=ieee" alt="Paper"></a>
+      <a href="https://doi.org/10.1109/FG67764.2026.11557073" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-IEEE-blue?style=flat-square&logo=ieee" alt="Paper"></a>
       <a href="https://github.com/shiliang26/ID-Expression-Alignment" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
     </div>
   </div>
@@ -347,7 +347,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Xuefeng Liang, Chaowei Fang</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> Proposed CALLip, leveraging attribute learning to normalize cross-speaker variation and audio-visual contrastive learning to mitigate viseme confusion.</div>
     <div class="pub-links">
-      <a href="https://dl.acm.org/doi/10.1145/3474085.3475420"><img src="https://img.shields.io/badge/Paper-ACM-blue?style=flat-square&logo=acm" alt="Paper"></a>
+      <a href="https://doi.org/10.1145/3474085.3475420"><img src="https://img.shields.io/badge/Paper-ACM-blue?style=flat-square&logo=acm" alt="Paper"></a>
     </div>
   </div>
 </div>

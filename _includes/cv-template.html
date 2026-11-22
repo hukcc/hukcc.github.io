@@ -158,29 +158,43 @@
   {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">
-    <h2>Selected First-Author Papers</h2>
+    <h2>Publications</h2>
+    {% assign publication_groups = cv.publications | group_by: "group" %}
+    {% for group in publication_groups %}
+    {% if group.name != empty %}<h3>{{ group.name }}</h3>{% endif %}
     <ul class="cv-list">
-      {% for publication in cv.publications %}
+      {% for publication in group.items %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ publication.name }}</div>
           <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
-          {% if publication.authors %}<div class="cv-item-detail">{{ publication.authors }}</div>{% endif %}
+          {% if publication.authors %}
+          <div class="cv-item-detail">
+            {%- assign authors = publication.authors | split: ", " -%}
+            {%- for author in authors -%}
+            {% if author == cv.basics.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}
+            {%- endfor -%}
+          </div>
+          {% endif %}
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
-          {% if publication.website %}
+          {% if publication.website or publication.resources %}
           <div class="cv-item-detail">
-            <a href="{{ publication.website }}" target="_blank">View Publication</a>
+            {% if publication.website %}<a href="{{ publication.website }}" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
+            {% for resource in publication.resources %}
+            {% if publication.website or forloop.first == false %} · {% endif %}<a href="{{ resource[1] }}" target="_blank" rel="noopener noreferrer">{{ resource[0] | escape }}</a>
+            {% endfor %}
           </div>
           {% endif %}
         </div>
       </li>
       {% endfor %}
     </ul>
+    {% endfor %}
   </div>
   {% endif %}
   

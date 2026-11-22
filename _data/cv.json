@@ -63,7 +63,7 @@
       "position": "Research Intern",
       "startDate": "May 2026",
       "endDate": "Nov 2026",
-      "summary": "Mentored by Zhaowen Wang and Shraman Pramanick.",
+      "summary": "Studied multimodal agents, VLM reasoning, and self-improvement with mentors Zhaowen Wang and Shraman Pramanick.",
       "highlights": [
         "Built DesignJudge, a dataset of 7,475 layout preference pairs. Post-trained Qwen3.5-9B and Qwen3.8-27B to critique and score layouts.",
         "Developed a loop in which a VLM evaluator critiques a layout, a Codex agent edits it, and the evaluator scores the result. Used the resulting preference pairs for iterative GRPO training.",
@@ -84,44 +84,96 @@
   ],
   "publications": [
     {
+      "group": "First-Author Papers",
       "name": "SHIELD: Suppressing Hallucinations in LVLM Encoders via Bias and Vulnerability Defense",
       "authors": "Yiyang Huang, Liang Shi, Yitian Zhang, Yi Xu, Yun Fu",
       "publisher": "ICLR",
       "releaseDate": "2026",
-      "website": "https://proceedings.iclr.cc/paper_files/paper/2026/file/cae31fa913f140b3126036cc474fd461-Paper-Conference.pdf"
+      "website": "https://proceedings.iclr.cc/paper_files/paper/2026/file/cae31fa913f140b3126036cc474fd461-Paper-Conference.pdf",
+      "resources": {
+        "Code": "https://github.com/hukcc/SHIELD"
+      }
     },
     {
+      "group": "First-Author Papers",
       "name": "Beyond Atomic Layouts: Compositional Design Understanding with Vision-Language Models",
       "authors": "Yiyang Huang, Zhaowen Wang, Simon Jenni, Jing Shi, Yitian Zhang, Yizhou Wang, Yun Fu",
       "publisher": "ECCV",
       "releaseDate": "2026",
-      "website": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/4403.pdf"
+      "website": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/4403.pdf",
+      "resources": {
+        "Code": "https://github.com/hukcc/Beyond-Atomic-Layouts",
+        "Project page": "https://hukcc.github.io/Beyond-Atomic-Layouts/"
+      }
     },
     {
+      "group": "First-Author Papers",
       "name": "Distorted or Fabricated? A Survey on Hallucination in Video LLMs",
       "authors": "Yiyang Huang, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu",
       "publisher": "Findings of ACL",
       "releaseDate": "2026",
-      "website": "https://aclanthology.org/2026.findings-acl.1325.pdf"
+      "website": "https://aclanthology.org/2026.findings-acl.1325.pdf",
+      "resources": {
+        "Repository": "https://github.com/hukcc/Awesome-Video-Hallucination"
+      }
     },
     {
+      "group": "First-Author Papers",
       "name": "D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition",
       "authors": "Yiyang Huang, Yizhou Wang, Yun Fu",
       "publisher": "EMNLP (Main)",
       "releaseDate": "2025",
-      "website": "https://aclanthology.org/2025.emnlp-main.597.pdf"
+      "website": "https://aclanthology.org/2025.emnlp-main.597.pdf",
+      "resources": {
+        "Code": "https://github.com/hukcc/D-CoDe"
+      }
     },
     {
+      "group": "First-Author Papers",
+      "name": "CALLip: Lipreading using Contrastive and Attribute Learning",
+      "authors": "Yiyang Huang, Xuefeng Liang, Chaowei Fang",
+      "publisher": "ACM MM",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1145/3474085.3475420"
+    },
+    {
+      "group": "First-Author Papers",
       "name": "When Plausibility Fails: Learning Human-Aligned Layout Evaluation with VLMs",
       "authors": "Yiyang Huang, Zhaowen Wang, Shraman Pramanick, Yun Fu",
       "publisher": "Under review"
     },
     {
+      "group": "First-Author Papers",
       "name": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
       "authors": "Yiyang Huang, Yitian Zhang, Yizhou Wang, Jianglin Lu, Qihua Dong, Hailing Wang, Huimin Zeng, Mingyuan Zhang, Yun Fu",
       "publisher": "Preprint",
       "releaseDate": "2026",
       "website": "https://arxiv.org/abs/2610.08954"
+    },
+    {
+      "group": "Selected Co-Authored Papers",
+      "name": "StreamVLM: Adapting Offline Vision-Language Models for Streaming Understanding",
+      "authors": "Hailing Wang, Jianglin Lu, Xu Ma, Yiyang Huang, Yun Fu",
+      "publisher": "Under review"
+    },
+    {
+      "group": "Selected Co-Authored Papers",
+      "name": "Rethinking Fine-Tuning: Unlocking Hidden Capabilities in Vision-Language Models",
+      "authors": "Mingyuan Zhang, Yue Bai, Yifan Wang, Yiyang Huang, Yun Fu",
+      "publisher": "Preprint",
+      "releaseDate": "2025",
+      "website": "https://arxiv.org/abs/2512.23073"
+    },
+    {
+      "group": "Selected Co-Authored Papers",
+      "name": "Capturing Individual Differences of Facial Expression for Authentic Expression Generation",
+      "authors": "Liang Shi, Yiyang Huang, Yun Fu",
+      "publisher": "IEEE FG",
+      "releaseDate": "2026",
+      "website": "https://doi.org/10.1109/FG67764.2026.11557073",
+      "resources": {
+        "Code": "https://github.com/shiliang26/ID-Expression-Alignment"
+      }
     }
   ],
   "skills": [
