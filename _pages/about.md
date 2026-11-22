@@ -173,9 +173,9 @@ redirect_from:
 <div class="pub-item" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
   <div class="pub-badge">Under review</div>
   <div class="pub-thumb">
-    <a class="pub-thumb-link" href="/images/pub_grace.jpg?v=fig4">
-      <img class="pub-thumb-img" src="/images/pub_grace.jpg?v=fig4" alt="Figure 4. GRACE’s post-training pipeline (left) and the prompts used to evaluate a layout (right).">
-      <img class="pub-thumb-preview" src="/images/pub_grace.jpg?v=fig4" alt="" aria-hidden="true">
+    <a class="pub-thumb-link" href="/images/pub_grace.jpg?v=teaser" aria-label="View the full GRACE teaser (Figure 1)">
+      <img class="pub-thumb-img" src="/images/pub_grace_teaser_thumb.jpg" alt="Three poster designs and alternative layouts made with the same images and text.">
+      <img class="pub-thumb-preview" src="/images/pub_grace.jpg?v=teaser" alt="" aria-hidden="true">
     </a>
   </div>
   <div class="pub-content">
@@ -707,10 +707,6 @@ a.news-item--link.news-item--pinned:hover {
   object-position: center;
   cursor: zoom-in;
   border-radius: 4px;
-}
-
-#pub-grace .pub-thumb-img {
-  object-fit: contain;
 }
 
 .pub-thumb-preview {
