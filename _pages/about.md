@@ -56,7 +56,7 @@ redirect_from:
     </a>
     <a href="#pub-videollm-hallucination" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
-      <span class="news-text">Our survey on hallucinations in video LLMs was accepted to <span class="news-venue">Findings of ACL 2026</span>.</span>
+      <span class="news-text">Our survey on hallucinations in video LLMs was accepted for publication at <span class="news-venue">ACL 2026</span>.</span>
     </a>
     <a href="#pub-idea" class="news-item news-item--link">
       <span class="news-date">Apr. 2026</span>
@@ -235,7 +235,7 @@ redirect_from:
 </div>
 
 <div class="pub-item" id="pub-videollm-hallucination" data-first-author="true" data-status="published" data-topic="hallucination video">
-  <div class="pub-badge">ACL 2026 (Findings)</div>
+  <div class="pub-badge">ACL 2026</div>
   <div class="pub-thumb">
     <span class="pub-thumb-link">
       <img class="pub-thumb-img" src="/images/pub_arr_hallucination.png" alt="Thumbnail: Video LLM Hallucination Survey paper" onerror="this.style.display='none'">
@@ -247,7 +247,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yitian Zhang, Yizhou Wang, Mingyuan Zhang, Liang Shi, Huimin Zeng, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> This survey organizes hallucinations in video LLMs by type and reviews the benchmarks and methods used to detect and reduce them.</div>
     <div class="pub-links">
-      <a href="https://aclanthology.org/2026.findings-acl.1325.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-ACL%20Findings-blue?style=flat-square" alt="ACL Findings paper (PDF)"></a>
+      <a href="https://aclanthology.org/2026.findings-acl.1325.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-ACL-blue?style=flat-square" alt="ACL paper (PDF)"></a>
       <a href="https://arxiv.org/abs/2604.12944" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ArXiv-2604.12944-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/Awesome-Video-Hallucination" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Repo-GitHub-black?style=flat-square&logo=github" alt="GitHub Repo"></a>
       <a href="https://hukcc.github.io/Awesome-Video-Hallucination/" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Interactive%20Browser-Page-blue?style=flat-square&logo=google-chrome" alt="Interactive Browser"></a>
