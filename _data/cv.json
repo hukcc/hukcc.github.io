@@ -121,7 +121,7 @@
       "group": "First-Author Papers",
       "name": "D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition",
       "authors": "Yiyang Huang, Yizhou Wang, Yun Fu",
-      "publisher": "EMNLP (Main)",
+      "publisher": "EMNLP",
       "releaseDate": "2025",
       "website": "https://aclanthology.org/2025.emnlp-main.597.pdf",
       "resources": {

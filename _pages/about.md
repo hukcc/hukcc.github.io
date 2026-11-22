@@ -308,7 +308,7 @@ redirect_from:
     <div class="pub-authors"><strong>Yiyang Huang</strong>, Yizhou Wang, Yun Fu</div>
     <div class="pub-tldr"><span class="tldr-label">TL;DR:</span> D-CoDe breaks questions into parts and compresses video frames and tokens. With LLaVA-NeXT-7B, it improved question-answering accuracy on first-person videos by 29% relative to baseline.</div>
     <div class="pub-links">
-      <a href="https://aclanthology.org/2025.emnlp-main.597.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-EMNLP%20Main-blue?style=flat-square" alt="EMNLP main conference paper (PDF)"></a>
+      <a href="https://aclanthology.org/2025.emnlp-main.597.pdf" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Paper-EMNLP%202025-blue?style=flat-square" alt="EMNLP 2025 paper (PDF)"></a>
       <a href="https://hukcc.github.io/D-CoDe/"><img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square&logo=google-chrome" alt="Project Website"></a>
       <a href="https://arxiv.org/abs/2510.08818"><img src="https://img.shields.io/badge/ArXiv-2510.08818-red?style=flat-square&logo=arxiv" alt="arXiv"></a>
       <a href="https://github.com/hukcc/D-CoDe"><img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub Code"></a>
