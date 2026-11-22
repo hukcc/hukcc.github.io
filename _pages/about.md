@@ -173,9 +173,9 @@ redirect_from:
 <div class="pub-item" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
   <div class="pub-badge">Under review</div>
   <div class="pub-thumb">
-    <a class="pub-thumb-link" href="/images/pub_grace.jpg">
-      <img class="pub-thumb-img" src="/images/pub_grace.jpg" alt="Two layouts for the same Beauty Gift poster, with a plausible alternative on the left and the human design on the right.">
-      <img class="pub-thumb-preview" src="/images/pub_grace.jpg" alt="" aria-hidden="true">
+    <a class="pub-thumb-link" href="/images/pub_grace.jpg?v=fig4">
+      <img class="pub-thumb-img" src="/images/pub_grace.jpg?v=fig4" alt="Figure 4. GRACE’s post-training pipeline (left) and the prompts used to evaluate a layout (right).">
+      <img class="pub-thumb-preview" src="/images/pub_grace.jpg?v=fig4" alt="" aria-hidden="true">
     </a>
   </div>
   <div class="pub-content">
