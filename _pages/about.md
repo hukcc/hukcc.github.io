@@ -173,10 +173,10 @@ redirect_from:
 <div class="pub-item" id="pub-grace" data-first-author="true" data-status="under-review" data-topic="layout">
   <div class="pub-badge">Under review</div>
   <div class="pub-thumb">
-    <a class="pub-thumb-link" href="/images/pub_grace.jpg?v=teaser" aria-label="View the full GRACE teaser (Figure 1)">
-      <img class="pub-thumb-img" src="/images/pub_grace_teaser_thumb.jpg" alt="Three poster designs and alternative layouts made with the same images and text.">
-      <img class="pub-thumb-preview" src="/images/pub_grace.jpg?v=teaser" alt="" aria-hidden="true">
-    </a>
+    <span class="pub-thumb-link">
+      <img class="pub-thumb-img" src="/images/pub_grace.jpg?v=panels" alt="GRACE teaser comparing human-designed posters with alternative layouts and showing how human and model preferences differ." onerror="this.style.display='none'">
+      <img class="pub-thumb-preview" src="/images/pub_grace.jpg?v=panels" alt="" aria-hidden="true" role="presentation">
+    </span>
   </div>
   <div class="pub-content">
     <div class="pub-title">When Plausibility Fails: Learning Human-Aligned Layout Evaluation with VLMs</div>
